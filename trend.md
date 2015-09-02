@@ -17,6 +17,9 @@
 2015/08/05<br>
 [EIZO、スマートフォンで色調整が可能な27型ゲーミング液晶を開発](http://pc.watch.impress.co.jp/docs/news/20150805_715271.html)
 <hr>
+2015/07/21<br>
+[Bluetooth Smartデバイスで二段階認証、FIDOの仕様に](http://k-tai.impress.co.jp/docs/news/20150721_712592.html)
+<hr>
 2015/4/30<br>
 [セントラル対応のBluetooth Smartモジュール](http://ednjapan.com/edn/articles/1504/30/news049.html)
 <hr>
