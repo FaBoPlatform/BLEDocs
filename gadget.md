@@ -8,6 +8,7 @@
 <hr>
 2015/8/10<br>
 [Bluetooth Smart対応、撮影画像をスマホに自動送信　カシオ「EXILIM」2機種](http://www.j-cast.com/trend/2015/08/10241354.html)
+<hr>
 2015/5/6<br>
 [「CH4」 オナラの臭いを分析して食生活の見直しを提案](http://news.livedoor.com/article/detail/10082340/)
 <hr>
