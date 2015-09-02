@@ -15,6 +15,7 @@ UV 5.0
 
 ## Keil MDKがサポートしているモジュール
 
-* DA14580
-* CYBLE-022001
+* PAN1740(Panasonic)
+* TypeZY(Murata)
+* CYBLE-022001(Cypress)
 * 
