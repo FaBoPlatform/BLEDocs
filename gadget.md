@@ -8,6 +8,9 @@
 2015/9/1<br>
 [Android Wearを搭載したサイクルコンピュータの試作機「Smart Bike Computer」がEurobikeで展示](http://getnews.jp/archives/1117710)
 <hr>
+2015/8/31<br>
+[Nonin MedicalがApple iOSと互換性のある無線フィンガーパルスオキシメーターを国際的に発売]()
+<hr>
 2015/8/20<br>
 [エー・アンド・デイ、スマートフォンでからだデータの管理可能なBluetooth Smart内蔵血圧計・体重計・体温計を発売開始](http://iotnews.jp/archives/4206)
 <hr>
