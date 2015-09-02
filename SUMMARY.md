@@ -15,8 +15,6 @@ BLEチップ
 * [BLEモジュール(その他)](module/moduleetc.md)
 * [Keil UV5に対応しているデバッカ](keil/debugger.md)
 * [BLEパケットスニファ](packet.md)
-* [Dialog系BLEモジュール](dialog.md)
-* [TI系BLEモジュール](ti.md)
 
 Nordic系
 
@@ -39,4 +37,5 @@ BGScript系
 * [スペクトルアナライザ](analyzer.md)
 * [オシロスコープ](osylo.md)
 * [Link](link.md)
-
+* [Dialog系BLEモジュール](dialog.md)
+* [TI系BLEモジュール](ti.md)
