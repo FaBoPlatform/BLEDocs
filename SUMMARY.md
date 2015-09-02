@@ -1,8 +1,6 @@
 # Summary
 
 * [はじめに](README.md)
-
-BLEチップ
 * [BLEチップ一覧](chip/chiplist.md)
 * [BLEチップスペック比較](chip/chipspec.md)
 * [BLEモジュール(Broadcom)](module/modulebroadcom.md)
@@ -15,12 +13,7 @@ BLEチップ
 * [BLEモジュール(その他)](module/moduleetc.md)
 * [Keil UV5に対応しているデバッカ](keil/debugger.md)
 * [BLEパケットスニファ](packet.md)
-
-Nordic系
-
 * [Nordic系BLEモジュール](nordic.md)
-
-BGScript系
 * [BLED112の焼き込み](ble112/howto.md)
 * [BLE動向](trend.md)
 * [BLEデバイス動向](gadget.md)
