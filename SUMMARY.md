@@ -7,7 +7,7 @@
 * [BLEモジュール(Cypress)](module/modulecypress.md)
 * [BLEモジュール(Dialog)](module/moduledialog.md)
 * [BLEモジュール(Nordic)](module/modulenordic.md)
-* [BLEモジュール(SiliconLab)](module/moduleSiliconLab.md)
+* [BLEモジュール(SiliconLab)](module/modulesiliconlab.md)
 * [BLEモジュール(TI)](module/moduleTI.md)
 * [BLEパケットスニファ](packet.md)
 * [Dialog系BLEモジュール](dialog.md)
