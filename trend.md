@@ -14,6 +14,9 @@
 2015/8/18<br>
 [CEVA Announces the Certification of RivieraWaves Bluetooth Smart 4.2 Platform IP](http://www.prnewswire.com/news-releases/ceva-announces-the-certification-of-rivierawaves-bluetooth-smart-42-platform-ip-300129615.html)
 <hr>
+2015/08/05<br>
+[EIZO、スマートフォンで色調整が可能な27型ゲーミング液晶を開発](http://pc.watch.impress.co.jp/docs/news/20150805_715271.html)
+<hr>
 2015/4/30<br>
 [セントラル対応のBluetooth Smartモジュール](http://ednjapan.com/edn/articles/1504/30/news049.html)
 <hr>
