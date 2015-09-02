@@ -17,6 +17,9 @@ BLEチップ
 * [BLEパケットスニファ](packet.md)
 * [Dialog系BLEモジュール](dialog.md)
 * [TI系BLEモジュール](ti.md)
+
+Nordic系
+
 * [Nordic系BLEモジュール](nordic.md)
 
 BGScript系
