@@ -18,6 +18,8 @@ BLEチップ
 * [Dialog系BLEモジュール](dialog.md)
 * [TI系BLEモジュール](ti.md)
 * [Nordic系BLEモジュール](nordic.md)
+* 
+BGScript系
 * [BLED112の焼き込み](ble112/howto.md)
 * [BLE動向](trend.md)
 * [BLEデバイス動向](gadget.md)
