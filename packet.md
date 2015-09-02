@@ -15,6 +15,16 @@
 |ソフトウェア|[nRF-Sniffer](https://www.nordicsemi.com/eng/nordic/download_resource/31920/14/36976838)|
 |ハードウェア|[nRF51-Dongle](https://www.nordicsemi.com/eng/Products/nRF51-Dongle)|
 
+## Freescale系
+
+
+| 項目 | 入手先 |
+| -- | -- |
+|ソフトウェア||
+|ハードウェア|[USB-KW40Z](https://www.nordicsemi.com/eng/Products/nRF51-Dongle)|
+
+
+
 ## その他
 
 | 項目 | 入手先 |
