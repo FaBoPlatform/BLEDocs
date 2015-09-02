@@ -23,6 +23,9 @@
 2015/07/21<br>
 [Bluetooth Smartデバイスで二段階認証、FIDOの仕様に](http://k-tai.impress.co.jp/docs/news/20150721_712592.html)
 <hr>
+2015/06/30<br>
+[Freescale、Bluetooth Smart/IEEE 802.15.4対応のKinetisマイコンを発表](http://news.mynavi.jp/news/2015/06/30/365/)
+<hr>
 2015/4/30<br>
 [セントラル対応のBluetooth Smartモジュール](http://ednjapan.com/edn/articles/1504/30/news049.html)
 <hr>
