@@ -18,3 +18,6 @@
 ## Tron
 <hr>
 * [Bluetooth LE ucode](http://www.uidcenter.org/ja/wp-content/themes/wp.vicuna/pdf/UID-00049-01.A0.01.pdf)
+* 
+## CSR
+* [CRS101](http://www.digikey.com/product-detail/en/CSR1010A05-IQQM-R/CSR1010A05-IQQM-RCT-ND/3986724)
