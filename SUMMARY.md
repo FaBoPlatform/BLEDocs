@@ -11,6 +11,7 @@
 * [BLEモジュール(SiliconLab)](module/modulesiliconlab.md)
 * [BLEモジュール(TI)](module/moduleti.md)
 * [BLEモジュール(その他)](module/moduleetc.md)
+* [Keil](keil/uv5.md)
 * [Keil UV5に対応しているデバッカ](keil/debugger.md)
 * [BLEパケットスニファ](packet.md)
 * [Nordic系BLEモジュール](nordic.md)
