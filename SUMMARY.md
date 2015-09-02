@@ -15,8 +15,8 @@
 * [Keil MDKに対応しているデバッカ](keil/debugger.md)
 * [Nordic系-開発環境](nordic.md)
 * [BLEパケットスニファ](packet.md)
-* [BGScript系-BLED112の焼き込み](ble112/howto.md)
-* [BGScript系-入門]
+* [BGScript系-BLED112の焼き込み](bgscript/updateble112.md)
+* [BGScript系-入門](bgscript/gettingstarted.md)
 * [BLE動向](trend.md)
 * [BLEデバイス動向](gadget.md)
 * [BLEデバイス一覧](gadgetdevice.md)
