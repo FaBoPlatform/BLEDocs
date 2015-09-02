@@ -1,4 +1,6 @@
-# Nordic
+# Nordic Semiconductor
+
+2014年の年間売上高は、1億6700万米ドル
 
 ## BLEチップ
 
