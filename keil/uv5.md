@@ -18,4 +18,3 @@ UV 5.0
 * [DA14580](http://www.keil.com/dd/chip/6853.htm)
 * [](http://www.keil.com/dd/chips/cypress/arm.htm)
 * [nrf51822](http://www.keil.com/dd/chips/nordic/arm.htm)
-* 
