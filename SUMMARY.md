@@ -5,7 +5,7 @@
 * [BLEチップスペック比較](chip/chipspec.md)
 * [BLEモジュール(CSR)](module/modulecsr.md)
 * [BLEモジュール(Cypress)](module/modulecypress.md)
-* [BLEモジュール(Dialog)](module/moduleDialog.md)
+* [BLEモジュール(Dialog)](module/moduledialog.md)
 * [BLEモジュール(Nordic)](module/moduleNordic.md)
 * [BLEモジュール(SiliconLab)](module/moduleSiliconLab.md)
 * [BLEモジュール(TI)](module/moduleTI.md)
