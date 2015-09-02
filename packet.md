@@ -17,13 +17,10 @@
 
 ## Freescale系
 
-
 | 項目 | 入手先 |
 | -- | -- |
 |ソフトウェア||
 |ハードウェア|[USB-KW40Z](http://www.freescale.com/ja/products/arm-processors/kinetis-cortex-m/w-series:KINETIS_W_SERIES/bluetooth-low-energy-ieee-802.15.4-packet-sniffer-usb-dongle-for-kinetis-kw40z-30z-20z-mcus:USB-KW40Z)|
-
-
 
 ## その他
 
