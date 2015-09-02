@@ -2,6 +2,8 @@
 <hr>
 2015/9/2<br>
 [スマート体温計のKinsa、新たに赤ちゃんの利用を想定した耳式スマート体温計をリリース](http://jp.techcrunch.com/2015/09/02/20150901kinsas-new-smart-ear-thermometer-will-tell-you-what-to-do-when-youre-sick/)
+
+[おしっこをスマホに通知--赤ちゃんを“おむつかぶれ”から守る「Smart pee pee」](http://japan.cnet.com/news/service/35069830/)
 <hr>
 2015/9/1<br>
 [Android Wearを搭載したサイクルコンピュータの試作機「Smart Bike Computer」がEurobikeで展示](http://getnews.jp/archives/1117710)
