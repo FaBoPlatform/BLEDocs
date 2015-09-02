@@ -14,7 +14,7 @@
 * [Keil MDK](keil/uv5.md)
 * [Keil MDKに対応しているデバッカ](keil/debugger.md)
 * [BLEパケットスニファ](packet.md)
-* [Nordic系BLEモジュール](nordic.md)
+* [開発環境(Nordic系)](nordic.md)
 * [BLED112の焼き込み](ble112/howto.md)
 * [BLE動向](trend.md)
 * [BLEデバイス動向](gadget.md)
