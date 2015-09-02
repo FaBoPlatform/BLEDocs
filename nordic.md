@@ -226,15 +226,3 @@ int main(void)
   }
 }
 ```
-JTAG
-
-JLink(3万〜10万円)
-http://www.segger.com/jlink_base.html
-
-JLink-Lite(OEM専用)
-https://www.segger.com/jlink-lite-cortexm.html
-
-OpenJTAG(使えるかどうかは不明?)
-http://www.dragonwake.com/download/LPC2148/LPC2148_manual.pdf
-
-
