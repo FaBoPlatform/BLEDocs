@@ -11,6 +11,9 @@
 2015/08/20<br>
 [CEVA's Bluetooth Low Energy IP Powers NXP QN9000 Series of Bluetooth Smart SoCs](http://www.marketwatch.com/story/cevas-bluetooth-low-energy-ip-powers-nxp-qn9000-series-of-bluetooth-smart-socs-2015-08-20)
 <hr>
+2015/8/19<br>
+[Google、無線LANルーター「OnHub」発表、スマートホーム機器にも対応](http://news.mynavi.jp/news/2015/08/19/022/)
+<hr>
 2015/8/18<br>
 [CEVA Announces the Certification of RivieraWaves Bluetooth Smart 4.2 Platform IP](http://www.prnewswire.com/news-releases/ceva-announces-the-certification-of-rivierawaves-bluetooth-smart-42-platform-ip-300129615.html)
 <hr>
