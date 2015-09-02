@@ -16,6 +16,7 @@
 * [Nordic系-開発環境](nordic.md)
 * [BLEパケットスニファ](packet.md)
 * [BGScript系-BLED112の焼き込み](ble112/howto.md)
+* [BGScript系-入門]
 * [BLE動向](trend.md)
 * [BLEデバイス動向](gadget.md)
 * [BLEデバイス一覧](gadgetdevice.md)
