@@ -83,31 +83,39 @@ Windows編(標準環境)とMac(GCC)について説明します。
 [https://www.nordicsemi.com/eng/Products/Bluetooth-R-low-energy/nRF51822](https://www.nordicsemi.com/eng/Products/Bluetooth-R-low-energy/nRF51822)
 
 ここから「nRFgo Studio」と「S110-SD-v6」をダウンロード。
-「nRFgo Studio」をインストール。「S110-SD-v6」は展開して適当なフォルダへ。
-S110がペリフェラル用BLEスタックでnRFgoがROM書きツールになります。
+「nRFgo Studio」をインストール。「S110-SD-v6」は展開して適当なフォルダへ。 S110がペリフェラル用BLEスタックでnRFgoがROM書きツールになります。
 nRFgoで「Program SoftDevice」からS110内のhexファイルを選択してProgram。
 その後、プログラム部分を書き込む。例えば、
-C:\Nordic Semiconductor\nRF51 SDK_v5.2.0.39364\Nordic\nrf51822\Board\pca10001\s110\ble_app_beacon\arm\ble_app_beacon.uvproj
+
+> C:\Nordic Semiconductor\nRF51 SDK_v5.2.0.39364\Nordic\nrf51822\Board\pca10001\s110\ble_app_beacon\arm\ble_app_beacon.uvproj
+
 を書き込めばiBeaconとして動きます。
 
 
-Mac編
+## Mac編
 
 Makeファイルの作成など不便な点が多い。
 コードサイズの上限は無い。Mac上で開発＆書き込みが出来る。
 
-・環境構築手順
-SDK&SoftDevice
-https://www.nordicsemi.com/eng/Products/Bluetooth-R-low-energy/nRF51822
+### 環境構築手順
+
+* SDK&SoftDevice
+
+[https://www.nordicsemi.com/eng/Products/Bluetooth-R-low-energy/nRF51822](https://www.nordicsemi.com/eng/Products/Bluetooth-R-low-energy/nRF51822)
+
 ここから「nRF51-SDK-zip」と「S110-SD-v6」をダウンロード。
-JLink
-http://www.segger.com/jlink-software.html?step=1&file=JLinkMacOSX_484
+
+* JLink
+[http://www.segger.com/jlink-software.html?step=1&file=JLinkMacOSX_484](http://www.segger.com/jlink-software.html?step=1&file=JLinkMacOSX_484)
+
 ここからダウンロード＆インストール。ボード上のSEGGERチップに書いてある番号が必要。
 Xcodeコマンドラインツール
 ターミナルで以下のコマンドを実行する。
-xcode-select --install
+
+> xcode-select --install
 ARM用GCC
-https://launchpad.net/gcc-arm-embedded/4.8/4.8-2013-q4-major
+
+[https://launchpad.net/gcc-arm-embedded/4.8/4.8-2013-q4-major](https://launchpad.net/gcc-arm-embedded/4.8/4.8-2013-q4-major)
 ここからMac用をDLし適当な場所に展開。
 
 ・ビルド
