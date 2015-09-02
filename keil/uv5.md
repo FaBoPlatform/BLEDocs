@@ -12,3 +12,4 @@ UV 5.0
 | MDK-Standard | 約25-30万円(1年ライセンス)| Cortex®-Mシリーズ, ARM7,ARM9,Cortex®-R, SecureCore　|
 | MDK-Cortex-M | 約20万円(1年ライセンス）| Cortex®-Mシリーズ限定 |
 | MDK-Lite | 無料| 32K制限 |
+
