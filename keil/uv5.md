@@ -15,7 +15,7 @@ UV 5.0
 
 ## Keil MDKがサポートしているモジュール
 
-* PAN1740(Panasonic)
-* TypeZY(Murata)
-* CYBLE-022001(Cypress)
+* [PAN1740(Panasonic)](http://www.keil.com/dd/chip/6853.htm)
+* [TypeZY(Murata)](http://www.keil.com/dd/chip/6853.htm)
+* [CYBLE-022001(Cypress)](http://www.keil.com/dd/chips/cypress/arm.htm)
 * 
