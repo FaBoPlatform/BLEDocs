@@ -2,6 +2,9 @@
 
 ## 業界ニュース
 <hr>
+2015/09/01<br>
+[Bluetooth Smart機器の設計を簡素化するモジュール](http://ednjapan.com/edn/articles/1509/01/news041.html)
+<hr>
 2015/4/30<br>
 [セントラル対応のBluetooth Smartモジュール](http://ednjapan.com/edn/articles/1504/30/news049.html)
 <hr>
