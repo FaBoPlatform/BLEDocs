@@ -16,7 +16,7 @@
 * [Dialog系BLEモジュール](dialog.md)
 * [TI系BLEモジュール](ti.md)
 * [Nordic系BLEモジュール](nordic.md)
-* [BLE112Dの焼き込み](ble112/howto.md)
+* [BLED112の焼き込み](ble112/howto.md)
 * [BLE動向](trend.md)
 * [BLEデバイス動向](gadget.md)
 * [BLEデバイス一覧](gadgetdevice.md)
