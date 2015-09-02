@@ -10,7 +10,7 @@
 * [BLEモジュール(Nordic)](module/moduleNordic.md)
 * [BLEモジュール(SiliconLab)](module/moduleSiliconLab.md)
 * [BLEモジュール(TI)](module/moduleTI.md)
-* [BLEモジュール(その他)](module/moduleEtc.md)
+* [BLEモジュール(その他)](module/moduleetc.md)
 * [BLEパケットスニファ](packet.md)
 * [Dialog系BLEモジュール](dialog.md)
 * [TI系BLEモジュール](ti.md)
