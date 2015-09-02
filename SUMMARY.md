@@ -13,7 +13,7 @@
 * [BLEモジュール(その他)](module/moduleetc.md)
 * [Keil MDK](keil/uv5.md)
 * [Keil MDKに対応しているデバッカ](keil/debugger.md)
-* [開発環境(Nordic系)](nordic.md)
+* [Nordic系-開発環境](nordic.md)
 * [BLEパケットスニファ](packet.md)
 * [BGScript系-BLED112の焼き込み](ble112/howto.md)
 * [BLE動向](trend.md)
