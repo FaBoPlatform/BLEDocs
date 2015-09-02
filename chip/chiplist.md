@@ -18,6 +18,7 @@
 | [BCM20737S](http://www.broadcom.com/collateral/pb/WICED-Sense-PB100.pdf) | [Broadcom](http://ja.broadcom.com/) |  ARM® Cortex™ M3 | 4.1 |
 | [CYBL10X6X](http://japan.cypress.com/?rID=99422 ) | [CYPRESS](http://japan.cypress.com/) |ARM® Cortex™ M0| 4.1 |
 | [CC2640](http://www.tij.co.jp/product/jp/cc2640)|[TI](http://www.tij.co.jp/)|ARM® Cortex™ M3(48MHz)|4.1|
+| [Kinetis KW40Z](http://www.freescale.com/ja/products/arm-processors/kinetis-cortex-m/w-series/kinetis-kw40z-30z-20z-bluetooth-low-energy-802.15.4-wireless-mcus:KW4x) | [Freescale](http://www.freescale.com/) | ARM® Cortex®-M0+ | 4.1 |
 
 ## BLE4.0
 
