@@ -8,6 +8,9 @@
 2015/08/23<br>
 [Bluetooth Smart機器の開発スタイルを一変させる“ゲームチェンジャーデバイス”](http://eetimes.jp/ee/articles/1508/24/news003.html)
 <hr>
+2015/8/20<br>
+[](http://www.prnewswire.com/news-releases/ceva-announces-the-certification-of-rivierawaves-bluetooth-smart-42-platform-ip-300129615.html)
+<hr>
 2015/4/30<br>
 [セントラル対応のBluetooth Smartモジュール](http://ednjapan.com/edn/articles/1504/30/news049.html)
 <hr>
