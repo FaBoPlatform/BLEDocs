@@ -51,3 +51,6 @@ C:\Bluegiga\ble-1.2.1-91\example\test　のproject.bgprojファイルを任意�
 
 <script in="battery.bgs" />から<script in="ledtest.bgs" /> と変更し保存する。
 
+## 実機への転送
+C:\Bluegiga\ble-1.2.1-91\example\test　のBLE113-project.bgprojファイルを実行する。
+
