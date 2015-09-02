@@ -61,3 +61,4 @@ C:\Bluegiga\ble-1.2.1-91\example\test　のproject.bgprojファイルを任意�
 
 C:\Bluegiga\ble-1.2.1-91\example\test　のBLE113-project.bgprojファイルを実行する。
 
+[](bgscript003.png)
