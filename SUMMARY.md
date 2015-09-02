@@ -12,7 +12,7 @@
 * [BLEモジュール(TI)](module/moduleti.md)
 * [BLEモジュール(その他)](module/moduleetc.md)
 * [Keil UV5に対応しているデバッカ](keil/debugger.md)
-* * [BLEパケットスニファ](packet.md)
+* [BLEパケットスニファ](packet.md)
 * [Dialog系BLEモジュール](dialog.md)
 * [TI系BLEモジュール](ti.md)
 * [Nordic系BLEモジュール](nordic.md)
