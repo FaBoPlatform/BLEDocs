@@ -3,6 +3,9 @@
 2015/8/20
 [エー・アンド・デイ、スマートフォンでからだデータの管理可能なBluetooth Smart内蔵血圧計・体重計・体温計を発売開始](http://iotnews.jp/archives/4206)
 <hr>
+2015/8/7<br>
+[Bluetooth SMARTとANT+両対応のスピード・ケイデンスセンサー](http://k-tai.impress.co.jp/docs/news/20150807_715614.html)
+<hr>
 2015/5/6<br>
 [「CH4」 オナラの臭いを分析して食生活の見直しを提案](http://news.livedoor.com/article/detail/10082340/)
 <hr>
