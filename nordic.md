@@ -1,49 +1,5 @@
 # Nordic系BLEモジュール
 
-## Co-processor
-ARM® Cortex™ M0
-
-## NRF51822のBlockdiagram(各社モジュール共通)
-
->![](image/nrf51822.png)
-
-## NRF51822のReferenceデザイン(各社モジュール共通)
-
->![](image/reference_nrf51822_dd.png)
-
-## 開発環境
-
-nRF51 Software Development Kit 8.0.0
-http://developer.nordicsemi.com/nRF51_SDK/nRF51_SDK_v8.x.x/doc/8.0.0/
-
-## MDBT40
-
-### 特徴
-* nRF51822にAT7020のチップアンテナを搭載したモデル
-* nRF51822をほぼそのまま利用するシンプルな構成
-* 開発もNordicのSDKを使う
-
-
-### 開発環境構築
-
-Nordicのページで開発者登録が必要。
-その際開発対象のチップに付属するシリアル番号が必要になる。
-チップを登録しないと開発ツールなどのダウンロードができないので注意！
-
-### 書き込み方法
-
-nRF51822向けにはS100というBLEスタックが用意されている。
-
-
-
-## BL600
-
-### 特徴
-* nRF51822上に独自FWが搭載されている
-* smartBasicという言語でプログラミング
-* UwTerminalというソフトでFWを制御、書き込み
-
-
 nRF51822の開発環境構築について。
 
 Windows編(標準環境)とMac(GCC)について説明します。
@@ -57,17 +13,18 @@ Windows編(標準環境)とMac(GCC)について説明します。
 
 ### 環境構築手順
 
-* IDE
+* IDE<br>
 [https://www.keil.com/demo/eval/arm.htm](https://www.keil.com/demo/eval/arm.htm)
+
 ここからダウンロード＆インストール。これが32k制限あり。
 
-* SDK
+* SDK<br>
 [https://www.nordicsemi.com/eng/Products/Bluetooth-R-low-energy/nRF51822](https://www.nordicsemi.com/eng/Products/Bluetooth-R-low-energy/nRF51822)
 
 ここから「nRF518-SDK」をダウンロード＆インストール。
 ダウンロードにはシリアルナンバーが必要。
 
-* JLink
+* JLink<br>
 [http://www.segger.com/jlink-software.html?step=1&file=JLink_484](http://www.segger.com/jlink-software.html?step=1&file=JLink_484)
 
 ここからダウンロード＆インストール。ボード上のSEGGERチップに書いてある番号が必要。
@@ -91,7 +48,6 @@ nRFgoで「Program SoftDevice」からS110内のhexファイルを選択してPr
 
 を書き込めばiBeaconとして動きます。
 
-
 ## Mac編
 
 Makeファイルの作成など不便な点が多い。
@@ -99,13 +55,12 @@ Makeファイルの作成など不便な点が多い。
 
 ### 環境構築手順
 
-* SDK&SoftDevice
-
+* SDK&SoftDevice<br>
 [https://www.nordicsemi.com/eng/Products/Bluetooth-R-low-energy/nRF51822](https://www.nordicsemi.com/eng/Products/Bluetooth-R-low-energy/nRF51822)
 
 ここから「nRF51-SDK-zip」と「S110-SD-v6」をダウンロード。
 
-* JLink
+* JLink<br>
 [http://www.segger.com/jlink-software.html?step=1&file=JLinkMacOSX_484](http://www.segger.com/jlink-software.html?step=1&file=JLinkMacOSX_484)
 
 ここからダウンロード＆インストール。ボード上のSEGGERチップに書いてある番号が必要。
@@ -113,9 +68,10 @@ Xcodeコマンドラインツール
 ターミナルで以下のコマンドを実行する。
 
 > xcode-select --install
-ARM用GCC
 
+* ARM用GCC<br>
 [https://launchpad.net/gcc-arm-embedded/4.8/4.8-2013-q4-major](https://launchpad.net/gcc-arm-embedded/4.8/4.8-2013-q4-major)
+
 ここからMac用をDLし適当な場所に展開。
 
 * ビルド
@@ -123,9 +79,11 @@ ARM用GCC
 [sdk]/nrf51_sdk/nrf51822/Source/templates/gcc
 内にMakefile.macを作成し以下の内容を記述。
 
-> GNU_INSTALL_ROOT := [インストールした場所]/gcc-arm-none-eabi
+```
+GNU_INSTALL_ROOT := [インストールした場所]/gcc-arm-none-eabi
 GNU_VERSION := 4.8
 GNU_PREFIX := arm-none-eabi
+```
 
 Makefile.commonの9行目付近を以下のように修正。
 
@@ -139,14 +97,18 @@ include $(TEMPLATE_PATH)Makefile.mac
 ```
 
 後は、例えば下記フォルダ内でMakeを実行すると_buildファイル内にbinファイルができる。
+
+```
 [sdk]/nrf51_sdk/nrf51822/Board/pca10001/blinky_example/gcc
+```
 
 * 書き込み
 ターミナルでJLinkを操作してビルドで生成したbinファイルを書き込む。
 下記のようにコマンドを実行すれば書き込まれるはずです。
 
 J-Link接続
-> $  JLinkExe -Device nrf51822 -if SWD
+```
+$  JLinkExe -Device nrf51822 -if SWD
 SEGGER J-Link Commander V4.84 ('?' for help)
 Compiled Mar 28 2014 16:35:14
 Info: Device "NRF51822_XXAA" selected (257 KB flash, 16 KB RAM).
@@ -162,13 +124,17 @@ Found 1 JTAG device, Total IRLen = 4:
 Cortex-M0 identified.
 Target interface speed: 100 kHz
 J-Link>
+```
 
 ### 転送
-> J-Link>loadbin _build/blinky_gcc_xxaa.bin 0x0
+```
+J-Link>loadbin _build/blinky_gcc_xxaa.bin 0x0
+```
 
 ### 終了
-> J-Link>q
-
+```
+J-Link>q
+```
 ちなみにS110を書き込んである場合は0x0を0x14000に変更してください。
 
 コマンド集
@@ -270,13 +236,5 @@ https://www.segger.com/jlink-lite-cortexm.html
 
 OpenJTAG(使えるかどうかは不明?)
 http://www.dragonwake.com/download/LPC2148/LPC2148_manual.pdf
-
-Reference
-
-LinuxでJLink
-http://www.tamasbondar.info/tech/compiling-for-nRF51822-with-make-and-gcc-on-linux
-nRF51822 evaluation kit board Mac OS X problems
-http://forum.segger.com/index.php?page=Thread&threadID=1389
-http://see.sl088.com/wiki/NRF51822_SDK_GCC%E6%94%AF%E6%8C%81/%E7%83%A7%E5%BD%95Softdev
 
 
