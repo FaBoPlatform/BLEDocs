@@ -1,11 +1,9 @@
 # Summary
 
-# Summary
-
 * [はじめに](README.md)
 * [BLEチップ一覧](chip/chiplist.md)
 * [BLEチップスペック比較](chip/chipspec.md)
-* [BLEモジュール(CSR)](module/moduleCSR.md)
+* [BLEモジュール(CSR)](module/modulecsr.md)
 * [BLEモジュール(Cypress)](module/moduleCypress.md)
 * [BLEモジュール(Dialog)](module/moduleDialog.md)
 * [BLEモジュール(Nordic)](module/moduleNordic.md)
@@ -30,6 +28,4 @@
 * [スペクトルアナライザ](analyzer.md)
 * [オシロスコープ](osylo.md)
 * [Link](link.md)
-
-
 
