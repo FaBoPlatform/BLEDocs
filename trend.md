@@ -6,7 +6,7 @@
 [Bluetooth Smart機器の設計を簡素化するモジュール](http://ednjapan.com/edn/articles/1509/01/news041.html)
 <hr>
 2015/08/23<br>
-[Bluetooth Smart機器の開発スタイルを一変させる“ゲームチェンジャーデバイス”]()
+[Bluetooth Smart機器の開発スタイルを一変させる“ゲームチェンジャーデバイス”](http://eetimes.jp/ee/articles/1508/24/news003.html)
 <hr>
 2015/4/30<br>
 [セントラル対応のBluetooth Smartモジュール](http://ednjapan.com/edn/articles/1504/30/news049.html)
