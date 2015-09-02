@@ -118,32 +118,35 @@ ARM用GCC
 [https://launchpad.net/gcc-arm-embedded/4.8/4.8-2013-q4-major](https://launchpad.net/gcc-arm-embedded/4.8/4.8-2013-q4-major)
 ここからMac用をDLし適当な場所に展開。
 
-・ビルド
+* ビルド
+
 [sdk]/nrf51_sdk/nrf51822/Source/templates/gcc
 内にMakefile.macを作成し以下の内容を記述。
 
-GNU_INSTALL_ROOT := [インストールした場所]/gcc-arm-none-eabi
+> GNU_INSTALL_ROOT := [インストールした場所]/gcc-arm-none-eabi
 GNU_VERSION := 4.8
 GNU_PREFIX := arm-none-eabi
 
 Makefile.commonの9行目付近を以下のように修正。
 
+```
 #ifeq ($(OS),Windows_NT)
 #include $(TEMPLATE_PATH)Makefile.windows
 #else
 #include $(TEMPLATE_PATH)Makefile.posix
 #endif
 include $(TEMPLATE_PATH)Makefile.mac
+```
 
 後は、例えば下記フォルダ内でMakeを実行すると_buildファイル内にbinファイルができる。
 [sdk]/nrf51_sdk/nrf51822/Board/pca10001/blinky_example/gcc
 
-・書き込み
+* 書き込み
 ターミナルでJLinkを操作してビルドで生成したbinファイルを書き込む。
 下記のようにコマンドを実行すれば書き込まれるはずです。
 
 J-Link接続
-$  JLinkExe -Device nrf51822 -if SWD
+> $  JLinkExe -Device nrf51822 -if SWD
 SEGGER J-Link Commander V4.84 ('?' for help)
 Compiled Mar 28 2014 16:35:14
 Info: Device "NRF51822_XXAA" selected (257 KB flash, 16 KB RAM).
@@ -160,35 +163,43 @@ Cortex-M0 identified.
 Target interface speed: 100 kHz
 J-Link>
 
-転送
-J-Link>loadbin _build/blinky_gcc_xxaa.bin 0x0
+### 転送
+> J-Link>loadbin _build/blinky_gcc_xxaa.bin 0x0
 
-終了
-J-Link>q
+### 終了
+> J-Link>q
 
 ちなみにS110を書き込んである場合は0x0を0x14000に変更してください。
 
 コマンド集
 
 デバイスの設定
+```
 device nrf51822
+```
 
 スピードの設定
+```
 speed 1000
+```
 
 Flash全体の削除
+```
 w4 4001e504 2
 w4 4001e50c 1
 w4 4001e514 1
 r
+```
 
 Flashに書き込めるようにする
+```
 w4 4001e504 1
-
+```
 おまけ
 
 VTarget = 0.000Vだと基板に電源はいっていない
 
+```
 J-Link>q
 akira-air:gcc akira$  JLinkExe -Device nrf51822 -if SWD
 SEGGER J-Link Commander V4.84 ('?' for help)
@@ -201,19 +212,24 @@ S/N: 518005916
 Feature(s): GDB 
 VTarget = 0.000V
 J-Link>
+```
 
 PCA10001では一度、認識しなくなると、再起動が必要になる。
 
 0x00014000ではうまくいく
+```
 J-Link>loadbin _build/blinky_gcc_xxaa.bin 0x00014000
 Downloading file... [_build/blinky_gcc_xxaa.bin]
 Info: J-Link: Flash download: Flash programming performed for 1 range (3072 bytes)
 Info: J-Link: Flash download: Total time needed: 1.661s (Prepare: 0.759s, Compare: 0.010s, Erase: 0.000s, Program: 0.570s, Verify: 0.004s, Restore: 0.315s)
 J-Link>
+```
 
+```
 Hello NRF51822
+```
 
-
+```
 #include <stdbool.h>
 #include <stdint.h>
 #include "nrf_delay.h"
@@ -243,6 +259,7 @@ int main(void)
     nrf_delay_ms(500);
   }
 }
+```
 JTAG
 
 JLink(3万〜10万円)
