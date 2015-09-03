@@ -6,6 +6,7 @@ BLED112の焼き込みは、CCDebuggerを使用せず、直接WindowsのPCに接
 ## 環境設定
 
 「Bluetooth Smart Software and SDK」の最新バージョンをダウンロードする。
+<br>
 (記入時点の最新版はv.1.3.2）
 <br>
 https://www.bluegiga.com/en-US/products/bled112-bluetooth-smart-dongle/
@@ -36,6 +37,7 @@ DFUモードにて接続が完了すると、画面上の「Connected」から�
 ![](bled112_004.jpg)
 
 デバイスマネージャにて下の図のようになっていることを確認する。
+<br>
 ![](bled112-005.jpg)
 
 ## 焼き込みデータの作成
