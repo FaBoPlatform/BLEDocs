@@ -1,33 +1,36 @@
 #BLED１１２の焼き込み
 
+BLED112の焼き込みは、CCDebuggerを使用せず、直接Windowsマシンに接続して行います。
+
 
 ## 環境設定
 
-「Bluetooth Smart Software and SDK」の最新バージョンをダウンロード
+「Bluetooth Smart Software and SDK」の最新バージョンをダウンロードする。
 (記入時点の最新版はv.1.3.2）
+<br>
 https://www.bluegiga.com/en-US/products/bled112-bluetooth-smart-dongle/
 
-
-ダウンロードしたファイルを展開し、binフォルダ内に格納されている「blegui2.exe」起動する
-
-BLED112をUSBポートに接続し、GUIToolにて対象のポートを選択する
+<br>
+ダウンロードしたファイルを展開し、binフォルダ内に格納されているBLE GUI tool「blegui2.exe」起動する。
+<br>
+BLED112をUSBポートに接続し、BLE GUI ToolにてBLED112が接続されているポートを選択する。
 <br>
 ![](bled112_001.jpg)
 
-「Attach」ボタン押下で接続後、メニューの「Commands」より「DFU」を選択する
+「Attach」ボタン押下でBLED112と接続後、メニューの「Commands」より「DFU」を選択する。
 <br>
 ![](bled112_002.jpg)
 
-DFUのウィンドウにて、初期状態で選択されている「USB Bootloader」タブを選択し、「Boot Into DFU mode」ボタンを押下する
+DFUのウィンドウにて、初期状態で選択されている「USB Bootloader」タブを選択し、「Boot Into DFU mode」ボタンを押下する。
 <br>
 ![](bled112_003.jpg)
+<br>
+※ここでドライバが必要になる場合、ダウンロードしたファイルから「windrv」フォルダ内にある「dfu.ini」を指定してインストールする。
 
-ここでドライバが必要になる場合、ダウンロードしたファイルから「windrv」フォルダ内にある「dfu.ini」を指定してインストール
-
-DFUモードにて接続が完了すると、画面上の「Connected」から「Disconnected」に変更される
+DFUモードにて接続が完了すると、画面上の「Connected」から「Disconnected」に変更される。
 ![](bled112_004.jpg)
 
-デバイスマネージャにて確認
+デバイスマネージャにて下の図のようになっていることを確認する。
 ![](bled112-005.jpg)
 
 ## 焼き込みデータの作成
