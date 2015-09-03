@@ -10,8 +10,13 @@ BLED112の焼き込みは、CCDebuggerを使用せず、直接WindowsのPCに接
 <br>
 https://www.bluegiga.com/en-US/products/bled112-bluetooth-smart-dongle/
 
+
+## DFUモード起動
+
 <br>
-ダウンロードしたファイルを展開し、binフォルダ内に格納されているBLE GUI tool「blegui2.exe」起動する。
+ダウンロードしたファイルを展開する。
+<br>
+展開したファイルのbinフォルダ内に格納されている「blegui2.exe」を実行し、BLE GUI toolを起動する。
 <br>
 BLED112をUSBポートに接続し、BLE GUI ToolにてBLED112が接続されているポートを選択する。
 <br>
@@ -103,7 +108,11 @@ end
 
 ## Hexファイルの作成
 
-コマンドプロンプトを起動し、bgprojファイルがある場所に移動して下記のコマンドを実行する(bgbuild.exeの場所やbgprojの格納場所によって変更する)
+コマンドプロンプトを起動し、bgprojファイルがある場所に移動する。
+<br>
+移動後、下記のコマンドを実行し、Hexファイルを作成する。
+<br>
+(bgbuild.exeの場所やbgprojの格納場所によって変更する)
 ```
 c:¥bluegiga¥ble-1.3.2-122/bin\bgbuild.exe project.bgproj
 ```
