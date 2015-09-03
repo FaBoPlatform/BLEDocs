@@ -14,7 +14,7 @@
 * [Keil MDK](keil/uv5.md)
 * [Keil MDKに対応しているデバッカ](keil/debugger.md)
 * [[Nordic]-開発環境](nordic.md)
-* [[BGScript]-BLED112の焼き込み(bgscript/updatebled112.md)](updatebled112__md)
+* [[BGScript]-BLED112の焼き込み(bgscript/updatebled112.md)](bgscript/updatebled112md.md)
 * [[BGScript]-入門](bgscript/gettingstarted.md)
 * [BLEパケットスニファ](packet.md)
 * [Bluetooth 4.2](bl42.md)
