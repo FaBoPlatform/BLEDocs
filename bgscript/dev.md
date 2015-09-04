@@ -14,3 +14,7 @@
 ## 転送ツール
 
 * [BLE Update Tool v1.3.6 (Windows XP,7,8 and 10)](https://www.bluegiga.com/en-US/download/?file=QQoshv77RRWK1AiJw8cV5g&title=BLE%2520Update%2520Tool%2520v1.3.6%2520%28Windows%2520XP%252C7%252C8%2520and%252010%29&filename=bleupdate-1.3.6.exe)
+* 
+## バッテリー評価
+
+* [Bluegiga Bluetooth Smart Module Battery Estimator](https://www.bluegiga.com/en-US/test-page/ble-battery-estimator/)
