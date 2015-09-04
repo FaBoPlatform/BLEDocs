@@ -17,6 +17,7 @@
 * [[Nordic]-SoftDevice](nordic/softdevice.md)
 * [[Nordic]-パケットスニファの設定](nordic/sniffer.md)
 * [[BGScript]-開発環境](bgscript/dev.md)
+* [[BGScript]-BGAPI](bgscript/ngapi.md)
 * [[BGScript]-BLED112の焼き込み](bgscript/updatebled112.md)
 * [[BGScript]-入門](bgscript/gettingstarted.md)
 * [[BGScript]-パケットスニファの設定](bgscript/sniffer.md)
