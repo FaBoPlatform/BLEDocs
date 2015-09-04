@@ -24,7 +24,8 @@ Smart Snippets
 
 [RivieraWaves Kernel](http://www.ceva-dsp.com/RivieraWaves-Bluetooth-Platforms) ([CEVA](http://www.ceva-dsp.com/))
 
-
+## 開発言語
+C/C++
 
 ## Chip一覧
 
