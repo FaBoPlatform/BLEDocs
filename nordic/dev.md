@@ -272,7 +272,6 @@ PCA10028
 #define LED_STOP       24
 ```
 
-
 ## URAT Pin
 
 PCA10001
