@@ -21,8 +21,8 @@ Smart Snippets
 
 ## 対応デバッカー
 
-* J-LINK
-* U-LINK
+* [J-LINK](https://www.segger.com/jlink-debug-probes.html)
+* [U-LINK](http://www.arm.com/ja/products/tools/debug-adapters/ulink/product-comparison.php)
 
 ## RTOS
 
