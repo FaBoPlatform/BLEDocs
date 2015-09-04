@@ -10,7 +10,7 @@
 
 ## 必要なソフト
 
-* Windows7以降
+* Windows7以降 （Mac上のViertualBoxでは動作しませんでした）
 * [nRFgoStudio](https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822)
 * [nRF-Sniffer](https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822)
 * [Wireshark](https://www.wireshark.org/download.html) v1.10.1以降（オプション）
@@ -35,3 +35,7 @@
 
 ## スニフ
 
+
+1. ble-sniffer_xxx_Sniffer.exe を起動します。
+2. コマンドラインのメニューが表示されます。
+3. 
