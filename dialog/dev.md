@@ -26,7 +26,7 @@ Smart Snippets
 
 ## RTOS
 
-[RivieraWaves Kernel](http://www.ceva-dsp.com/RivieraWaves-Bluetooth-Platforms) ([CEVA](http://www.ceva-dsp.com/))
+* [RivieraWaves Kernel](http://www.ceva-dsp.com/RivieraWaves-Bluetooth-Platforms) ([CEVA](http://www.ceva-dsp.com/))
 
 ## 開発言語
 * C/C++
