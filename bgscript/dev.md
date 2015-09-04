@@ -26,5 +26,11 @@
 ## 開発言語
 * BGScript
 
+##Chip一覧
 
+| Chip名 | 送信感度 | 0dBm時<br>送信時電流 | 受信感度 | 受信時電流 |
+| -- | -- | --- |
+
+| [CC2541](http://m.tij.co.jp/product/jp/CC2541) | +6dBm | 18.2 mA<br>14.7mA(DD)| -96dBm| 17.9 mA <br>14.7mA(DD)| 
+| [CC2540](http://m.tij.co.jp/product/jp/CC2540)| +6dBm | 24mA<br>15.8 mA(DD)<br> | -96dBm| 19.6 mA<br>18.6 mA(DD)<br>|
 
