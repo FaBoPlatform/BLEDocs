@@ -1,5 +1,10 @@
 # BGAPI
 
+##
+
+* USB CDC
+* HCI
+
 Node.jsのSerialPortを用いてBLED112を制御する方法の解説です。
 
 ## Node.jsのインストール
