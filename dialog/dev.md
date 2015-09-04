@@ -5,6 +5,11 @@
 | Basic | []() | ![](dialog_basic.png)|
 | Pro | []() | ![](dialog_pro.png)|
 
+# 開発IDE
 
+Keil UV5
+
+# 転送アプリ
+SmartSnippet
 
 
