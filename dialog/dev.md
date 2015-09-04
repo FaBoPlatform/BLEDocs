@@ -11,7 +11,7 @@
 
 [MDK-ARM Microcontroller Development Kit](http://www.keil.com/arm/mdk.asp)
 
-## 転送アプリ
+## 転送ツール
 
 Smart Snippets
 
