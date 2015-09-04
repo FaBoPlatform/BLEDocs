@@ -49,4 +49,7 @@ BlueGecko系
 
 ## Module一覧
 
+| モジュール名 |  Ver | メーカー | 技適 | 最大送信出力|0dBm時<br>送信時電流|
+| -- | -- | -- |-- |-- |
+| [BGM111](http://www.silabs.com/products/wireless/bluetooth/Pages/bluegecko-bluetooth-smart-module-intro.aspx) | 4.1 | [Silicon Lab](http://www.silabs.com/) | 未 |+8 dBm | 8.2 mA |
 
