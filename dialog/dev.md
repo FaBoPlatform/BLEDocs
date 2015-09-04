@@ -11,7 +11,7 @@ Keil UV5
 
 # 転送アプリ
 
-SmartSnippet
+Smart Snippets
 
 # 対応デバッカー
 
