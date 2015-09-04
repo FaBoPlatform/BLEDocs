@@ -4,7 +4,7 @@
 | -- | -- |
 | PCA10001 | [DevZone](https://devzone.nordicsemi.com/documentation/nrf51/4.3.0/html/group__nrf518__examples__pca10001.html#details) | ![](pca10001.jpg)|
 | PCA10028 | [DevZone]() |![](PCA10028.jpg)|
-| PCA10036 | [DevZone]() ||
+| PCA10036 | [DevZone]() |![](pca10036.png)|
 
 # 開発環境(Nordic系)
 
