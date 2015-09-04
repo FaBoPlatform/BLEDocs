@@ -55,6 +55,7 @@ $ ls /dev/tty.*
 
 簡単に説明するとHelloコマンドという動作確認用のBGAPIをnode.jsからBLED112に送信しています。リファレンスには下記の様に書いてあるので「0,0,0,1」を送ります。
 
+Command
 | Byte | Type | Name | Description |
 | -- | -- | -- | -- |
 | 0 | 0x00 | hilen | Message type:command |
@@ -64,12 +65,14 @@ $ ls /dev/tty.*
 
 返事は下記の様に「0,0,0,1」が返って来れば成功となります。
 
-
-
+Response
+| Byte | Type | Name | Description |
+| -- | -- | -- | -- |
+| 0 | 0x00 | hilen | Message type:response |
+| 1 | 0x01 | lolen | Minimum payload length |
+| 2 | 0x02 | class | Message Class:System |
+| 3 | 0x03 | method | Message ID |
 
 同様に「0,2,6,1,2,2」を送信すればアドバタイズが開始されますので、BLEデバイスから検索する事ができるようになります。
 
 BGAPIの詳細は「Bluetooth_Smart_Software_vX.X_API_Reference」を参照してください。
-ちなみにこんな感じでプログラムするのは結構大変なので、BGLibという良いライブラリを作ってくれた人がいます。感謝！
-これを利用するとずっと開発は楽になるでしょう。
-でも、基本動作を理解することは大事ですからね！
