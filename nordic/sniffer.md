@@ -8,4 +8,11 @@
 * nRF51422DevelopmentKit(PCA10028)v1.0以降
 
 
-### ULINK2
+## 必要なソフト
+
+* Windows7以降
+* nRFgoStudio
+* nRF-Sniffer
+* Wiresharkv1.10.1以降（オプション）
+
+
