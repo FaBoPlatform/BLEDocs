@@ -39,7 +39,7 @@ BlueGecko系
 ## 開発言語
 * BGScript
 
-##Chip一覧
+## Chip一覧
 
 | Chip名 | 送信感度 | 0dBm時<br>送信時電流 | 受信感度 | 受信時電流 |
 | -- | -- | --- |
