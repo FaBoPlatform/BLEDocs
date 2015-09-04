@@ -252,3 +252,13 @@ PCA10028
 #define SPIS_MOSI_PIN  25    // SPI MOSI signal. 
 #define SPIS_SCK_PIN   29    // SPI SCK signal.
 ```
+
+## URAT Pin
+
+
+
+PCA10028
+```
+#define RX_PIN_NUMBER  11
+#define TX_PIN_NUMBER  9
+```
