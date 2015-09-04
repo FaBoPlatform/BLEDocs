@@ -16,3 +16,8 @@
 * [Wireshark](https://www.wireshark.org/download.html) v1.10.1以降（オプション）
 
 
+## 準備
+
+nRFgoStudioとnRF-Snifferをインストールします。
+対応ハードをUSBに接続します。
+フニファ対象のBLE機器を周辺で作動させます。
