@@ -1,4 +1,4 @@
-# Bluegiga BLE113,112,121,BLED112
+# BGScript
 
 ## 開発ボード
 
