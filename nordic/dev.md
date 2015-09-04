@@ -252,6 +252,15 @@ PCA10028
 #define SPIS_MOSI_PIN  25    // SPI MOSI signal. 
 #define SPIS_SCK_PIN   29    // SPI SCK signal.
 ```
+## LED Pin
+
+PCA10001
+```
+#define LED_START      18
+#define LED_0          18
+#define LED_1          19
+#define LED_STOP       19
+```
 
 ## URAT Pin
 
