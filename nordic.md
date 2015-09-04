@@ -226,3 +226,21 @@ int main(void)
   }
 }
 ```
+
+## SPI Pin
+
+PCA10001
+```
+#define SPIS_MISO_PIN  20    // SPI MISO signal. 
+#define SPIS_CSN_PIN   21    // SPI CSN signal. 
+#define SPIS_MOSI_PIN  22    // SPI MOSI signal. 
+#define SPIS_SCK_PIN   23    // SPI SCK signal.
+```
+
+PCA10028
+```
+#define SPIS_MISO_PIN  28    // SPI MISO signal. 
+#define SPIS_CSN_PIN   12    // SPI CSN signal. 
+#define SPIS_MOSI_PIN  25    // SPI MOSI signal. 
+#define SPIS_SCK_PIN   29    // SPI SCK signal.
+```
