@@ -19,6 +19,7 @@
 * [[BGScript]-BLED112の焼き込み](bgscript/updatebled112.md)
 * [[BGScript]-入門](bgscript/gettingstarted.md)
 * [[BGScript]-パケットスニファの設定](bgscript/sniffer.md)
+* [[Dialog]-開発環境](dialog/dev.md)
 * [BLEパケットスニファ](packet.md)
 * [Bluetooth 4.2](bl42.md)
 * [Bluetooth認証](bleregist.md)
