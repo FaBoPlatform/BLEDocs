@@ -4,7 +4,7 @@
 
 | 開発ボード型番 | ボード情報 | 写真 |
 | -- | -- |
-| BLEDK | [DevZone](https://devzone.nordicsemi.com/documentation/nrf51/4.3.0/html/group__nrf518__examples__pca10001.html#details) | ![](dkble.jpg)|
-| WSTK6101A | [DevZone]() |![](wstk6101a.jpg)|
+| BLEDK | [Bluegiga](https://www.bluegiga.com/en-US/products/ble113-bluetooth-smart-module/#devkits) | ![](dkble.jpg)|
+| WSTK6101A | [SiliconLabs]() |![](wstk6101a.jpg)|
 
 
