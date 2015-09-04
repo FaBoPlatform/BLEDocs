@@ -9,4 +9,4 @@
 
 ## 開発ツール
 
-* 
+* [Bluetooth Smart Software and SDK v.1.3.2]()
