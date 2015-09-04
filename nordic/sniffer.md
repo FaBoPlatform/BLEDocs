@@ -18,6 +18,17 @@
 
 ## 準備
 
-nRFgoStudioとnRF-Snifferをインストールします。
-対応ハードをUSBに接続します。
-フニファ対象のBLE機器を周辺で作動させます。
+1. nRFgoStudioをインストールします。
+2. 対応ハードをUSBに接続します。
+3. スニファ対象のBLE機器を周辺で作動させます。
+4. nRF-Snifferのzipを解凍します。
+5. nRFgo Studioを起動します。
+
+![](sniffer01.png)
+
+6. 左のDeviceManagerから接続した機器を選びます。
+7. 「Erase all」をクリックして既存のファームを削除します。
+8. Program Applicationのタブを選択します。
+9. BrowseからnRF-SnifferのFirmwareフォルダ内のhexファイルを選択します。
+10. Program でファームを書き込みます。
+11. この時
