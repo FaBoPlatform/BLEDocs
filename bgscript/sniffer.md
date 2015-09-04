@@ -1,13 +1,13 @@
 
 
-## 必要なハードウェア
+## 必要なハード
 
 * CC2540 USB Evaluation Module Kit
 <br>
 http://www.ti.com/tool/cc2540emk-usb
 
 
-## 必要なソフトウェア
+## 必要なソフト
 * SmartRF Protocol Packet Sniffer
 <br>
 http://www.tij.co.jp/tool/jp/packet-sniffer
@@ -25,7 +25,7 @@ http://www.tij.co.jp/tool/jp/packet-sniffer
 
 4. インストール完了後、Packet Snifferを起動
 
-5. select Protocol and chip typeから「Bluetooth Low Energy」を選択する
+5. select Protocol and chip typeから「Bluetooth Low Energy」を選択
 <br>
 ![](bgs_sniffer001.jpg)
 
