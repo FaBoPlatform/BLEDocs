@@ -146,3 +146,8 @@ logに「Finish」が表示されたら完了
 7．焼き込み対象のHexファイルを指定し、Uploadボタンを押下する。
 
 これで再焼き込み完了です。
+
+## Reference
+
+* https://bluegiga.zendesk.com/entries/23748517--HOW-TO-Update-the-firmware-on-the-BLED112-dongle-using-USB-DFU
+* 
