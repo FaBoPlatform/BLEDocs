@@ -1,3 +1,11 @@
+# 開発ボード
+
+| 開発ボード型番 | ボード情報 | 写真 |
+| -- | -- |
+| PCA10001 | [DevZone](https://devzone.nordicsemi.com/documentation/nrf51/4.3.0/html/group__nrf518__examples__pca10001.html#details) |
+| PCA10028 | [DevZone]() | 写真 |
+
+
 # 開発環境(Nordic系)
 
 nRF51822の開発環境構築について。
