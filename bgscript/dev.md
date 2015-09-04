@@ -47,3 +47,6 @@ BlueGecko系
 | [CC2541](http://m.tij.co.jp/product/jp/CC2541) | +6dBm | 18.2 mA<br>14.7mA(DD)| -96dBm| 17.9 mA <br>14.7mA(DD)| 
 | [CC2540](http://m.tij.co.jp/product/jp/CC2540)| +6dBm | 24mA<br>15.8 mA(DD)<br> | -96dBm| 19.6 mA<br>18.6 mA(DD)<br>|
 
+## Module一覧
+
+
