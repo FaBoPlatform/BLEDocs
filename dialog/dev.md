@@ -15,6 +15,10 @@
 
 Smart Snippets
 
+## バッテリー評価　
+
+
+
 ## 対応デバッカー
 
 * J-LINK
