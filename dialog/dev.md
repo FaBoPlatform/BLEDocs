@@ -20,8 +20,7 @@ SmartSnippet
 
 # RTOS
 
-Kernel
-
+[RivieraWaves Kernel](http://www.ceva-dsp.com/RivieraWaves-Bluetooth-Platforms) ([CEVA](http://www.ceva-dsp.com/))
 
 
 
