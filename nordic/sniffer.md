@@ -13,7 +13,7 @@
 * Windows7以降 （Mac上のViertualBoxでは動作しませんでした）
 * [nRFgoStudio](https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822)
 * [nRF-Sniffer](https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822)
-* [Wireshark](https://www.wireshark.org/download.html) v1.10.1以降（オプション）
+* [Wireshark](https://www.wireshark.org/download.html) v1.10.1以降
 
 
 ## 準備
@@ -29,6 +29,7 @@
 9. BrowseからnRF-SnifferのFirmwareフォルダ内のhexファイルを選択します。
 10. Program でファームを書き込みます。
 11. 接続しているBLE機器はパケット受信時にLEDが点灯するようになります。
+12. Wiresharkをインストールします。
 
 ![](sniffer01.png)
 
@@ -39,8 +40,11 @@
 1. ble-sniffer_xxx_Sniffer.exe を起動します。
 2. コマンドラインのメニューが表示されます。
 3. 中断に使用可能なコマンド、下段に検出されたデバイス一覧が表示されます。
-4. 上下キーでカーソルを移動し、Enterキーで
-5. 
 
+4. 上下キーでカーソルを移動し、Enterキーで対象デバイスを選択します。
+5. wキーでWiresharkが起動します。
+6. 選択したデバイスのパケット一覧が表示されます。
 
 ![](sniffer02.png)
+
+![](sniffer03.png)
