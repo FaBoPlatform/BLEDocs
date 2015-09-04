@@ -13,10 +13,11 @@ Keil UV5
 
 SmartSnippet
 
-# デバッカー
+# 対応デバッカー
 
 * J-LINK
 * U-LINK
-* 
+
+
 
 
