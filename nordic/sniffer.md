@@ -11,8 +11,8 @@
 ## 必要なソフト
 
 * Windows7以降
-* nRFgoStudio
-* nRF-Sniffer
-* Wiresharkv1.10.1以降（オプション）
+* [nRFgoStudio](https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822)
+* [nRF-Sniffer](https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822)
+* [Wireshark](https://www.wireshark.org/download.html) v1.10.1以降（オプション）
 
 
