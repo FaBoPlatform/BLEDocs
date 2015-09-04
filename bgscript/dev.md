@@ -30,7 +30,7 @@ BLE系
 * [CC-DEBUGGER](http://www.tij.co.jp/tool/jp/cc-debugger)
 
 BlueGecko系
-* [J-LINK]()
+* [J-LINK](https://www.segger.com/jlink-debug-probes.html)
 
 ## バッテリー評価
 
