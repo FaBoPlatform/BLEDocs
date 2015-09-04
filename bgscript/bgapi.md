@@ -56,6 +56,7 @@ $ ls /dev/tty.*
 簡単に説明するとHelloコマンドという動作確認用のBGAPIをnode.jsからBLED112に送信しています。リファレンスには下記の様に書いてあるので「0,0,0,1」を送ります。
 
 Command
+
 | Byte | Type | Name | Description |
 | -- | -- | -- | -- |
 | 0 | 0x00 | hilen | Message type:command |
