@@ -262,6 +262,15 @@ PCA10001
 #define LED_STOP       19
 ```
 
+PCA10028
+```
+#define LED_START      21
+#define LED_1          21
+#define LED_2          22
+#define LED_3          23
+#define LED_4          24
+#define LED_STOP       24
+```
 
 
 ## URAT Pin
