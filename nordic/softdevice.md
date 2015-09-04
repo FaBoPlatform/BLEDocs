@@ -9,4 +9,4 @@ S110, S120, S130と３種類あり、それぞれ用途が異なる。
 | -- | -- |
 | S110 | Peripheral専用 |
 | S120 | Central/Peripheral両用。  Centralモードの場合は8つ同時接続可能、Peripheralモードの場合は同時にBroadcasterとしても動作する。|
-| S130 | Central/Peripheral同時利用。 Centralとして３接続と１つのPeripheralとして動作する。こちらはobserverとbroadcasterになれる。 |
+| S130 | Central/Peripheral同時利用。 Centralとして３接続と１つのPeripheralとして動作する。こちらはobserverとbroadcaster両方になれる。 |
