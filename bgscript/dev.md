@@ -5,6 +5,6 @@
 | 開発ボード型番 | ボード情報 | 写真 |
 | -- | -- |
 | BLEDK | [DevZone](https://devzone.nordicsemi.com/documentation/nrf51/4.3.0/html/group__nrf518__examples__pca10001.html#details) | ![](pca10001.jpg)|
-| WSTK6101A | [DevZone]() |![](wstk610a.jpg)|
+| WSTK6101A | [DevZone]() |![](wstk6101a.jpg)|
 
 
