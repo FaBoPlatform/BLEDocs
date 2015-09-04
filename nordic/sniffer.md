@@ -29,7 +29,9 @@
 9. BrowseからnRF-SnifferのFirmwareフォルダ内のhexファイルを選択します。
 10. Program でファームを書き込みます。
 11. 接続しているBLE機器はパケット受信時にLEDが点灯するようになります（未確認）
-12. 
 
 ![](sniffer01.png)
+
+
+## スニフ
 
