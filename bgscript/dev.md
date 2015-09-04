@@ -9,4 +9,4 @@
 
 ## 開発ツール
 
-* [Bluetooth Smart Software and SDK v.1.3.2]()
+* [Bluetooth Smart Software and SDK v.1.3.2](https://www.bluegiga.com/en-US/download/?file=TK48JyZjQHujdh-E_060nA&title=Bluetooth%2520Smart%2520Software%2520and%2520SDK%2520v.1.3.2&filename=ble-1.3.2-122.zip)
