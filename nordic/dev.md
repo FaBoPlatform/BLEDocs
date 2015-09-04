@@ -8,7 +8,7 @@
 | PCA10028 | [DevZone]() |![](PCA10028.jpg)|
 | PCA10036 | [DevZone]() |![](pca10036.png)|
 
-# 開発環境(Nordic系)
+## 開発環境(Nordic系)
 
 nRF51822の開発環境構築について。
 
