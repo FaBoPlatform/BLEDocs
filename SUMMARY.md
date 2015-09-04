@@ -14,6 +14,7 @@
 * [Keil MDK](keil/uv5.md)
 * [Keil MDKに対応しているデバッカ](keil/debugger.md)
 * [[Nordic]-開発環境](nordic/dev.md)
+* [[Nordic]-SoftDevice](nordic/softdevice.md)
 * [[BGScript]-BLED112の焼き込み](bgscript/updatebled112.md)
 * [[BGScript]-入門](bgscript/gettingstarted.md)
 * [BLEパケットスニファ](packet.md)
