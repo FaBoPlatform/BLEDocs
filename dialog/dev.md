@@ -17,7 +17,7 @@ Smart Snippets
 
 ## バッテリー評価　
 
-
+Smart Snippets
 
 ## 対応デバッカー
 
