@@ -15,6 +15,7 @@
 * [Keil MDKに対応しているデバッカ](keil/debugger.md)
 * [[Nordic]-開発環境](nordic/dev.md)
 * [[Nordic]-SoftDevice](nordic/softdevice.md)
+* [[Nordic]-パケットスニファの設定](nordic/sniffer.md)
 * [[BGScript]-BLED112の焼き込み](bgscript/updatebled112.md)
 * [[BGScript]-入門](bgscript/gettingstarted.md)
 * [BLEパケットスニファ](packet.md)
