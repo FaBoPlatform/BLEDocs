@@ -24,6 +24,6 @@
 * [Bluegiga Bluetooth Smart Module Battery Estimator](https://www.bluegiga.com/en-US/test-page/ble-battery-estimator/)
 
 ## 開発言語
-BGScript
+* BGScript
 
 
