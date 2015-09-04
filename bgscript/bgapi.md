@@ -2,18 +2,19 @@
 
 Node.jsのSerialPortを用いてBLED112を制御する方法の解説です。
 
+## Node.jsのインストール
+Node.jsをインストールします。
 
-１、node.jsのインストールはインストーラがあるので簡単ですね。
-参照）
 http://nodejs.org/
 
-２、serialportライブラリをインストールします。
+## SerialPortライブラリのインストール
+```
 $ npm install serialport
+```
 
-３、下記のようなプログラムを書きます。
+## サンプルの作成
 
-
-
+```
 var serialport = require("serialport");
  
 var SerialPort = serialport.SerialPort;
@@ -41,7 +42,7 @@ sp.open(function () {
         console.log('results ' + results);
     });
 });
-
+```
 
 
 接続されているシリアルポート名は下記コマンドで調べられます。
