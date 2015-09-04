@@ -266,7 +266,8 @@ PCA10001
 
 PCA10001
 ```
-
+#define RX_PIN_NUMBER  11
+#define TX_PIN_NUMBER  9
 ```
 
 PCA10028
