@@ -66,6 +66,7 @@ Command
 返事は下記の様に「0,0,0,1」が返って来れば成功となります。
 
 Response
+
 | Byte | Type | Name | Description |
 | -- | -- | -- | -- |
 | 0 | 0x00 | hilen | Message type:response |
