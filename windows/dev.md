@@ -15,8 +15,6 @@
 
 ![](win10.png)
 
-![](mdk001.png)
-
 ## Copy And Pasteを有効にする
 
 VirtualBoxのメニューから[デバイス]-[Guest Additions CDイメージの挿入]を選択し、インストールする。
