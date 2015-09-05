@@ -12,7 +12,7 @@
 
 * Windows7以降 （Mac上のViertualBoxでは動作しませんでした）
 * [nRFgo Studio](https://www.nordicsemi.com/eng/nordic/download_resource/47572/62/51461388)
-* [nRF-Sniffer](https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822)
+* [nRF-Sniffer](https://www.nordicsemi.com/eng/nordic/download_resource/26386/14/40990949)
 * [Wireshark](https://www.wireshark.org/download.html) v1.10.1以降
 
 
