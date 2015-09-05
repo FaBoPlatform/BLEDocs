@@ -18,4 +18,6 @@ SDKをインストール。
 
 ## 転送ツールをインストール
 
-* [BLE Update Tool v1.3.6 (Windows XP,7,8 and 10)]() 
+* [BLE Update Tool v1.3.6 (Windows XP,7,8 and 10)](https://www.bluegiga.com/en-US/products/ble113-bluetooth-smart-module/#login-modal) 
+
+転送用にBLE Update Toolをインストール。
