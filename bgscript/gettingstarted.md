@@ -97,7 +97,7 @@ end
 ```
 ## bgprojファイル
 
-project.bgproj for bgm111
+project.bgproj for BlueGecko
 ```
 <?xml version="1.0" encoding="UTF-8" ?>
 
@@ -121,13 +121,34 @@ project.bgproj for bgm111
 </project>
 ```
 
+project.bgproj for Bluegiga
+```
+<?xml version="1.0" encoding="UTF-8" ?>
 
-hardware_io_port_writeでは、($0,$03,$03)の記述で、
-P0_0, P0_1 $03 (0000 0011)に関して、$03(000 0011)の値を送っている。
+<project>
+    <device type="ble113"/>
+    <boot fw="bootuart" />
 
+    <!-- GATT service database -->
+    <gatt in="GATT.xml" />
+	
+    <!-- Local hardware configuration file -->
+    <hardware in="hardware.xml" />
+    
+    <!-- BGScript source code -->
+    <script in="bgscript.bgs" />
+ 
+    <!-- Firmware output file -->
+    <image out="helloLED.bin" />
+  
+</project>
+```
 
-## 実機への転送
+## 実機への転送 for BlueGecko
 
 BGToolで実機へ転送する
 
 ![](bgtool002.png)
+
+## 実機への転送 for Bluegiga
+
