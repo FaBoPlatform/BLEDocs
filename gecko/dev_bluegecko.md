@@ -17,3 +17,7 @@ WSTK6101AをVirualBoxに認識させるには、[USBの設定...]を洗濯し、
 
 VirtualBoxを再起動して、BlueGeckoをUSBポートに差し込むことで、認識するようになる。
 
+"Energy Micro EFM32 [0100]"の前にチェックマークがはいっていると認識済みになる。
+
+![](gecko004.png)
+
