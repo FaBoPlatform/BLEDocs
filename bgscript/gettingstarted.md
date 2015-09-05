@@ -64,12 +64,18 @@ GATT.xml for Bluegiga
 
 bgscript.bgs for Bluegecko
 ```
-event system_boot(major, minor, patch, build, ll_version, protocol_version, hw)
-    // Init
-    call hardware_configure_gpio(5,6,hardware_gpio_mode_push_pull,1)
-    // LED On $40(0100 0000->6pin)
+# Boot event listener - Generated when the module is powered up or reset
+event system_boot(major, minor, patch, build, bootloader, hw)
+    # Init GPIO PIN
+	call hardware_configure_gpio(5,6,hardware_gpio_mode_push_pull,1)
+	call hardware_configure_gpio(5,7,hardware_gpio_mode_push_pull,1)
+	
+    # LED On $40(0100 0000->6pin)
     call hardware_write_gpio(5,$40,$00)
+	# LED On $80(1000 0000->7pin)
+	call hardware_write_gpio(5,$80,$00)
 end
+# End of BGScript
 ```
 
 bgscript.bgs for Bluegiga
