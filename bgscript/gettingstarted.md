@@ -2,6 +2,7 @@
 
 ## HelloLED
 
+hardware.xml
 ```
 <?xml version="1.0" encoding="UTF-8" ?>
 
@@ -9,8 +10,7 @@
 </hardware>
 ```
 
-
-
+bgscript
 ```
 event system_boot(major, minor, patch, build, ll_version, protocol_version, hw)
     # 0000 0011 $03 P0_0,P0_1をenableに
