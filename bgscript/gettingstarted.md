@@ -133,7 +133,6 @@ project.bgproj for Bluegiga
 
 <project>
     <device type="ble113"/>
-    <boot fw="bootuart" />
 
     <!-- GATT service database -->
     <gatt in="GATT.xml" />
