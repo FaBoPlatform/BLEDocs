@@ -18,6 +18,15 @@ VirtualBoxでは以下の手順でUSB Dongleを認証させる。
 
 1. USB Dongleをさした状態で、USBの設定を開き、USB フィルタに追加する
 
+![](sniffer004.png)
+
+![](sniffer005.png)
+
+2.USBフィルタの編集を選択し、メーカー名、製品名、シリアルNoを削除する
+
+![](sniffer006.png)
+
+3. USB Dongleをマシンから抜き、Windows10を再起動したのち、USB Dongleをさす。認識されると、SEGGER J-LINK[0100]の前にチェックマークが現れる。
 
 
 
