@@ -18,3 +18,4 @@ SDKをインストール。
 
 ## 転送ツールをインストール
 
+* [BLE Update Tool v1.3.6 (Windows XP,7,8 and 10)]() 
