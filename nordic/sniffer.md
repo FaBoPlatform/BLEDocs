@@ -2,18 +2,23 @@
 
 ## 必要なハード
 
-* nRF51822EvaluationKit(PCA10001)
-* nRF51822DevelopmentKitdongle(PCA10000)
-* nRF51422EvaluationKit(PCA10003)v3.0.0以降
-* nRF51422DevelopmentKit(PCA10028)v1.0以降
-
+* PCA10000
+* PCA10031
 
 ## 必要なソフト
 
-* Windows7以降 （Mac上のViertualBoxでは動作しませんでした）
+* Windows7以降 
 * [nRFgo Studio](https://www.nordicsemi.com/eng/nordic/download_resource/47572/62/51461388)
 * [nRF-Sniffer](https://www.nordicsemi.com/eng/nordic/download_resource/26386/14/40990949)
 * [Wireshark](https://www.wireshark.org/download.html) v1.10.1以降
+
+## USB Dongleの認識
+
+VirtualBoxでは以下の手順でUSB Dongleを認証させる。
+
+1. USB Dongleをさした状態で、USBの設定を開き、USB フィルタに追加する
+
+
 
 
 ## 準備
