@@ -1,4 +1,4 @@
-# BGAPI
+# BGAPI入門
 
 ## Keyword
 
