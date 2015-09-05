@@ -10,7 +10,7 @@ http://www.silabs.com/Support%20Documents/RegisteredDocs/blue-gecko-software.exe
 | フォルダ名 | ツール |
 | -- | -- |
 | C:\SiliconLabs\bgm-0.*.*-***\bin\bgbuild.exe | BGScriptのBuildツール |
-
+| C:\SiliconLabs\bgm-0.*.*-***\bin\bgbuild.exe | BGScriptのBuildツール |
 
 
 ## WSTK6101AをVirtualBoxに認識させる
