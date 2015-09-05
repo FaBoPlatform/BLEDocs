@@ -6,17 +6,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <hardware>
-
-	<!-- UART configuration -->
-	<!-- Settings: @115200bps, no RTS/CTS and BGAPI serial protocol is disabled -->
-	<uart index="1" baud="115200" flowcontrol="false" bgapi="false"/>
-	
-	<!-- GPIO configuration needed for WSTK UART to work-->
-	<gpio port="A" pin="5" mode="pushpull" out="1"/>
-	<gpio port="A" pin="3" mode="pushpull" out="0"/>
-	
 </hardware>
 ```
+
 
 
 ```
