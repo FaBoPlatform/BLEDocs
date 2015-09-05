@@ -40,7 +40,7 @@ BlueGecko系
 * BGScript API
 * BGLib API
 
-![](bgsript001.png)
+![](bgapi001.png)
 
 ## 開発言語
 * BGScript
