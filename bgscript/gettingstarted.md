@@ -1,37 +1,23 @@
 # BGScript入門
 
-## 対象とするハードウェア
-* BLED112
-* BLE113
-* BLE112
-* BLE121
-* BGM111
-
-## 必要なものハードウェア(BLE系)
-
-* BLE系Breakoutボード
-* TI製 CC Debugger
-
-## 必要なソフトウェア(BLE系)
-
-* TI製 Smart Flasher(CC Debuggerのドライバーが内包)
-* Bluegiga製 Bluegiga BLE Update Tools
-
-## 必要なOS(BLE系)
-
-* Windows
-
 ## HelloLED
 
-C:\Bluegiga\ble-1.2.1-91\example\を開き、Batteryフォルダをコピーする。
+```
+<?xml version="1.0" encoding="UTF-8" ?>
 
-コピーしたフォルダをtestを名前を変更する。
+<hardware>
 
-C:\Bluegiga\ble-1.2.1-91\example\test　のbattery.bgsファイルを任意テキストエディタ（メモ帳以外）で開く。
+	<!-- UART configuration -->
+	<!-- Settings: @115200bps, no RTS/CTS and BGAPI serial protocol is disabled -->
+	<uart index="1" baud="115200" flowcontrol="false" bgapi="false"/>
+	
+	<!-- GPIO configuration needed for WSTK UART to work-->
+	<gpio port="A" pin="5" mode="pushpull" out="1"/>
+	<gpio port="A" pin="3" mode="pushpull" out="0"/>
+	
+</hardware>
+```
 
-中に入っているソースを消去し、以下のコードを入力し保存する。
-
-LEDを点灯する
 
 ```
 event system_boot(major, minor, patch, build, ll_version, protocol_version, hw)
