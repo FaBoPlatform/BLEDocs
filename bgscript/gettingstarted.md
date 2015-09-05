@@ -66,7 +66,7 @@ project.bgproj for bgm111
     </scripting>
 	
 	<!-- Firmware output file -->
-	<image out="hr.bin" />
+	<image out="helloLED.bin" />
    
 </project>
 ```
