@@ -2,8 +2,12 @@
 
 ## BGToolをダウンロード
 
-ダウンロード先
+* ダウンロード先
 http://www.silabs.com/Support%20Documents/RegisteredDocs/blue-gecko-software.exe
+
+## 実行ファイル
+
+
 
 ## WSTK6101AをVirtualBoxに認識させる
 
