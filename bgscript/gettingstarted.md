@@ -78,6 +78,5 @@ P0_0, P0_1 $03 (0000 0011)に関して、$03(000 0011)の値を送っている�
 
 ## 実機への転送
 
-C:\Bluegiga\ble-1.2.1-91\example\test　のBLE113-project.bgprojファイルを実行する。
+BGToolで実機へ転送する
 
-[](bgscript003.png)
