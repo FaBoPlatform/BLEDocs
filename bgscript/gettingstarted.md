@@ -80,25 +80,12 @@ end
 
 bgscript.bgs for Bluegiga
 ```
-dim i
-dim pos
 event system_boot(major ,minor ,patch ,build ,ll_version ,protocol_version ,hw )
-  call hardware_io_port_config_direction($0, $ff)
+	#Init GPIO
+	call hardware_io_port_config_direction($0, $ff)
 
- call hardware_io_port_write($0, $ff, $00)
- call hardware_set_soft_timer(32768,1,0)
-end
-
-
-event hardware_soft_timer(handle)
- if handle = 1 then
- pos = 1<<i
- call hardware_io_port_write($0, $ff, pos)
- i = i + 1
- if i > 1 then
- i = 0
- end if
- end if
+	# LED P0-0 P0-1 ON
+	call hardware_io_port_write($0, $ff, $03)
 end
 ```
 ## bgprojファイル
@@ -132,6 +119,7 @@ project.bgproj for Bluegiga
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <project>
+    <!-- Device Type
     <device type="ble113"/>
 
     <!-- GATT service database -->
