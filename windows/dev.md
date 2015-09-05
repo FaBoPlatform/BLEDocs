@@ -13,4 +13,4 @@
 
 [VirtualBox](https://www.virtualbox.org/) からVirtualBoxをダウンロードし、インストールします。
 
-![]("win10.png")
+![](win10.png)
