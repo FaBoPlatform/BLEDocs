@@ -145,3 +145,6 @@ BGToolで実機へ転送する
 
 ## 実機への転送 for Bluegiga
 
+UPDate Toolで実機へ転送する
+
+![](updatetool001.png)
