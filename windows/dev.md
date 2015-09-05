@@ -7,8 +7,7 @@
 
 ## Windows10のISOイメージをダウンロード
 
-[Windows 10 Enterprise Evaluation(評価用)](https://technet.microsoft.com/ja-jp/evalcenter/dn781239.aspx) より、Windows10のISOイメージをダウンロードしてきます。
-
+[Windows 10 Enterprise Evaluation(評価用)](https://technet.microsoft.com/ja-jp/evalcenter/dn781239.aspx) より、Windows10のISOイメージをダウンロードしてきます(3.7G程度)。
 
 ## VirtualBoxのインストール
 
