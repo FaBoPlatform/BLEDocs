@@ -18,6 +18,7 @@
 * [[Nordic]-SoftDevice](nordic/softdevice.md)
 * [[Nordic]-パケットスニファの設定](nordic/sniffer.md)
 * [[SiliconLab]-開発環境](bgscript/dev.md)
+* [[SiliconLab]-環境構築(Bluegia)](bluegiga/dev_bluegiga.md)
 * [[SiliconLab]-環境構築(BlueGecko)](gecko/dev_bluegecko.md)
 * [[SiliconLab]-BGAPI入門](bgscript/bgapi.md)
 * [[SiliconLab]-BGScript入門](bgscript/gettingstarted.md)
