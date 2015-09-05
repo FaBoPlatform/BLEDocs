@@ -11,7 +11,7 @@
 ## 必要なソフト
 
 * Windows7以降 （Mac上のViertualBoxでは動作しませんでした）
-* [nRFgoStudio](https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822)
+* [nRFgoStudio](https://www.nordicsemi.com/eng/nordic/download_resource/47572/62/51461388)
 * [nRF-Sniffer](https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822)
 * [Wireshark](https://www.wireshark.org/download.html) v1.10.1以降
 
