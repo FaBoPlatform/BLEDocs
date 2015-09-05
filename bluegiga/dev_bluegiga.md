@@ -21,3 +21,11 @@ SDKをインストール。
 * [BLE Update Tool v1.3.6 (Windows XP,7,8 and 10)](https://www.bluegiga.com/en-US/products/ble113-bluetooth-smart-module/#login-modal) 
 
 転送用にBLE Update Toolをインストール。BLE Update Toolでは、先ほどインストールしたSDKのフォルダを指定しておく。
+
+## Notepad++をインストール
+
+
+[https://notepad-plus-plus.org/download/v6.8.3.html](https://notepad-plus-plus.org/download/v6.8.3.html) よりNotepad++の最新版をインストール。
+
+
+
