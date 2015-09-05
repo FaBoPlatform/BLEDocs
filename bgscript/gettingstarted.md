@@ -29,6 +29,9 @@ GATT.xml
 bgscript.bgs for BGM111
 ```
 event system_boot(major, minor, patch, build, ll_version, protocol_version, hw)
+    // Init
+    call hardware_configure_gpio(5,6,hardware_gpio_mode_push_pull,1)
+    // LED On $40(0100 0000->6pin)
     call hardware_write_gpio(5,$40,$00)
 end
 ```
@@ -44,7 +47,7 @@ event system_boot(major, minor, patch, build, ll_version, protocol_version, hw)
 end
 ```
 
-hr_project.bgproj
+project.bgproj for bgm111
 ```
 <?xml version="1.0" encoding="UTF-8" ?>
 
