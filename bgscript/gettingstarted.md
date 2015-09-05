@@ -26,6 +26,12 @@ GATT.xml
 </gatt>
 ```
 
+```
+event system_boot(major, minor, patch, build, ll_version, protocol_version, hw)
+    call hardware_write_gpio(5,$40,$00)
+end
+```
+
 bgscript.bgs
 ```
 event system_boot(major, minor, patch, build, ll_version, protocol_version, hw)
