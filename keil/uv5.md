@@ -29,4 +29,8 @@
 
 VirtualBoxのメニューから[デバイス]-[Guest Additions CDイメージの挿入]を選択し、インストールする。
 
+VirtualBoxのマネージャーから一般を選択し、
 
+![](add001.png)
+
+![](add002.png)
