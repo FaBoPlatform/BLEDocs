@@ -36,6 +36,12 @@ BlueGecko系
 
 * [Bluegiga Bluetooth Smart Module Battery Estimator](https://www.bluegiga.com/en-US/test-page/ble-battery-estimator/)
 
+## 開発用API
+* BGScript API
+* BGLib API
+
+![](bgsript001.png)
+
 ## 開発言語
 * BGScript
 
