@@ -25,12 +25,4 @@
 
 ![](mdk001.png)
 
-## Copy And Pasteを有効にする
 
-VirtualBoxのメニューから[デバイス]-[Guest Additions CDイメージの挿入]を選択し、インストールする。
-
-VirtualBoxのマネージャーから一般を選択し、[高度]タブを選び、クリップボードの共有、ドラッグ&ドロップを双方向に変更する。
-
-![](add001.png)
-
-![](add002.png)
