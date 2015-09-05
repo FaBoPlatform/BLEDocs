@@ -1,10 +1,10 @@
-# Keil ARM-MDK
+# Keil MDK-ARM
 
 ## 現在のバージョン
 
-* 5.1.6
+* 5.16a
 
-## ARM-MDK価格一覧
+## MDK-ARM価格一覧
 
 | ライセンス | 価格 | 詳細 |
 | -- | -- | -- |
@@ -13,11 +13,15 @@
 | MDK-Cortex-M | 約20万円(1年ライセンス）| Cortex®-Mシリーズ限定 |
 | MDK-Lite | 無料| 32K制限 |
 
-## Keil ARM-MDKがサポートしているモジュール
+## Keil MDK-ARMがサポートしているモジュール
 
 * [DA14580](http://www.keil.com/dd/chip/6853.htm)
 * [CYBL10X6X](http://www.keil.com/dd/chips/cypress/arm.htm)
 * [nrf51822](http://www.keil.com/dd/chips/nordic/arm.htm)
 
-## Keil ARM-MDKのインストール
+## Keil MDK-ARMの評価版のインストール
+
+[https://www.keil.com/demo/eval/arm.htm](https://www.keil.com/demo/eval/arm.htm) より評価版をダウンロードし、インストールする。
+
+
 
