@@ -11,7 +11,7 @@
 * [BLEモジュール(SiliconLab)](module/modulesiliconlab.md)
 * [BLEモジュール(TI)](module/moduleti.md)
 * [BLEモジュール(その他)](module/moduleetc.md)
-* [評価用開発環境を構築する](windows/dev.md)
+* [Win10で評価用開発環境を構築する](windows/dev.md)
 * [Keil MDK](keil/uv5.md)
 * [Keil MDKに対応しているデバッカ](keil/debugger.md)
 * [[Nordic]-開発環境](nordic/dev.md)
