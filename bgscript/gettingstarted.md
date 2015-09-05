@@ -33,7 +33,7 @@ event system_boot(major, minor, patch, build, ll_version, protocol_version, hw)
 end
 ```
 
-bgscript.bgs for BLE11X
+bgscript.bgs for BLE1XX
 ```
 event system_boot(major, minor, patch, build, ll_version, protocol_version, hw)
     # 0000 0011 $03 P0_0,P0_1をenableに
