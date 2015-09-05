@@ -28,8 +28,9 @@ hardware.xml for Bluegiga
     <script enable="true" />
 </hardware>
 ```
+## GATT.xml
 
-GATT.xml
+GATT.xml for BlueGecko
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 
@@ -37,7 +38,31 @@ GATT.xml
 </gatt>
 ```
 
-bgscript.bgs for BGM111
+GATT.xml for Bluegiga
+```
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+
+ <service uuid="1800">
+        <description>Generic Access Profile</description>
+
+        <characteristic uuid="2a00">
+            <properties read="true" const="true" />
+            <value>BLE113 LED Sample</value>
+        </characteristic>
+
+        <characteristic uuid="2a01">
+            <properties read="true" const="true" />
+            <value type="hex">0000</value>
+        </characteristic>
+ </service>
+
+</configuration>
+```
+## BGScript
+
+bgscript.bgs for Bluegecko
 ```
 event system_boot(major, minor, patch, build, ll_version, protocol_version, hw)
     // Init
@@ -47,16 +72,30 @@ event system_boot(major, minor, patch, build, ll_version, protocol_version, hw)
 end
 ```
 
-bgscript.bgs for BLE1XX
+bgscript.bgs for Bluegiga
 ```
-event system_boot(major, minor, patch, build, ll_version, protocol_version, hw)
-    # 0000 0011 $03 P0_0,P0_1をenableに
-    call hardware_io_port_config_direction($0,$03)
-    
-    # 0000 0011 $03 をHIGHに
-    call hardware_io_port_write($0,$03,$03)
+dim i
+dim pos
+event system_boot(major ,minor ,patch ,build ,ll_version ,protocol_version ,hw )
+  call hardware_io_port_config_direction($0, $ff)
+
+ call hardware_io_port_write($0, $ff, $00)
+ call hardware_set_soft_timer(32768,1,0)
+end
+
+
+event hardware_soft_timer(handle)
+ if handle = 1 then
+ pos = 1<<i
+ call hardware_io_port_write($0, $ff, pos)
+ i = i + 1
+ if i > 1 then
+ i = 0
+ end if
+ end if
 end
 ```
+## bgprojファイル
 
 project.bgproj for bgm111
 ```
