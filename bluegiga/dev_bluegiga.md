@@ -27,5 +27,7 @@ SDKをインストール。
 
 [https://notepad-plus-plus.org/download/v6.8.3.html](https://notepad-plus-plus.org/download/v6.8.3.html) よりNotepad++の最新版をインストール。
 
+[BGScript Syntax Highlighting for Notepad++](https://www.bluegiga.com/en-US/products/ble113-bluetooth-smart-module/#login-modal)もImportする。
 
+	
 
