@@ -26,13 +26,14 @@ GATT.xml
 </gatt>
 ```
 
+bgscript.bgs for BGM111
 ```
 event system_boot(major, minor, patch, build, ll_version, protocol_version, hw)
     call hardware_write_gpio(5,$40,$00)
 end
 ```
 
-bgscript.bgs
+bgscript.bgs for BLE11X
 ```
 event system_boot(major, minor, patch, build, ll_version, protocol_version, hw)
     # 0000 0011 $03 P0_0,P0_1をenableに
