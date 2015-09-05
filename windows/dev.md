@@ -1,8 +1,8 @@
 # Windows10で評価用の開発環境を構築する
 
-| 項目 | ツール |
+| 項目 | ツール | 評価期間 |
 | -- | -- |
 | VM | |
-| OS | [Windows 10 Enterprise Evaluation(90日限定,評価用)](https://technet.microsoft.com/ja-jp/evalcenter/dn781239.aspx) |
+| OS | [Windows 10 Enterprise Evaluation(評価用)](https://technet.microsoft.com/ja-jp/evalcenter/dn781239.aspx) | 90日限定 |
 
  
