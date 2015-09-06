@@ -28,7 +28,7 @@
 | [RFD22301](http://www.rfdigital.com/product/rfd22301-rfduino-ble-smt/index.html) |  4.0 |  [RFDigital](http://www.rfdigital.com/) | 未 |+4dBm| 18mA |128kb | 8kb |
 |[BL620](http://www.lairdtech.com/products/bl620) | 4.0 |S120| [Laird](http://www.lairdtech.com) | 未 |+4dBm | 10.5mA |256K|16K|
 | [BL600シリーズ　](http://www.lairdtech.com/products/bl600-series) |  4.0 | S110 |[Laird](http://www.lairdtech.com) | [済](http://www.tele.soumu.go.jp/giteki/SearchServlet?pageID=jg01_01&PC=204&TC=N&PK=1&FN=150test&SN=%94%46%8F%D8&LN=28&R1=*****&R2=*****)| +4dBm|10.5mA|256K|16K|
-| [HRM1017](http://www.hosiden.co.jp/news/product/hrm1017.html) | 4.0 | S110 | [Hoshiden](http://www.hosiden.co.jp/) |[済](http://www.tele.soumu.go.jp/giteki/SearchServlet?pageID=jg01_01&PC=007&TC=N&PK=1&FN=349ul&SN=%94%46%8F%D8&LN=16&R1=*****&R2=*****)| +4dBm||
+| [HRM1017](http://www.hosiden.co.jp/news/product/hrm1017.html) | 4.0 | S110 | [Hoshiden](http://www.hosiden.co.jp/) |[済](http://www.tele.soumu.go.jp/giteki/SearchServlet?pageID=jg01_01&PC=007&TC=N&PK=1&FN=349ul&SN=%94%46%8F%D8&LN=16&R1=*****&R2=*****)| +4dBm||256K|16K|
 |[HRM1026](http://www.hosiden.co.jp/news/product/hrm1026.html) |4.0 | [Hoshiden](http://www.fcl.fujitsu.com/) | | 4dBm||
 | [BVMCN5102](http://www.braveridge.com/Specification%20Documents/BVMCN5102-BK%20Spec%20sheet%20Ver101.pdf) | 4.0 | [Braveridge](http://www.braveridge.com/)  |[済](http://www.tele.soumu.go.jp/giteki/SearchServlet?pageID=jg01_01&PC=007&TC=N&PK=1&FN=370ul&SN=%94%46%8F%D8&LN=3&R1=*****&R2=*****)|+4dBm||
 |[SY-MN1319X1](http://www.sysgration.com/webe/html/products/index2.aspx?num=236)| 4.0| [Sysgration](http://www.sysgration.com/) | 未 | +4dBm | 10.5mA<br>@0dBm |
