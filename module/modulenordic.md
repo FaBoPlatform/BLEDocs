@@ -23,9 +23,9 @@
 ## NRF51822搭載Module
 
 
-| モジュール名 |  Ver| メーカー | 技適 | TX出力|TX最大電流|
+| モジュール名 |  Ver| メーカー | 技適 | TX出力|TX最大電流| Flash | RAM |
 | -- | -- | -- |-- |-- |
-| [RFD22301](http://www.rfdigital.com/product/rfd22301-rfduino-ble-smt/index.html) |  4.0 | [RFDigital](http://www.rfdigital.com/) | 未 |+4dBm||
+| [RFD22301](http://www.rfdigital.com/product/rfd22301-rfduino-ble-smt/index.html) |  4.0 | | 128kb | 8kb | [RFDigital](http://www.rfdigital.com/) | 未 |+4dBm||
 |[BL620](http://www.lairdtech.com/products/bl620) |  4.0 | [Laird](http://www.lairdtech.com) | 未 |+4dBm||
 | [BL600-SA](http://www.lairdtech.com/products/bl600-series) |  4.0 | [Laird](http://www.lairdtech.com) | [済](http://www.tele.soumu.go.jp/giteki/SearchServlet?pageID=jg01_01&PC=204&TC=N&PK=1&FN=150test&SN=%94%46%8F%D8&LN=28&R1=*****&R2=*****)| +4dBm||
 | [BL600-SC](http://www.lairdtech.com/products/bl600-series) |  4.0 | [Laird](http://www.lairdtech.com) | [済](http://www.tele.soumu.go.jp/giteki/SearchServlet?pageID=jg01_01&PC=204&TC=N&PK=1&FN=150test&SN=%94%46%8F%D8&LN=29&R1=*****&R2=*****)| +4dBm||
