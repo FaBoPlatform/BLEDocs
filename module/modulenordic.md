@@ -23,7 +23,7 @@
 ## NRF51822搭載Module
 
 
-| モジュール名 |  Ver| メーカー | 技適 | 最大送信出力|TX最大電流|
+| モジュール名 |  Ver| メーカー | 技適 | TX出力|TX最大電流|
 | -- | -- | -- |-- |-- |
 | [RFD22301](http://www.rfdigital.com/product/rfd22301-rfduino-ble-smt/index.html) |  4.0 | [RFDigital](http://www.rfdigital.com/) | 未 |+4dBm||
 |[BL620](http://www.lairdtech.com/products/bl620) |  4.0 | [Laird](http://www.lairdtech.com) | 未 |+4dBm||
