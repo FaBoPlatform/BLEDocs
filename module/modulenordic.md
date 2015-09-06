@@ -26,7 +26,7 @@
 | モジュール名 | BLE Ver| メーカー | 技適 | 0dBm時<br>TX出力|TX最大電流| Flash | RAM |
 | -- | -- | -- |-- |-- |
 | [RFD22301](http://www.rfdigital.com/product/rfd22301-rfduino-ble-smt/index.html) |  4.0 |  [RFDigital](http://www.rfdigital.com/) | 未 |+4dBm| 18mA |128kb | 8kb |
-|[BL620](http://www.lairdtech.com/products/bl620) |  4.0 | [Laird](http://www.lairdtech.com) | 未 |+4dBm | 10.5mA |
+|[BL620](http://www.lairdtech.com/products/bl620) |  4.0 | [Laird](http://www.lairdtech.com) | 未 |+4dBm | 10.5mA |256K|
 | [BL600-SA](http://www.lairdtech.com/products/bl600-series) |  4.0 | [Laird](http://www.lairdtech.com) | [済](http://www.tele.soumu.go.jp/giteki/SearchServlet?pageID=jg01_01&PC=204&TC=N&PK=1&FN=150test&SN=%94%46%8F%D8&LN=28&R1=*****&R2=*****)| +4dBm||
 | [BL600-SC](http://www.lairdtech.com/products/bl600-series) |  4.0 | [Laird](http://www.lairdtech.com) | [済](http://www.tele.soumu.go.jp/giteki/SearchServlet?pageID=jg01_01&PC=204&TC=N&PK=1&FN=150test&SN=%94%46%8F%D8&LN=29&R1=*****&R2=*****)| +4dBm||
 | [BL600-ST](http://www.lairdtech.com/products/bl600-series) |  4.0 | [Laird](http://www.lairdtech.com) | [済](http://www.tele.soumu.go.jp/giteki/SearchServlet?pageID=jg01_01&PC=204&TC=N&PK=1&FN=150test&SN=%94%46%8F%D8&LN=27&R1=*****&R2=*****)| +4dBm||
