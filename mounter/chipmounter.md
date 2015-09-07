@@ -18,9 +18,9 @@
 | KE2050 | JUKI | | 0603 | [パンフ](http://www.juki.co.jp/smt/dl/gltc/ke_205060.pdf) |
 | KE2050 | JUKI | | 0603 | [パンフ](http://www.juki.co.jp/smt/dl/gltc/ke_205060.pdf) |
 | KE2060 | JUKI | | 0603 |
-| FCP-643 | Fuji | | 0603 | |
-| FCP-742 | Fuji | | 0603 | |
-| FCP-743 | Fuji | | 0603 | |
+| CP-643 | Fuji | | 0603 | |
+| CP-742 | Fuji | | 0603 | |
+| CP-743 | Fuji | | 0603 | |
 
 ## 0402対応
 
