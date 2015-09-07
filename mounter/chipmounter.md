@@ -48,4 +48,13 @@
 * http://www.adataradenshi.com/fac.html
 * http://www.arena-net.co.jp/service.html
 * http://www.fukushima.iwatsu.co.jp/factory/headoffice.html
+* http://www.hokubu.co.jp/business/manufact.html
+* http://www.yumotodenshi.co.jp/instanthp/page01.html
+* http://www.arusu.co.jp/business/index.html
+* http://www.kskj.co.jp/04-03.html
+* http://www.kunimi-media.jp/ems_D.html
+* http://kyushin.jp/original.html
+* http://www.maius.co.jp/equipment
+* http://www.sanko-dk.co.jp/setubi.html
+* http://www.skdk.co.jp/quality/equipment.html
 * 
