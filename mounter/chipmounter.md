@@ -26,3 +26,8 @@
 | KE2080 | JUKI | | 0402 | [Web](http://www.juki.co.jp/smt/introduce/products/ke2080.html) |
 | KE3010VA | JUKI || 0402 | [Web](http://www.juki.co.jp/smt/introduce/products/ke3010a.html) |
 | KE3020VA | JUKI || 0402 | [Web](http://www.juki.co.jp/smt/introduce/products/ke3020va.html) |
+
+## 福島の工場設備
+
+* http://www.tanidenki.co.jp/system_fukushima2.html
+* 
