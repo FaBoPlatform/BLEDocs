@@ -57,4 +57,5 @@
 * http://www.maius.co.jp/equipment
 * http://www.sanko-dk.co.jp/setubi.html
 * http://www.skdk.co.jp/quality/equipment.html
+* http://www4.pref.fukushima.jp/maker/search/detail.php?maker=848
 * 
