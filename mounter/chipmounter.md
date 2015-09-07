@@ -12,3 +12,4 @@
 | KE2070 | JUKI | | 0402 | [Web](http://www.juki.co.jp/smt/introduce/products/ke2070.html) |
 | KE2080 | JUKI | | 0402 | [Web](http://www.juki.co.jp/smt/introduce/products/ke2080.html) |
 | KE3020VA | JUKI || 0402 | [Web](http://www.juki.co.jp/smt/introduce/products/ke3020va.html) |
+| KE3030VA | JUKI || 0402 | [Web](http://www.juki.co.jp/smt/introduce/products/ke3010a.html) |
