@@ -60,6 +60,10 @@
 * http://www4.pref.fukushima.jp/maker/search/detail.php?maker=848
 * 
 
+## 宮城の工場設備
+* http://www.yaguchidenshi.jp/index.html
+* 
+
 ## 手作り
 * https://www.originalmind.co.jp/cultural_exhibition/2014/12/600.php
 * 
