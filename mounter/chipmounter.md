@@ -24,7 +24,7 @@
 
 ## 0402対応
 
-| 製品名 | 製造元 | 年度 | 対応サイズ |
+| 製品名 | 製造元 | 年度 | 対応サイズ | リンク |
 | -- | -- | -- | -- | -- |
 | KE2070 | JUKI | | 0402 | [Web](http://www.juki.co.jp/smt/introduce/products/ke2070.html) |
 | KE2080 | JUKI | | 0402 | [Web](http://www.juki.co.jp/smt/introduce/products/ke2080.html) |
