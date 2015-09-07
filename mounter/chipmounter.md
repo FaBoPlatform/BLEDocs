@@ -42,3 +42,5 @@
 * http://www.alpha-d.com/smt.html
 * http://www.tts-japan.net/stock/index.html
 * http://www.fukushima-ele.co.jp/setsubi.html
+* http://www.elcroad.co.jp/index.html
+* 
