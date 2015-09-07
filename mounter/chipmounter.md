@@ -69,4 +69,4 @@
 
 | 0:0 | 1:0 |
 | -- | -- |
-| TDK RX 11  | 約420万 | [リンク]()|
+| TDK RX 11  | 約420万 | [リンク](http://www.ebay.com/itm/TDK-RX-11-Chip-Component-Mounter-Pick-and-Place-/121378225476?hash=item1c42b4bd44)|
