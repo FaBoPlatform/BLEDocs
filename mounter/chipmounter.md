@@ -44,4 +44,6 @@
 * http://www.fukushima-ele.co.jp/setsubi.html
 * http://www.elcroad.co.jp/index.html
 * http://www.sonia-electro.co.jp/setsubi.html
+* http://www.denkai.co.jp/manufacture.html
+* http://www.adataradenshi.com/fac.html
 * 
