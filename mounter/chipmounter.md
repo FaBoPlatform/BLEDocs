@@ -14,6 +14,7 @@
 ## 0603対応
 | 製品名 | 製造元 | 年度 | 対応サイズ |
 | -- | -- | -- |
+| MPAG3 |Panasonic | | 0603 ||
 | KE2050 | JUKI | | 0603 | [パンフ](http://www.juki.co.jp/smt/dl/gltc/ke_205060.pdf) |
 | KE2050 | JUKI | | 0603 | [パンフ](http://www.juki.co.jp/smt/dl/gltc/ke_205060.pdf) |
 | KE2060 | JUKI | | 0603 |
