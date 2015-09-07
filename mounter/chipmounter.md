@@ -63,3 +63,10 @@
 ## 手作り
 * https://www.originalmind.co.jp/cultural_exhibition/2014/12/600.php
 * 
+
+## オークション
+
+
+| 0:0 | 1:0 |
+| -- | -- |
+| TDK RX 11  | 約420万 | [リンク]()|
