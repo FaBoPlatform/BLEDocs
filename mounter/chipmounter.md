@@ -14,10 +14,9 @@
 ## 0603対応
 | 製品名 | 製造元 | 年度 | 対応サイズ | リンク |
 | -- | -- | -- |
-| MPAG3 |Panasonic | | 0603 ||
-| KE2050 | JUKI | | 0603 | [パンフ](http://www.juki.co.jp/smt/dl/gltc/ke_205060.pdf) |
-| KE2050 | JUKI | | 0603 | [パンフ](http://www.juki.co.jp/smt/dl/gltc/ke_205060.pdf) |
-| KE2060 | JUKI | | 0603 |
+| MPAG3 |Panasonic |  | 0603 ||
+| KE2050 | JUKI | 2005年製 | 0603 | [パンフ](http://www.juki.co.jp/smt/dl/gltc/ke_205050.pdf) |
+| KE2060 | JUKI |2004年製 | 0603 | [パンフ](http://www.juki.co.jp/smt/dl/gltc/ke_205060.pdf) |
 | CP-643 | Fuji | | 0603 | |
 | CP-742 | Fuji | | 0603 | |
 | CP-743 | Fuji | | 0603 | |
