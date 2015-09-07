@@ -7,3 +7,5 @@
 | CM92P-MX | 九州松下電気 | 92年製 | 1608 |
 | KP650 | JUKI | | | 
 | KE720 | JUKI | 93年製| | 
+| KE2050 | JUKI | | | [パンフ](http://www.juki.co.jp/smt/dl/gltc/ke_205060.pdf) |
+| KE2060 | JUKI | | | [パンフ](http://www.juki.co.jp/smt/dl/gltc/ke_205060.pdf) |
