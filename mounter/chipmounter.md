@@ -33,4 +33,5 @@
 ## 福島の工場設備
 
 * http://www.tanidenki.co.jp/system_fukushima2.html
+* http://kyushin.jp/original.html
 * 
