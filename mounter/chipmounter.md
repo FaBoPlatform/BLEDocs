@@ -9,3 +9,5 @@
 | KE720 | JUKI | 93年製| | 
 | KE2050 | JUKI | | 0603 | [パンフ](http://www.juki.co.jp/smt/dl/gltc/ke_205060.pdf) |
 | KE2060 | JUKI | | 0603 | [パンフ](http://www.juki.co.jp/smt/dl/gltc/ke_205060.pdf) |
+| KE2070 | JUKI | | 0402 | [Web](http://www.juki.co.jp/smt/introduce/products/ke2070.html) |
+| KE2080 | JUKI | | 0402 | [パンフ](http://www.juki.co.jp/smt/dl/gltc/ke_205060.pdf) |
