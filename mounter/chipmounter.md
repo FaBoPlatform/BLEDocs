@@ -30,6 +30,7 @@
 | KE2080 | JUKI | | 0402 | [Web](http://www.juki.co.jp/smt/introduce/products/ke2080.html) |
 | KE3010VA | JUKI || 0402 | [Web](http://www.juki.co.jp/smt/introduce/products/ke3010a.html) |
 | KE3020VA | JUKI || 0402 | [Web](http://www.juki.co.jp/smt/introduce/products/ke3020va.html) |
+| Cm602L | Panasonic | 2008年製 | 0402 | [カタログ](https://www.ykt.co.jp/products/panasonic/pdf/panasonic_cm602_catalog.pdf) |
 
 ## 福島の工場設備
 
