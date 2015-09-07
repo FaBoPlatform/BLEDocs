@@ -70,3 +70,13 @@
 | 0:0 | 1:0 |
 | -- | -- |
 | TDK RX 11  | 約420万 | [リンク](http://www.ebay.com/itm/TDK-RX-11-Chip-Component-Mounter-Pick-and-Place-/121378225476?hash=item1c42b4bd44)|
+
+## 主要Makers機器
+
+
+| Makers | 導入機材 |
+| -- | -- |
+| Adafruit | Samsung SM482 |
+| Seed Studio | Samsung SM482 |
+| DMM Make Akiba | [Yamaha YCP10](http://www.yamaha-motor.co.jp/smt/printer/ycp10/) |
+
