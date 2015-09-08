@@ -12,16 +12,9 @@
 
 ## hardware.xml
 
-hardware.xml for Bluegecko
-```
-<?xml version="1.0" encoding="UTF-8" ?>
-
-<hardware>
-</hardware>
-```
 
 hardware.xml for Bluegiga
-```
+```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <hardware>
@@ -29,6 +22,15 @@ hardware.xml for Bluegiga
     <script enable="true" />
 </hardware>
 ```
+
+hardware.xml for Bluegecko
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<hardware>
+</hardware>
+```
+
 
 ## GATT.xml
 
@@ -57,7 +59,7 @@ $ uuidgen
 
 
 GATT.xml for Bluegiga
-```
+```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <configuration>
     <service uuid="1800">
@@ -88,7 +90,7 @@ GATT.xml for Bluegiga
 ```
 
 GATT.xml for Bluegecko
-```
+```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <gatt>
     <service uuid="1800">
@@ -121,7 +123,7 @@ GATT.xml for Bluegecko
 
 ## bgscript.bgs for Bluegiga
 
-```
+```c
 # Boot時に呼ばれる
 event system_boot(major ,minor ,patch ,build ,ll_version ,protocol_version ,hw )
     
@@ -167,7 +169,7 @@ end
 ```
 
 bgscript.bgs for Bluegecko
-```
+```c
 dim result
 
 # Boot時に呼ばれる
@@ -214,7 +216,7 @@ end
 ## Project.proj
 
 Project.bgproj for Bluegiga
-```
+```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <project>
@@ -237,7 +239,7 @@ Project.bgproj for Bluegiga
 ```
 
 Project.bgproj for Bluegecko
-```
+```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <!-- Project file for BGM111 Bluetooth Smart module -->
