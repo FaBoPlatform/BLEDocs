@@ -92,40 +92,50 @@ GATT.xml for Bluegecko
 ```
 # Boot時に呼ばれる
 event system_boot(major ,minor ,patch ,build ,ll_version ,protocol_version ,hw )
-    call sm_set_bondable_mode(1)
-
+    
+	# アドバータイジングのパラメータ
     call gap_set_adv_parameters( 30, 30, 7 )
 
-    # start advertising
+    # アドバータイジング
     call gap_set_mode(gap_general_discoverable, gap_undirected_connectable)
 
-    # port setting
+    #　LEDポートの設定
     call hardware_io_port_config_direction($0, $FF)
+	call hardware_io_port_write($0, $ff, $00)
+
 end
 
 # 切断した場合
 event connection_disconnected(handle,result)
-    
-    # restart advertising
+
+	# アドバータイジングを再開する
     call gap_set_mode(gap_general_discoverable,gap_undirected_connectable)
+
 end
 
 # 値を更新した場合
 event attributes_value(connection, reason, handle, offset, value_len, value)
 
-    if handle = led_on
-        # LED turn off by input
+	# LED turn off by input
+    if handle = led_on then 
         call hardware_io_port_write($0, $ff, $03)
-    elif handle = led_off
-        # LED turn on by input
+	# LED turn on by input
+    end if 
+	if handle = led_off then 
         call hardware_io_port_write($0, $ff, $00)
     end if
 
     if value(0:1) = 2 then
-        # Write was accepted
+        # レスポンスを返す
         call attributes_user_write_response(connection, 0)
     end if
-
+	
 end
+
 ```
 
+## Project.proj
+
+```
+
+```
