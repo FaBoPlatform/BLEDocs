@@ -90,7 +90,6 @@ GATT.xml for Bluegecko
 ## bgscript.bgs
 
 ```
-
 # Boot時に呼ばれる
 event system_boot(major ,minor ,patch ,build ,ll_version ,protocol_version ,hw )
     call sm_set_bondable_mode(1)
@@ -104,25 +103,29 @@ event system_boot(major ,minor ,patch ,build ,ll_version ,protocol_version ,hw )
     call hardware_io_port_config_direction($0, $FF)
 end
 
+# 切断した場合
 event connection_disconnected(handle,result)
     
     # restart advertising
     call gap_set_mode(gap_general_discoverable,gap_undirected_connectable)
 end
 
+# 値を更新した場合
 event attributes_value(connection, reason, handle, offset, value_len, value)
-    if handle = led_off
+
+    if handle = led_on
         # LED turn off by input
-        call led_turn_off(value(offset:value_len))
-    else
+        call hardware_io_port_write($0, $ff, $03)
+    elif handle = led_off
         # LED turn on by input
-        call led_turn_on(value(offset:value_len))
+        call hardware_io_port_write($0, $ff, $00)
     end if
 
     if value(0:1) = 2 then
         # Write was accepted
         call attributes_user_write_response(connection, 0)
     end if
+
 end
 ```
 
