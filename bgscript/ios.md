@@ -32,3 +32,10 @@ hardware.xml for Bluegiga
 
 ## GATT.xml
 
+UUIDの生成は、OS Xではuuidgenで生成する
+
+```
+$ uuidgen
+3DDEE461-8D54-4CD5-89F5-1C85F88B5034
+```
+
