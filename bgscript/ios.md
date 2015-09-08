@@ -56,7 +56,7 @@ $ uuidgen
 | Service Changed | 0x2A05 |
 
 
-GATT.xml for Bluegecko
+GATT.xml for Bluegiga
 ```
 <?xml version="1.0" encoding="UTF-8" ?>
 <configuration>
@@ -73,12 +73,12 @@ GATT.xml for Bluegecko
     <service uuid="3DDEE461-8D54-4CD5-89F5-1C85F88B5034">
         <description>LED Access</description>
 
-        <characteristic uuid="3DDEE461-8D54-4CD5-89F5-1C85F88B5035" id="led_on">
+        <characteristic uuid="0001" id="xgatt_ledon">
             <properties read="true" write="true"/>
             <value >0</value>
         </characteristic>
 
-        <characteristic uuid="3DDEE461-8D54-4CD5-89F5-1C85F88B5036" id="led_off">
+        <characteristic uuid="0002" id="xgatt_ledoff">
             <properties read="true" write="true"/>
             <value>0</value>
         </characteristic>
@@ -87,7 +87,39 @@ GATT.xml for Bluegecko
 </configuration>
 ```
 
-## bgscript.bgs
+GATT.xml for Bluegecko
+```
+<?xml version="1.0" encoding="UTF-8" ?>
+<gatt>
+    <service uuid="1800">
+        <description>Generic Access Profile</description>
+
+        <characteristic uuid="2A00">
+            <properties read="true" const="true" />
+            <value>BLE113 LED Sample</value>
+        </characteristic>
+
+    </service>
+
+    <service uuid="3DDEE461-8D54-4CD5-89F5-1C85F88B5034">
+        <description>LED Access</description>
+
+        <characteristic uuid="0001" id="xgatt_on">
+            <properties read="true" write="true" indicate="true"/>
+            <value type="hex" length="1">0</value>
+        </characteristic>
+
+        <characteristic uuid="0002" id="xgatt_off">
+            <properties read="true" write="true" const="true"/>
+            <value type="hex" length="1">0</value>
+        </characteristic>
+    </service>
+
+</gatt>
+```
+
+
+## bgscript.bgs for Bluegiga
 
 ```
 # Boot時に呼ばれる
@@ -117,11 +149,11 @@ end
 event attributes_value(connection, reason, handle, offset, value_len, value)
 
 	# LED turn off by input
-    if handle = led_on then 
+    if handle = xgatt_ledon then 
         call hardware_io_port_write($0, $ff, $03)
 	# LED turn on by input
     end if 
-	if handle = led_off then 
+	if handle = xgatt_ledoff then 
         call hardware_io_port_write($0, $ff, $00)
     end if
 
@@ -134,8 +166,54 @@ end
 
 ```
 
+bgscript.bgs for Bluegecko
+```
+dim result
+
+# Boot時に呼ばれる
+event system_boot(major, minor, patch, build, bootloader, hw)
+    
+	# アドバータイジングのパラメータ
+    call le_gap_set_adv_parameters( 30, 30, 7 )
+
+    # アドバータイジング
+    call le_gap_set_mode(le_gap_general_discoverable, le_gap_undirected_connectable)
+
+    #　LEDポートの設定
+    call hardware_configure_gpio(5,6,hardware_gpio_mode_push_pull,1)
+    call hardware_configure_gpio(5,7,hardware_gpio_mode_push_pull,1)
+end
+
+# 切断した場合
+event le_connection_closed(reason,connection)
+
+	# アドバータイジングを再開する
+    call le_gap_set_mode(le_gap_general_discoverable,le_gap_undirected_connectable)
+
+end
+
+# Generated when GATT characteristic client configuration value is changed
+event gatt_server_characteristic_status(connection,characteristic,status_flags,client_config_flags) 
+	call hardware_write_gpio(5,$40,$00)
+	
+end 
+
+# 値を更新した場合
+event gatt_server_attribute_value(connection,characteristic,att_opcode,offset,value_le,value)
+	call hardware_write_gpio(5,$40,$00)
+	call gatt_server_write_attribute_value(xgatt_on,0,1,value(0:value_le))(result)
+	call gatt_server_send_characteristic_notification(connection, xgatt_on,1,value(0:value_le))(result)
+	
+	call gatt_server_write_attribute_value(xgatt_off,0,1,value(0:value_le))(result)
+	call gatt_server_send_characteristic_notification(connection, xgatt_off,1,value(0:value_le))(result)
+end
+
+```
+
+
 ## Project.proj
 
+Project.bgproj for Bluegiga
 ```
 <?xml version="1.0" encoding="UTF-8" ?>
 
@@ -154,6 +232,30 @@ end
 
     <!-- Firmware output file -->
     <image out="helloLED.bin" />
+
+</project>
+```
+
+Project.bgproj for Bluegecko
+```
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Project file for BGM111 Bluetooth Smart module -->
+<project device="bgm111">
+
+    <!-- GATTサービスデータベース -->
+    <gatt in="GATT.xml" />
+
+    <!-- ハードウェアの設定 -->
+    <hardware in="hardware.xml" />
+
+    <!-- BGScript本体 -->
+    <scripting>
+        <script in="bgscript.bgs" />
+    </scripting>
+
+    <!-- Firmware output file -->
+    <image out="iOSSample.bin" />
 
 </project>
 ```
