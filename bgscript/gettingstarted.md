@@ -12,7 +12,7 @@
 
 ## hardware.xml
 
-hardware.xml for Bluegiga
+hardware.xml for Bluegecko
 ```
 <?xml version="1.0" encoding="UTF-8" ?>
 
