@@ -106,12 +106,12 @@ GATT.xml for Bluegecko
     <service uuid="3DDEE461-8D54-4CD5-89F5-1C85F88B5034">
         <description>LED Access</description>
 
-        <characteristic uuid="0001" id="xgatt_on">
+        <characteristic uuid="0001" id="xgatt_ledon">
             <properties read="true" write="true" indicate="true"/>
             <value type="hex" length="1">0</value>
         </characteristic>
 
-        <characteristic uuid="0002" id="xgatt_off">
+        <characteristic uuid="0002" id="xgatt_ledoff">
             <properties read="true" write="true" const="true"/>
             <value type="hex" length="1">0</value>
         </characteristic>
@@ -196,18 +196,24 @@ end
 
 # Generated when GATT characteristic client configuration value is changed
 event gatt_server_characteristic_status(connection,characteristic,status_flags,client_config_flags) 
-	call hardware_write_gpio(5,$40,$00)
 	
 end 
 
 # 値を更新した場合
 event gatt_server_attribute_value(connection,characteristic,att_opcode,offset,value_le,value)
-	call hardware_write_gpio(5,$40,$00)
-	call gatt_server_write_attribute_value(xgatt_on,0,1,value(0:value_le))(result)
-	call gatt_server_send_characteristic_notification(connection, xgatt_on,1,value(0:value_le))(result)
 	
-	call gatt_server_write_attribute_value(xgatt_off,0,1,value(0:value_le))(result)
-	call gatt_server_send_characteristic_notification(connection, xgatt_off,1,value(0:value_le))(result)
+	if characteristic = xgatt_ledon then 
+		call hardware_write_gpio(5, $40, $00)
+		call gatt_server_write_attribute_value(xgatt_ledon, 0, 1, value(0:value_le))(result)
+		call gatt_server_send_characteristic_notification(connection, xgatt_ledon, 1, value(0:value_le))(result)
+	end if
+	
+	if characteristic = xgatt_ledoff then 
+		call hardware_write_gpio(5, $40, $40)
+		call gatt_server_write_attribute_value(xgatt_ledoff, 0, 1, value(0:value_le))(result)
+		call gatt_server_send_characteristic_notification(connection, xgatt_ledoff, 1, value(0:value_le))(result)
+	end if	
+	
 end
 
 ```
