@@ -12,5 +12,16 @@
 
 ## hardware.xml
 
+hardware.xml for Bluegecko
 
 
+
+hardware.xml for Bluegiga
+```
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<hardware>
+    <sleeposc enable="true" ppm="30" />
+    <script enable="true" />
+</hardware>
+```
