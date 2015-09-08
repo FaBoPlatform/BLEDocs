@@ -56,7 +56,7 @@ $ uuidgen
 | Service Changed | 0x2A05 |
 
 
-GATT.xml
+GATT.xml for Bluegecko
 ```
 <?xml version="1.0" encoding="UTF-8" ?>
 <configuration>
