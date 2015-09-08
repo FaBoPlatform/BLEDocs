@@ -63,7 +63,7 @@ GATT.xml for Bluegecko
     <service uuid="1800">
         <description>Generic Access Profile</description>
 
-        <characteristic uuid="2a00">
+        <characteristic uuid="2A00">
             <properties read="true" const="true" />
             <value>BLE113 LED Sample</value>
         </characteristic>
@@ -74,12 +74,12 @@ GATT.xml for Bluegecko
         <description>LED Access</description>
 
         <characteristic uuid="3DDEE461-8D54-4CD5-89F5-1C85F88B5035" id="led_on">
-            <properties read="true" write="true" notify="true"/>
+            <properties read="true" write="true"/>
             <value >0</value>
         </characteristic>
 
         <characteristic uuid="3DDEE461-8D54-4CD5-89F5-1C85F88B5036" id="led_off">
-            <properties read="true" write="true" notify="true"/>
+            <properties read="true" write="true"/>
             <value>0</value>
         </characteristic>
     </service>
@@ -87,4 +87,42 @@ GATT.xml for Bluegecko
 </configuration>
 ```
 
+## bgscript.bgs
+
+```
+
+# Boot時に呼ばれる
+event system_boot(major ,minor ,patch ,build ,ll_version ,protocol_version ,hw )
+    call sm_set_bondable_mode(1)
+
+    call gap_set_adv_parameters( 30, 30, 7 )
+
+    # start advertising
+    call gap_set_mode(gap_general_discoverable, gap_undirected_connectable)
+
+    # port setting
+    call hardware_io_port_config_direction($0, $FF)
+end
+
+event connection_disconnected(handle,result)
+    
+    # restart advertising
+    call gap_set_mode(gap_general_discoverable,gap_undirected_connectable)
+end
+
+event attributes_value(connection, reason, handle, offset, value_len, value)
+    if handle = led_off
+        # LED turn off by input
+        call led_turn_off(value(offset:value_len))
+    else
+        # LED turn on by input
+        call led_turn_on(value(offset:value_len))
+    end if
+
+    if value(0:1) = 2 then
+        # Write was accepted
+        call attributes_user_write_response(connection, 0)
+    end if
+end
+```
 
