@@ -231,7 +231,7 @@ Project.bgproj for Bluegiga
     <script in="bgscript.bgs" />
 
     <!-- Firmware output file -->
-    <image out="helloLED.bin" />
+    <image out="iOSSample.bin" />
 
 </project>
 ```
