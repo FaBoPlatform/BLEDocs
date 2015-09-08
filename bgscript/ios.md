@@ -40,13 +40,18 @@ $ uuidgen
 ```
 
 ### GATT Service
-| Profile | UUID |
+| Service | UUID |
 | -- | -- |
 | Generic Access Profile | 0x1800 | 
 | Generic Attribute Profile | 0x1801 |
 
 ### GATT 属性タイプ
-
+| 属性タイプ | UUID |
+| -- | -- |
+| Primary Service | 0x2800 | 
+| Secondary Service | 0x2801 |
+| Include | 0x2802 |
+| Characteristic | 0x2803 |
 
 ```
 
