@@ -22,6 +22,7 @@
 * [[SiliconLab]-環境構築(BlueGecko)](gecko/dev_bluegecko.md)
 * [[SiliconLab]-BGAPI入門](bgscript/bgapi.md)
 * [[SiliconLab]-BGScript入門](bgscript/gettingstarted.md)
+* [[SiliconLab]-BGScript-iOS簡易連携](bgscript/ios.md)
 * [[SiliconLab]-BLED112の焼き込み](bgscript/updatebled112.md)
 * [[SiliconLab]-パケットスニファの設定](bgscript/sniffer.md)
 * [[Dialog]-開発環境](dialog/dev.md)
