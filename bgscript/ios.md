@@ -45,16 +45,46 @@ $ uuidgen
 | Generic Access Profile | 0x1800 | 
 | Generic Attribute Profile | 0x1801 |
 
-### GATT 属性タイプ
+### GATT 特性タイプ
 | 属性タイプ | UUID |
 | -- | -- |
-| Primary Service | 0x2800 | 
-| Secondary Service | 0x2801 |
-| Include | 0x2802 |
-| Characteristic | 0x2803 |
+| Device Name | 0x2A00 | 
+| Appearance | 0x2A01 |
+| Peripheral Privacy Flag | 0x2A02 |
+| Reconnection Address | 0x2A03 |
+| Peripheral Preferred Connection Parameters | 0x2A04 |
+| Service Changed | 0x2A05 |
 
+
+GATT.xml
 ```
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <service uuid="1800">
+        <description>Generic Access Profile</description>
 
+        <characteristic uuid="2a00">
+            <properties read="true" const="true" />
+            <value>BLE113 LED Sample</value>
+        </characteristic>
+        
+    </service>
+    
+    <service uuid="3DDEE461-8D54-4CD5-89F5-1C85F88B5034">
+        <description>LED Access</description>
+
+        <characteristic uuid="3DDEE461-8D54-4CD5-89F5-1C85F88B5035" id="led_on">
+            <properties read="true" write="true" notify="true"/>
+            <value >0</value>
+        </characteristic>
+
+        <characteristic uuid="3DDEE461-8D54-4CD5-89F5-1C85F88B5036" id="led_off">
+            <properties read="true" write="true" notify="true"/>
+            <value>0</value>
+        </characteristic>
+    </service>
+    
+</configuration>
 ```
 
 
