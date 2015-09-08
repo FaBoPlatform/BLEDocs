@@ -39,10 +39,14 @@ $ uuidgen
 3DDEE461-8D54-4CD5-89F5-1C85F88B5034
 ```
 
+### GATT Service
 | Profile | UUID |
 | -- | -- |
 | Generic Access Profile | 0x1800 | 
 | Generic Attribute Profile | 0x1801 |
+
+### GATT 属性タイプ
+
 
 ```
 
