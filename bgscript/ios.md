@@ -29,3 +29,6 @@ hardware.xml for Bluegiga
     <script enable="true" />
 </hardware>
 ```
+
+## GATT.xml
+
