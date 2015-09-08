@@ -137,5 +137,23 @@ end
 ## Project.proj
 
 ```
+<?xml version="1.0" encoding="UTF-8" ?>
 
+<project>
+    <!-- Device Type -->
+    <device type="ble113"/>
+
+    <!-- GATT service database -->
+    <gatt in="GATT.xml" />
+
+    <!-- Local hardware configuration file -->
+    <hardware in="hardware.xml" />
+
+    <!-- BGScript source code -->
+    <script in="bgscript.bgs" />
+
+    <!-- Firmware output file -->
+    <image out="helloLED.bin" />
+
+</project>
 ```
