@@ -31,6 +31,9 @@ Windows編(標準環境)とMac(GCC)について説明します。
 * SDK<br>
 [https://www.nordicsemi.com/eng/Products/Bluetooth-R-low-energy/nRF51822](https://www.nordicsemi.com/eng/Products/Bluetooth-R-low-energy/nRF51822)
 
+* SDK(旧バージョン)<br>
+http://developer.nordicsemi.com/
+
 ここから「nRF518-SDK」をダウンロード＆インストール。
 ダウンロードにはシリアルナンバーが必要。
 
