@@ -38,7 +38,7 @@ http://developer.nordicsemi.com/
 ダウンロードにはシリアルナンバーが必要。
 
 * JLink<br>
-[http://www.segger.com/jlink-software.html?step=1&file=JLink_484](http://www.segger.com/jlink-software.html?step=1&file=JLink_484)
+https://www.segger.com/jlink-software.html
 
 ここからダウンロード＆インストール。ボード上のSEGGERチップに書いてある番号が必要。
 
