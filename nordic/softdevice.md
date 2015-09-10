@@ -43,8 +43,12 @@ ARM® Cortex-M4F向け。
 | Proximity | Link Loss, Immediate Alert, TX Power |
 | Blood Pressure | Blood Pressure |
 | Health Thermometer | Health Thermometer |
-| Glucose | Glucose, Device Information |
-| Glucose | Glucose, Device Information |
+| Glucose | Glucose |
+| Phone Alert Status | Phone Alert Status |
+| Alert Notification | Alert Notification |
+| Time | Current Time, Next DST Change, Reference Time Update |
+| Glucose | Glucose |
+| Glucose | Glucose |
 
 ## S110のみ
 
