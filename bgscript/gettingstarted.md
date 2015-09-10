@@ -119,7 +119,7 @@ project.bgproj for Bluegiga
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <project>
-    <!-- Device Type
+    <!-- Device Type -->
     <device type="ble113"/>
 
     <!-- GATT service database -->
