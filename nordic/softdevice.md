@@ -32,6 +32,16 @@ ARM® Cortex-M4F向け。
 | S130 | Central/Peripheral同時利用。 Centralとして３接続と１つのPeripheralとして動作する。こちらはObserverとBroadcaster両方になれる。 |
 
 
+## サポートProfile
+
+| Profile | Service |
+| -- | -- |
+| HID over GATT | HID, Battery, Device Information |
+| Heart Rate | Heart Rate, Device Information |
+| Proximity | Link Loss, Immediate Alert, TX Power |
+| Blood Pressure | Blood Pressure, Device Information |
+
+
 ## S110
 
 ## S120
