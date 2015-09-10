@@ -3,6 +3,7 @@
 * [はじめに](README.md)
 * [BLEチップ一覧](chip/chiplist.md)
 * [BLEチップスペック比較](chip/chipspec.md)
+* [BLEモジュール](module/top.md)
 * [BLEモジュール(Broadcom)](module/modulebroadcom.md)
 * [BLEモジュール(CSR)](module/modulecsr.md)
 * [BLEモジュール(Cypress)](module/modulecypress.md)
