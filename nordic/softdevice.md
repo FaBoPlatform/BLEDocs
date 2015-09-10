@@ -21,6 +21,8 @@ ARM® Cortex-M4F向け。
 
 ![](nrf.png)
 
+### 概要  
+
 | SoftDevice | 概要 |
 | -- | -- |
 | S110 | Peripheral専用 |
