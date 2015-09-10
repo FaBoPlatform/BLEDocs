@@ -12,7 +12,9 @@ ARM® CortexTM-M0向け。
 
 ### nRF52シリーズ
 
-ARM® Cortex-M4Fをターゲットにした52シリーズ向けSoftDeviceは現在(2015/9)開発中で、S310のAlpha版が提供されている。  
+52シリーズ向けSoftDeviceは現在(2015/9)開発中で、S130をベースとしたS132のAlpha版が提供されている。  
+S110,S120に対応した物も順次開発予定。  
+ARM® Cortex-M4F向け。
 
 
 
