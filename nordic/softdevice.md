@@ -2,8 +2,9 @@
 
 ## SoftDeviceとは
 
-Nordicが提供しているBLE用の[プロトコルスタック](https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AD%E3%83%88%E3%82%B3%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%83%E3%82%AF)。  
-S110, S120, S130と３種類あり、それぞれ用途が異なる。
+Nordicが提供している[プロトコルスタック](https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AD%E3%83%88%E3%82%B3%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%83%E3%82%AF)。  
+BLE用はS110, S120, S130と３種類あり、それぞれ用途が異なる。
+ちなみにS210, S310は[ANT/ANT+](http://k-tai.impress.co.jp/docs/column/keyword/20110322_434325.html)用のスタックになる。
 
 ![](nrf.png)
 
