@@ -32,10 +32,13 @@ ARM® Cortex-M4F向け。
 | S130 | Central/Peripheral同時利用。 Centralとして３接続と１つのPeripheralとして動作する。こちらはObserverとBroadcaster両方になれる。 |
 
 
+# SoftDeviceを使ったプログラムの作成方法 
+
+## 使用した環境
+* MDK-Lite Ver. 5.16a
+* Windows 7
+
+Keil uVision5を起動する
 
 
-
-## S120
-
-## S130
 
