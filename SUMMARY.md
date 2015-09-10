@@ -14,11 +14,11 @@
 * [Win10で評価用開発環境を構築する](windows/dev.md)
 * [Keil MDK](keil/uv5.md)
 * [Keil MDKに対応しているデバッカ](keil/debugger.md)
-* [Nordic]
+* [Nordic](nordic/top.md)
     * [開発環境](nordic/dev.md)
     * [SoftDevice](nordic/softdevice.md)
     * [パケットスニファの設定](nordic/sniffer.md)
-* [SiliconLabs]
+* [SiliconLabs](bgscript/top.md)
     * [開発環境](bgscript/dev.md)
     * [環境構築(Bluegiga)](bluegiga/dev_bluegiga.md)
     * [環境構築(BlueGecko)](gecko/dev_bluegecko.md)
@@ -27,7 +27,7 @@
     * [BGScript-iOS簡易連携](bgscript/ios.md)
     * [BLED112の焼き込み](bgscript/updatebled112.md)
     * [パケットスニファの設定](bgscript/sniffer.md)
-* [Dialog]
+* [Dialog](dialog/top.md)
     * [開発環境](dialog/dev.md)
 * [BLEパケットスニファ](packet.md)
 * [Bluetooth 4.2](bl42.md)
