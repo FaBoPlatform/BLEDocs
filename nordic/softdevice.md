@@ -2,7 +2,7 @@
 
 ## SoftDeviceとは
 
-Nordicが提供している[プロトコルスタック](https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AD%E3%83%88%E3%82%B3%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%83%E3%82%AF)。  
+Nordicが提供しているnRF5xシリーズ向けの[プロトコルスタック](https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AD%E3%83%88%E3%82%B3%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%83%E3%82%AF)。  
 
 
 ### nRF51シリーズ  
@@ -32,29 +32,6 @@ ARM® Cortex-M4F向け。
 | S130 | Central/Peripheral同時利用。 Centralとして３接続と１つのPeripheralとして動作する。こちらはObserverとBroadcaster両方になれる。 |
 
 
-## サポートProfile
-
-###共通
-
-| Profile | Service |
-| -- | -- |
-| HID over GATT | HID, Battery, Device Information |
-| Heart Rate | Heart Rate, Device Information |
-| Proximity | Link Loss, Immediate Alert, TX Power |
-| Blood Pressure | Blood Pressure |
-| Health Thermometer | Health Thermometer |
-| Glucose | Glucose |
-| Phone Alert Status | Phone Alert Status |
-| Alert Notification | Alert Notification |
-| Time | Current Time, Next DST Change, Reference Time Update |
-| Glucose | Glucose |
-| Glucose | Glucose |
-
-## S110のみ
-
-| Profile | Service |
-| -- | -- |
-| Blood Pressure | Device Information |
 
 
 
