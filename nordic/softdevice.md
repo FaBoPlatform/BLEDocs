@@ -129,7 +129,7 @@ nRFgo StudioでもSoftDeviceの書き込みはできるが、Keil上に構築し
 3. 設定を変更する  
  3.1. Options for Targetを選択する  
   ![](sd008.png)  
- 3.2. Target
-![](sd104.png)
+ 3.2. Target  
+  ![](sd104.png)  
 
 4. プログラム
