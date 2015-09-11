@@ -56,5 +56,7 @@ ARM® Cortex-M4F向け。
 3. uVision5のProjectメニューから新たにプロジェクトを作成する
 4. Deviceの設定を聞かれるのでSofware PacksのnRF51822_xxAAを選択する
  ![](sd003.png)
+5. Targetの作成
 
+ ![](sd004.png)
 
