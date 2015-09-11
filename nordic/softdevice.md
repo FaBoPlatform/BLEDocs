@@ -52,18 +52,26 @@ ARM® Cortex-M4F向け。
 1. Keil uVision5を起動する
 2. PackでSoftDeviceをインストールする  
  2.1. PackInstallerを起動する  
-  ![](sd001.png)
-
+  ![](sd001.png)  
  2.2. 左ペインのDevicesからNordicを選択する  
  2.3. 右ペインのPacksからSoftDevice_S110をInstallする
-  ![](sd002.png)
+  ![](sd002.png)  
  2.4. PackInstallerを閉じる
 
 3. uVision5のProjectメニューから新たにプロジェクトを作成する
 4. Deviceの設定を聞かれるのでSofware PacksのnRF51822_xxAAを選択する
-  ![](sd003.png)
+  ![](sd003.png)  
 5. Targetの作成  
- 5.1. 
+ 5.1. ManageProjectItemsを選択する  
+  ![](sd004.png)  
+ 5.2. Target名とGropusを設定する  
+      今回は「FlashSoftDevice」と「Application」とする
+  ![](sd005.png)
+6. SoftDeviceの読み込み  
+ 6.1. Manage Run-Time Environmentを選択する
+  ![](sd006.png)  
+ 6.2. nRF_SoftDeviceからs110_hexを選択します  
+      この時オレンジ色になり依存関係のエラーが表示されますが、左下のResolveボタンを押せば修正されます。
+  ![](sd007.png)
 
-  ![](sd004.png)
-
+7. a
