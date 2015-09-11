@@ -48,5 +48,6 @@
 * [オシロスコープ](osylo.md)
 * [製造](factory/factory.md)
     * [チップマウンタ](mounter/chipmounter.md)
+    * [リフロー炉](reflow/machine.md)
 * [Link](link.md)
 
