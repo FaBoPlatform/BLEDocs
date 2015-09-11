@@ -68,10 +68,16 @@ ARM® Cortex-M4F向け。
       今回は「FlashSoftDevice」と「Application」とする
   ![](sd005.png)
 6. SoftDeviceの読み込み  
- 6.1. Manage Run-Time Environmentを選択する
+ 6.1. Manage Run-Time Environmentを選択する  
   ![](sd006.png)  
- 6.2. nRF_SoftDeviceからs110_hexを選択します  
-      この時オレンジ色になり依存関係のエラーが表示されますが、左下のResolveボタンを押せば修正されます。
+ 6.2. nRF_SoftDeviceからs110_hexを選択する  
+      この時オレンジ色になり依存関係のエラーが表示されますが、左下のResolveボタンを押せば修正されます。  
   ![](sd007.png)  
- 6.3. OKを押して閉じます
-7. a
+ 6.3. OKを押して閉じる
+7. Targetの設定  
+ 7.1. Options for Targetを選択する  
+  ![](sd008.png)  
+ 7.2. OutputタブのSelect Folder for Objects...を選択し、プロジェクトフォルダ下の"\RTE\nRF_SoftDevice\nRF51822_xxAA"を選択する  
+ 7.3. Name of Executableに"s110_softdevice.hex"を入力する
+  ![](sd009.png)
+
