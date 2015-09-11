@@ -25,6 +25,7 @@
     * [環境構築(BlueGecko)](gecko/dev_bluegecko.md)
     * [BGAPI入門](bgscript/bgapi.md)
     * [BGScript入門](bgscript/gettingstarted.md)
+    * [Arduinoとの連携](bgscript/arduino.md)
     * [BGScript-iOS簡易連携](bgscript/ios.md)
     * [BLED112の焼き込み](bgscript/updatebled112.md)
     * [パケットスニファの設定](bgscript/sniffer.md)
