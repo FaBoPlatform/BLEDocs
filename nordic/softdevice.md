@@ -36,6 +36,17 @@ ARM® Cortex-M4F向け。
 
 ![](sd_mem.png)
 
+## S110
+
+![](sd_mem_110.png)
+
+## S120
+
+![](sd_mem_120.png)
+
+## S130
+
+![](sd_mem_130.png)
 
 # SoftDeviceを使ったプログラムの作成方法 
 
@@ -78,6 +89,16 @@ ARM® Cortex-M4F向け。
  7.1. Options for Targetを選択する  
   ![](sd008.png)  
  7.2. OutputタブのSelect Folder for Objects...を選択し、プロジェクトフォルダ下の"\RTE\nRF_SoftDevice\nRF51822_xxAA"を選択する  
- 7.3. Name of Executableに"s110_softdevice.hex"を入力する
-  ![](sd009.png)
-
+ 7.3. Name of Executableに"s110_softdevice.hex"とファイル名を入力する
+  ![](sd009.png)  
+ 7.4. DebugタブのUseを"J-LINK / J-TRACE Cortex"に変更する  
+  ![](sd010.png)
+ 7.5. PortをSWに変更する
+  ![](sd011.png)
+ 7.6. Sizeを0x2000に(メモリマップのRAM_BASEの値)する  
+      Addを選択して"nRF51xxx External ..."を追加する  
+      古いAlgorithmはRemoveで削除する  
+  ![](sd012.png)
+8. USBにPCA10000を差し込む
+9. LOADボタンを押すとSoftDeviceの書き込みが開始されます  
+ ![](sd013.png)
