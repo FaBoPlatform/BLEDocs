@@ -98,7 +98,7 @@
 | Adafruit | Samsung SM482 |
 | Seed Studio | Samsung SM482 |
 | DMM Make Akiba | [Yamaha YCP10](http://www.yamaha-motor.co.jp/smt/printer/ycp10/) |
-
+| Sparkfun | Micronics MY100 |
 ## コミュニティ
 * http://www.chipmounter.com/cgi/cgi-main1016/hatenaman.cgi
 * 
