@@ -67,6 +67,7 @@ SoftDeviceの種類によってApplicationを書き込むアドレスやメモ�
 nRFgo StudioでもSoftDeviceの書き込みはできるが、Keil上に構築しておけばSoftDeviceとApplicationの書き込みの両方を同じツール上でできるので便利になる。
 
 1. Keil uVision5を起動する
+
 2. PackでSoftDeviceをインストールする  
  2.1. PackInstallerを起動する  
   ![](sd001.png)  
@@ -76,14 +77,17 @@ nRFgo StudioでもSoftDeviceの書き込みはできるが、Keil上に構築し
  2.4. PackInstallerを閉じる
 
 3. uVision5のProjectメニューから新たにプロジェクトを作成する
+
 4. Deviceの設定を聞かれるのでSofware PacksのnRF51822_xxAAを選択する
   ![](sd003.png)  
+
 5. Targetの作成  
  5.1. ManageProjectItemsを選択する  
   ![](sd004.png)  
  5.2. Target名とGropusを設定する  
       今回は「FlashSoftDevice」と「Application」とする
   ![](sd005.png)
+
 6. SoftDeviceの読み込み  
  6.1. Manage Run-Time Environmentを選択する  
   ![](sd006.png)  
@@ -91,6 +95,7 @@ nRFgo StudioでもSoftDeviceの書き込みはできるが、Keil上に構築し
       この時オレンジ色になり依存関係のエラーが表示されますが、左下のResolveボタンを押せば修正されます。  
   ![](sd007.png)  
  6.3. OKを押して閉じる
+
 7. Targetの設定  
  7.1. Options for Targetを選択する  
   ![](sd008.png)  
@@ -105,30 +110,39 @@ nRFgo StudioでもSoftDeviceの書き込みはできるが、Keil上に構築し
       Addを選択して"nRF51xxx External ..."を追加する  
       古いAlgorithmはRemoveで削除する  
   ![](sd012.png)
+
 8. USBにPCA10000を差し込む
+
 9. LOADボタンを押すとSoftDeviceの書き込みが開始されます  
  ![](sd013.png)
 
 ### SoftDeviceを利用したApplication作成
 
 1. Application用のTargetを作成  
+
  1.1. ManageProjectItemsを選択する  
   ![](sd004.png)  
+
  1.2. 新しいTargetを作成する  
       今回は"nRF51822_s110"とする
   ![](sd100.png)
+
  1.3. 新しいターゲットを選択する  
   ![](sd103.png)
 
 2. hexファイルをビルドターゲットから外す  
+
  2.1. nRF_SoftDeviceを右クリックし、"Options for Component..."を選択する  
   ![](sd101.png)  
+
  2.2. "Include in target build"のチェックを外す
   ![](sd102.png)
 
 3. 設定を変更する  
+
  3.1. Options for Targetを選択する  
   ![](sd008.png)  
+
  3.2. Targetタブの設定を変更する  
   * Xtal:16.0
   * Use MicroLIB: ON
