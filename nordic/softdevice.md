@@ -129,7 +129,15 @@ nRFgo StudioでもSoftDeviceの書き込みはできるが、Keil上に構築し
 3. 設定を変更する  
  3.1. Options for Targetを選択する  
   ![](sd008.png)  
- 3.2. Target  
+ 3.2. Targetタブの設定を変更する  
+  * Xtal:16.0
+  * Use MicroLIB: ON
+  * IROM1 Start: 0x18000
+  * IROM1 Size: 0x28000
+  * IRAM1 Start: 0x20002000
+  * IRAM1 Size: 0x6000
+   
+  Xtalは発振器の速度、MicroLIBは最適化オプション、MemoryAreaはメモリマップを参考にROMにはAPP_CODE_BASE、RAMにはAPP_RAM_BASEを入力する  
   ![](sd104.png)  
 
 4. プログラム
