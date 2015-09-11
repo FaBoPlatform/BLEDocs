@@ -169,7 +169,7 @@ nRFgo StudioでもSoftDeviceの書き込みはできるが、Keil上に構築し
     * "Use Memory Layout from Target Dialog"をチェックし、メモリマップをTargetタブでの設定と同じくする
    ![](sd107.png)
 
- 3.6. JLinkの設定を変更する
+ 3.6. JLinkの設定を変更する  
     * "Reset and Run"をチェックし、書き込み時にリセット＆実行を行う
    ![](sd108.png)
  
