@@ -116,7 +116,9 @@ nRFgo StudioでもSoftDeviceの書き込みはできるが、Keil上に構築し
 9. LOADボタンを押すとSoftDeviceの書き込みが開始されます  
  ![](sd013.png)
 
-### SoftDeviceを利用したApplication作成
+### SoftDeviceを利用しないApplication作成
+
+SoftDeviceの機能は利用しないが、SoftDeviceと共存
 
 1. Application用のTargetを作成  
 
@@ -176,6 +178,8 @@ nRFgo StudioでもSoftDeviceの書き込みはできるが、Keil上に構築し
 4. 必要なPackをインストールする  
  4.1. Manage Run-Time Environmentを選択する  
   ![](sd006.png)  
- 4.2 DeviceのStartupを選択し、Bootに必要なプログラムをインストールする  
+ 4.2. DeviceのStartupを選択し、Bootに必要なプログラムをインストールする  
   ![](sd109.png)
 
+5. Applicationを作成する  
+ 5.1. 
