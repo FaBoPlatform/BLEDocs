@@ -118,7 +118,7 @@ nRFgo StudioでもSoftDeviceの書き込みはできるが、Keil上に構築し
 
 ### SoftDeviceを利用しないApplication作成
 
-まず、SoftDeviceの機能は利用しないが、SoftDeviceと共存する無機能のApplicationを作成する。  
+まず、SoftDeviceの機能は利用しないが、SoftDeviceと共存する無機能のApplicationを作成する  
 次にLEDを光らせ、最後にSoftDeviceの機能を利用するように段階的に説明する
 
 1. Application用のTargetを作成  
@@ -183,4 +183,5 @@ nRFgo StudioでもSoftDeviceの書き込みはできるが、Keil上に構築し
   ![](sd109.png)
 
 5. Applicationを作成する  
- 5.1. 
+ 5.1. Project内のグループ名(今回はApplication)を右クリックし、"Add New Item to.."を選択する
+  ![](sd110.png)
