@@ -173,6 +173,6 @@ nRFgo StudioでもSoftDeviceの書き込みはできるが、Keil上に構築し
     * "Reset and Run"をチェックし、書き込み時にリセット＆実行を行う
    ![](sd108.png)
  
-4. 必要なPackをインストールする
+4. 必要なPackをインストールする  
  4.1. Manage Run-Time Environmentを選択する  
   ![](sd006.png)  
