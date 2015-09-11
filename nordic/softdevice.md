@@ -111,7 +111,7 @@ nRFgo StudioでもSoftDeviceの書き込みはできるが、Keil上に構築し
 1. Application用のTargetを作成  
  1.1. ManageProjectItemsを選択する  
   ![](sd004.png)  
- 1.2. 新しいTargetを作成する
+ 1.2. 新しいTargetを作成する  
       今回は"nRF51822_s110"とする
   ![](sd100.png)
 2. hexファイルをビルドターゲットから外す  
