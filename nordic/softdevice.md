@@ -60,6 +60,8 @@ ARM® Cortex-M4F向け。
 
 ### SoftDeviceを書き込むためのTarget作成
 
+nRFgo StudioでもSoftDeviceの書き込みはできるが、Keil上に構築しておけばSoftDeviceとApplicationの書き込みの両方を同じツール上でできるので便利になる。
+
 1. Keil uVision5を起動する
 2. PackでSoftDeviceをインストールする  
  2.1. PackInstallerを起動する  
