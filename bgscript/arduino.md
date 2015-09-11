@@ -1,5 +1,14 @@
 
 
+| PERIPHERAL | Alt | TX | RX  |変数 |
+| -- | -- | -- | -- | -- | -- |
+|  USART 0 UART | 1 | P0_3 | P0_2 | system_endpoint_uart0 |
+|  USART 0 UART | 2 | P1_5 | P1_4 | system_endpoint_uart0 |
+|  USART 1 UART | 1 | P0_4 | P0_5 | system_endpoint_uart1 |
+|  USART 1 UART | 2 | P1_6 | P1_7 | system_endpoint_uart1 |
+
+
+
 hardware.xml
 
 ```
@@ -14,7 +23,6 @@ hardware.xml
     <pmux regulator_pin="7" /> 
 </hardware>
 ```
-
 
 bgscript
 ```
