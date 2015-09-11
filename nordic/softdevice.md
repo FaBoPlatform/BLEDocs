@@ -169,4 +169,8 @@ nRFgo StudioでもSoftDeviceの書き込みはできるが、Keil上に構築し
     * "Use Memory Layout from Target Dialog"をチェックする
    ![](sd107.png)
  
+   ![](sd108.png)
+ 
+ 
+ 
 4. プログラム
