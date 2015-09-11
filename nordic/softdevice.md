@@ -145,9 +145,11 @@ nRFgo StudioでもSoftDeviceの書き込みはできるが、Keil上に構築し
     * "Name of Executable"に出力hex名を入力する  
     * "Create HEX File"をチェックする  
    ![](sd105.png)
+
  3.4. Listingタブの設定を変更する 
     * "Select Folder for Listings.."でOutputで設定したフォルダを選択する
    ![](sd106.png)
+   
  3.5. Linkerタブの設定を変更する
     * "Use Memory Layout from Target Dialog"をチェックする
    ![](sd107.png)
