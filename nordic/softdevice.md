@@ -126,6 +126,10 @@ nRFgo StudioでもSoftDeviceの書き込みはできるが、Keil上に構築し
  2.2. "Include in target build"のチェックを外す
   ![](sd102.png)
 
-3. 設定
- 3.1. a
+3. 設定を変更する  
+ 3.1. Options for Targetを選択する  
+  ![](sd008.png)  
+ 3.2. Target
+![](sd104.png)
+
 4. プログラム
