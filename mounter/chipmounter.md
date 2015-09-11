@@ -70,7 +70,7 @@
 * http://www.leadsangyo.co.jp/business/mounting/index.html
 * http://www.asahi-gp.co.jp/denshi/corporateprofile.html
 * http://www.arena-net.co.jp/company.html
-* 
+* http://www.tokushuseiki.co.jp/outline/device.php
 
 ## 宮城の工場設備
 * http://www.yaguchidenshi.jp/index.html
