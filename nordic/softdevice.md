@@ -145,5 +145,6 @@ nRFgo StudioでもSoftDeviceの書き込みはできるが、Keil上に構築し
       "Create HEX File"をチェックする  
   ![](sd105.png)
  3.4. a  
+  ![](sd106.png)
 
 4. プログラム
