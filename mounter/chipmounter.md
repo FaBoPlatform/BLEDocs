@@ -32,8 +32,13 @@
 | KE3010VA | JUKI || 0402 | [Web](http://www.juki.co.jp/smt/introduce/products/ke3010a.html) |
 | KE3020VA | JUKI || 0402 | [Web](http://www.juki.co.jp/smt/introduce/products/ke3020va.html) |
 | Cm602L | Panasonic | 2008年製 | 0402 | [カタログ](https://www.ykt.co.jp/products/panasonic/pdf/panasonic_cm602_catalog.pdf) |
+| YS12 | Yamaha ||||
 
 ## 0201対応
+
+| 製品名 | 製造元 | 年度 | 対応サイズ | リンク |
+| -- | -- | -- | -- | -- |
+| MicroSMT | Okuhara | 2005年製 | 0402 | |
 
 
 
