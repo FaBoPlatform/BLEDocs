@@ -171,7 +171,6 @@ nRFgo StudioでもSoftDeviceの書き込みはできるが、Keil上に構築し
 
  3.6. JLinkの設定を変更する
     * "Reset and Run"をチェックし、書き込み時にリセット＆実行を行う
- 
    ![](sd108.png)
  
  
