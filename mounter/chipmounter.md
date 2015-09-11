@@ -69,6 +69,7 @@
 * http://www4.pref.fukushima.jp/maker/search/detail.php?maker=848
 * http://www.leadsangyo.co.jp/business/mounting/index.html
 * http://www.asahi-gp.co.jp/denshi/corporateprofile.html
+* http://www.arena-net.co.jp/company.html
 * 
 
 ## 宮城の工場設備
