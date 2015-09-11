@@ -173,6 +173,4 @@ nRFgo StudioでもSoftDeviceの書き込みはできるが、Keil上に構築し
     * "Reset and Run"をチェックし、書き込み時にリセット＆実行を行う
    ![](sd108.png)
  
- 
- 
 4. プログラム
