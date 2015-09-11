@@ -31,6 +31,12 @@ ARM® Cortex-M4F向け。
 | S120 | Central/Peripheral両用。  Centralモードの場合は8つ同時接続可能、Peripheralモードの場合は同時にBroadcasterとしても動作する。|
 | S130 | Central/Peripheral同時利用。 Centralとして３接続と１つのPeripheralとして動作する。こちらはObserverとBroadcaster両方になれる。 |
 
+
+### メモリマップ
+
+![](sd_mem.png)
+
+
 # SoftDeviceを使ったプログラムの作成方法 
 
 ## 使用した環境
@@ -46,17 +52,18 @@ ARM® Cortex-M4F向け。
 1. Keil uVision5を起動する
 2. PackでSoftDeviceをインストールする  
  2.1. PackInstallerを起動する  
- ![](sd001.png)
+  ![](sd001.png)
 
  2.2. 左ペインのDevicesからNordicを選択する  
  2.3. 右ペインのPacksからSoftDevice_S110をInstallする
- ![](sd002.png)
+  ![](sd002.png)
  2.4. PackInstallerを閉じる
 
 3. uVision5のProjectメニューから新たにプロジェクトを作成する
 4. Deviceの設定を聞かれるのでSofware PacksのnRF51822_xxAAを選択する
- ![](sd003.png)
-5. Targetの作成
+  ![](sd003.png)
+5. Targetの作成  
+ 5.1. 
 
- ![](sd004.png)
+  ![](sd004.png)
 
