@@ -192,5 +192,6 @@ nRFgo StudioでもSoftDeviceの書き込みはできるが、Keil上に構築し
   ```int main() {  
   }
   ```
+6. ビルドしてダウンロードする
 
 
