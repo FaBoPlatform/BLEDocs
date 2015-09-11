@@ -27,3 +27,25 @@ event system_boot(major ,minor ,patch ,build ,ll_version ,protocol_version ,hw )
 end
 ```
 
+Arduino Sample
+```
+#include <SoftwareSerial.h>
+
+SoftwareSerial mySerial(13, 12); // RX, TX
+
+int inByte = 0;  
+
+void setup() {
+  Serial.begin(9600);
+  mySerial.begin(9600);
+}
+
+void loop() {
+  if(mySerial.available()>0){
+     Serial.write(mySerial.read()); 
+  }
+  
+  delay(10);
+}
+```
+
