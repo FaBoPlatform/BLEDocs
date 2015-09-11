@@ -36,10 +36,13 @@ ARM® Cortex-M4F向け。
 ## 使用した環境
 * MDK-Lite Ver. 5.16a
 * Windows 7
-* 
+* nRF51822 Development Dongle (PCA10000)
 * [リファレンス](http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.sdk51.v9.0.0%2Findex.html&cp=4_1_0)
 
 ## 手順
+
+### SoftDeviceを書き込むためのTarget作成
+
 1. Keil uVision5を起動する
 2. PackでSoftDeviceをインストールする  
  2.1. PackInstallerを起動する  
