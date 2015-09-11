@@ -110,3 +110,28 @@ event system_endpoint_watermark_rx(endpoint, size)
 end
 ```
 
+Arduino
+```
+#include <SoftwareSerial.h>
+
+SoftwareSerial mySerial(13, 12); // RX, TX
+
+int inByte = 0;  
+
+void setup() {
+  Serial.begin(9600);
+  mySerial.begin(9600);
+}
+
+void loop() {
+  if(mySerial.available()>0){
+     Serial.write(mySerial.read()); 
+  }
+  
+  if(Serial.available()>0){
+    mySerial.write(Serial.read()); 
+  }
+  
+  delay(10);
+}
+```
