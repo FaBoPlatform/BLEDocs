@@ -46,6 +46,7 @@
 * [電波暗箱](shieldbox.md)
 * [スペクトルアナライザ](analyzer.md)
 * [オシロスコープ](osylo.md)
-* [チップマウンタ](mounter/chipmounter.md)
+* [製造]
+    * [チップマウンタ](mounter/chipmounter.md)
 * [Link](link.md)
 
