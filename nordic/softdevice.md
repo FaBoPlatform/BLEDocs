@@ -194,4 +194,6 @@ nRFgo StudioでもSoftDeviceの書き込みはできるが、Keil上に構築し
   ```
 6. ビルドして実機にダウンロードする
 
+### SoftDeviceを利用しないLED点灯Application作成
 
+### SoftDeviceを利用したApplication作成
