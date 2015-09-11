@@ -104,3 +104,5 @@ nRFgo StudioでもSoftDeviceの書き込みはできるが、Keil上に構築し
 8. USBにPCA10000を差し込む
 9. LOADボタンを押すとSoftDeviceの書き込みが開始されます  
  ![](sd013.png)
+
+### SoftDeviceを利用したApplication作成
