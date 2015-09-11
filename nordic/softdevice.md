@@ -34,6 +34,9 @@ ARM® Cortex-M4F向け。
 
 ### メモリマップ
 
+SoftDeviceの種類によってApplicationを書き込むアドレスやメモリの領域が異なる  
+ビルド設定時に以下の情報が必要になる  
+
 ![](sd_mem.png)
 
 ## S110
