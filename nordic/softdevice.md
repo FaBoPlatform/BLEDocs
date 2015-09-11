@@ -139,7 +139,8 @@ nRFgo StudioでもSoftDeviceの書き込みはできるが、Keil上に構築し
    
   Xtalは発振器の速度、MicroLIBは最適化オプション、MemoryAreaはメモリマップを参考にROMにはAPP_CODE_BASE、RAMにはAPP_RAM_BASEを入力する  
   ![](sd104.png)  
- 3.3. "Select Folder for Objects.."で出力フォルダを選択する  
+ 3.3. Outputタグを選択する
+      "Select Folder for Objects.."で出力フォルダを選択する  
       ここでは"_build"とする  
       "Name of Executable"に出力hex名を入力する  
       "Create HEX File"をチェックする  
