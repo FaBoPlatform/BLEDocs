@@ -33,6 +33,7 @@
 | KE3020VA | JUKI || 0402 | [Web](http://www.juki.co.jp/smt/introduce/products/ke3020va.html) |
 | Cm602L | Panasonic | 2008年製 | 0402 | [カタログ](https://www.ykt.co.jp/products/panasonic/pdf/panasonic_cm602_catalog.pdf) |
 | YS12 | Yamaha |||[Web](http://www.yamaha-motor.co.jp/smt/mounter/ys12/)|
+| M20 | Yahama |||[Web](http://www.yamaha-motor.co.jp/smt/ipulse/m20/)|
 | SMT-64RH | Okuhara |||[Web](http://www.okuhara-elec.com/p-smt64rh.html)|
 
 ## 0201対応
