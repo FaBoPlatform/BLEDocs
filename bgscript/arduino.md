@@ -38,7 +38,7 @@ Arduino Sample
 ```
 #include <SoftwareSerial.h>
 
-SoftwareSerial mySerial(13, 12); // RX, TX
+SoftwareSerial mySerial(10, 11); // RX, TX
 
 int inByte = 0;  
 
@@ -114,7 +114,7 @@ Arduino
 ```
 #include <SoftwareSerial.h>
 
-SoftwareSerial mySerial(13, 12); // RX, TX
+SoftwareSerial mySerial(10, 11); // RX, TX
 
 int inByte = 0;  
 
