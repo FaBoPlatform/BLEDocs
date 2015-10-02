@@ -17,6 +17,7 @@
     * [Keil MDKに対応しているデバッカ](keil/debugger.md)
 * [Nordic](nordic/top.md)
     * [開発環境](nordic/dev.md)
+    * [開発環境(SoftDevice 8.02/Keil MDK5.16)
     * [SoftDevice](nordic/softdevice.md)
     * [パケットスニファの設定](nordic/sniffer.md)
 * [SiliconLabs](bgscript/top.md)
