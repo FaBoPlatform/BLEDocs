@@ -1,8 +1,5 @@
 
 
-#Spakrfun
-
-* https://www.sparkfun.com/news/1567
 
 # リフロー炉メーカー　
 
@@ -18,6 +15,10 @@
 | [T-960](http://www.tech168.cn/tech/en/ProductView.asp?ID=12) |[Puhui](http://www.tech168.cn/tech/en/index.asp) | 380V |
 | [T-960e](http://www.tech168.cn/tech/en/ProductView.asp?ID=24) |[Puhui](http://www.tech168.cn/tech/en/index.asp) | 380V |
 | [T-960w](http://www.tech168.cn/tech/en/ProductView.asp?ID=25) |[Puhui](http://www.tech168.cn/tech/en/index.asp) | 380V |
+
+# 中古
+
+* Spakrfun(20万円で売出) https://www.sparkfun.com/news/1567
 
 
 
