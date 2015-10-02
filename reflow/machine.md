@@ -7,7 +7,7 @@
 
 # リフロー炉
 
-| 型番 | メーカー |必要電力 |
+| 型番 | メーカー |必要電力 | 価格 |
 | -- | -- | |
 | [T962](http://www.tech168.cn/tech/en/ProductView.asp?ID=8) | [Puhui](http://www.tech168.cn/tech/en/index.asp) | 110V | 約4万円 |
 | [T962A](http://www.tech168.cn/tech/en/ProductView.asp?ID=9) | [Puhui](http://www.tech168.cn/tech/en/index.asp) | 110V| 約4万円 |
