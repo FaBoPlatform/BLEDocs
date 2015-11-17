@@ -24,17 +24,17 @@
 
 ## 0402対応
 
-| 製品名 | 製造元 | 年度 | 対応サイズ | リンク |
+| 製品名 | 製造元 | 年度 | 対応サイズ |価格| リンク |
 | -- | -- | -- | -- | -- |
-| XP-143 | Fuji | 2005年製 | 0402 | |
-| KE2070 | JUKI | 2007年製 | 0402 | [Web](http://www.juki.co.jp/smt/introduce/products/ke2070.html) |
-| KE2080 | JUKI | 2007年製 | 0402 | [Web](http://www.juki.co.jp/smt/introduce/products/ke2080.html) |
-| KE3010VA | JUKI || 0402 | [Web](http://www.juki.co.jp/smt/introduce/products/ke3010a.html) |
-| KE3020VA | JUKI || 0402 | [Web](http://www.juki.co.jp/smt/introduce/products/ke3020va.html) |
-| Cm602L | Panasonic | 2008年製 | 0402 | [カタログ](https://www.ykt.co.jp/products/panasonic/pdf/panasonic_cm602_catalog.pdf) |
-| YS12 | Yamaha |||[Web](http://www.yamaha-motor.co.jp/smt/mounter/ys12/)|
-| M20 | Yahama |||[Web](http://www.yamaha-motor.co.jp/smt/ipulse/m20/)|
-| SMT-64RH | Okuhara |||[Web](http://www.okuhara-elec.com/p-smt64rh.html)|
+| XP-143 | Fuji | 2005年製 | 0402 | ||
+| KE2070 | JUKI | 2007年製 | 0402 | |[Web](http://www.juki.co.jp/smt/introduce/products/ke2070.html) |
+| KE2080 | JUKI | 2007年製 | 0402 | |[Web](http://www.juki.co.jp/smt/introduce/products/ke2080.html) |
+| KE3010VA | JUKI || 0402 |¥17,168,500 | [Web](http://www.juki.co.jp/smt/introduce/products/ke3010a.html) |
+| KE3020VA | JUKI || 0402 |¥21,367,500 | [Web](http://www.juki.co.jp/smt/introduce/products/ke3020va.html) |
+| Cm602L | Panasonic | 2008年製 | 0402 | |[カタログ](https://www.ykt.co.jp/products/panasonic/pdf/panasonic_cm602_catalog.pdf) |
+| YS12 | Yamaha ||||[Web](http://www.yamaha-motor.co.jp/smt/mounter/ys12/)|
+| M20 | Yahama ||||[Web](http://www.yamaha-motor.co.jp/smt/ipulse/m20/)|
+| SMT-64RH | Okuhara ||||[Web](http://www.okuhara-elec.com/p-smt64rh.html)|
 
 ## 0201対応
 
