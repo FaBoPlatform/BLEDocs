@@ -9,29 +9,13 @@
 
 ## 手順
 
+手順はほぼnRF51と同じなので、詳細は[コチラ](https://www.gitbook.com/book/fabo/bledocs/edit#/edit/master/nordic/dev802.md)を参照。
+現状(2015/12)ではまだPreviewなのでPackは用意されていない模様。
+なので、ソースを自分でプロジェクトにコピーする必要がある。
+
+
 ### Application作成
 
-
-
-1. Application用のTargetを作成  
-
- 1.1. ManageProjectItemsを選択する  
-  ![](sd004.png)  
-
- 1.2. 新しいTargetを作成する  
-      今回は"nRF51822_s110"とする
-  ![](sd100.png)
-
- 1.3. 新しいターゲットを選択する  
-  ![](sd103.png)
-
-2. hexファイルをビルドターゲットから外す  
-
- 2.1. nRF_SoftDeviceを右クリックし、"Options for Component..."を選択する  
-  ![](sd101.png)  
-
- 2.2. "Include in target build"のチェックを外す
-  ![](sd102.png)
 
 3. 設定を変更する  
 
