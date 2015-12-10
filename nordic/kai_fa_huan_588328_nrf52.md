@@ -16,37 +16,22 @@
 
 ### Application作成
 
+1. Keil uVision5を起動する
+
+2. uVision5のProjectメニューから新たにプロジェクトを作成する
+
+3. Deviceの設定を聞かれるのでSofware PacksのnRF52832_xxAAを選択する
+  ![](sc01.png)
+
+4. 必要なPackをインストールする  
+ 4.1. DeviceのStartupを選択し、Bootに必要なプログラムをインストールする  
+  ![](sd109.png)
 
 3. 設定を変更する  
 
  3.1. Options for Targetを選択する  
   ![](sd008.png)  
 
- 3.2. Targetタブの設定を変更する  
-  * Xtal:16.0
-  * Use MicroLIB: ON
-  * IROM1 Start: 0x18000
-  * IROM1 Size: 0x28000
-  * IRAM1 Start: 0x20002000
-  * IRAM1 Size: 0x6000
-   
-  Xtalは発振器の速度、MicroLIBは最適化オプション、MemoryAreaはメモリマップを参考にROMにはAPP_CODE_BASE、RAMにはAPP_RAM_BASEを入力する  
-  ![](sd104.png)  
-
- 3.3. Outputタブの設定を変更する   
-    * "Select Folder for Objects.."で出力フォルダを選択する  
-    * ここでは"_build"とする  
-    * "Name of Executable"に出力hex名を入力する  
-    * "Create HEX File"をチェックする  
-   ![](sd105.png)
-
- 3.4. Listingタブの設定を変更する 
-    * "Select Folder for Listings.."でOutputで設定したフォルダを選択する
-   ![](sd106.png)
-   
- 3.5. Linkerタブの設定を変更する
-    * "Use Memory Layout from Target Dialog"をチェックし、メモリマップをTargetタブでの設定と同じくする
-   ![](sd107.png)
 
  3.6. JLinkの設定を変更する
     * "Reset and Run"をチェックし、書き込み時にリセット＆実行を行う
