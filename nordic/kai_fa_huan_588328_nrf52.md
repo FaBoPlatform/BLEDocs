@@ -23,17 +23,16 @@
 3. Deviceの設定を聞かれるのでSofware PacksのnRF52832_xxAAを選択する
   ![](sc01.png)
 
-4. 必要なPackをインストールする  
- 4.1. DeviceのStartupを選択し、Bootに必要なプログラムをインストールする  
-  ![](sd109.png)
+4. Pack選択でDeviceのStartupを選択し、Bootに必要なプログラムをインストールする  
+  ![](sc02.png)
 
-3. 設定を変更する  
+5. 設定を変更する  
 
- 3.1. Options for Targetを選択する  
+ 5.1. Options for Targetを選択する  
   ![](sd008.png)  
 
 
- 3.6. JLinkの設定を変更する
+ 5.2. JLinkの設定を変更する
     * "Reset and Run"をチェックし、書き込み時にリセット＆実行を行う
    ![](sd108.png)
  
