@@ -10,8 +10,7 @@
 ## 手順
 
 手順はほぼnRF51と同じなので、詳細は[コチラ](https://www.gitbook.com/book/fabo/bledocs/edit#/edit/master/nordic/dev802.md)を参照。
-現状(2015/12)ではまだPreviewなのでPackは用意されていない模様。
-なので、ソースを自分でプロジェクトにコピーする必要がある。
+現状(2015/12)ではまだPreviewなので提供されているPackは少ない模様。
 
 
 ### 空のApplication作成
@@ -59,5 +58,6 @@
 
 ### LED点滅Application作成
 
-まだPackが提供されていないようなので、Pack無しでLED点滅プログラムの作成方法を説明します。
+まだ提供されているPackが少ないようなので、Pack無しでLED点滅プログラムの作成方法を説明します。
+
 
