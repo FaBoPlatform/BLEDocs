@@ -35,9 +35,8 @@
  5.3. PortをSWに変更する
   ![](sd011.png)
  5.4. JLinkの設定を変更する
-    * "Reset and Run"をチェックし、書き込み時にリセット＆実行を行う
-   ![](sd108.png)
- 
+  * "Reset and Run"をチェックし、書き込み時にリセット＆実行を行う。また、Sizeの値も変更する。
+  ![](sc03.png)
 
 5. Applicationを作成する  
  5.1. Project内のグループ名(今回はApplication)を右クリックし、"Add New Item to.."を選択する
