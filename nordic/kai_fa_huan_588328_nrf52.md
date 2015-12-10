@@ -1,6 +1,6 @@
 # 開発環境(nRF52)
 
-# nRF52使ったプログラムの作成方法 
+# nRF52を使ったプログラムの作成方法 
 
 ## 使用した環境
 * MDK-Lite Ver. 5.16a
@@ -9,8 +9,8 @@
 
 ## 手順
 
-手順はほぼnRF51と同じなので、詳細は[コチラ](https://www.gitbook.com/book/fabo/bledocs/edit#/edit/master/nordic/dev802.md)を参照。
-現状(2015/12)ではまだPreviewなので提供されているPackは少ない模様。
+手順はほぼnRF51と同じなので、詳細は[コチラ](https://www.gitbook.com/book/fabo/bledocs/edit#/edit/master/nordic/dev802.md)を参照。  
+現状(2015/12)ではまだPreviewなので提供されているPackは最小限な模様。
 
 
 ### 空のApplication作成
@@ -58,6 +58,25 @@
 
 ### LED点滅Application作成
 
-まだ提供されているPackが少ないようなので、Pack無しでLED点滅プログラムの作成方法を説明します。
+まだ提供されているPackが少ないようなので、Pack無しでLED点滅プログラムの作成方法を説明します。  
+Packが無いものは自分でヘッダをインクルードしたり、SDKからソースをコピーする必要が出てきます。
 
+1. 設定を変更する  
 
+ 1.1. Options for Targetを選択する  
+  ![](sd008.png)  
+ 1.2. C/C++を選択し、下記の設定を行う。
+  *  DefineにBOARD_PCA10036を設定
+  *  C99Modeにチェック
+  *  IncludePathsに"\[nRF52_SDK]\examples\bsp"と"\[nRF52_SDK]\components\drivers_nrf\hal"を追加する。（[nRF52_SDK]はSDKへのパス）
+  ![](sc04.png)
+
+2. プログラムを変更する  
+
+  ```#include "boards.h"   
+     int main() {
+     LEDS_CONFIGURE(LEDS_MASK);
+     LEDS_OFF(LEDS_MASK);
+     LEDS_INVERT(BSP_LED_0_MASK);
+     }
+  ```
