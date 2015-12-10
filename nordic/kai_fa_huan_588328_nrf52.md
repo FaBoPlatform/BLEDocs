@@ -56,7 +56,7 @@
  ![](sd013.png)
 
 
-### LED点滅Application作成
+### LED点灯Application作成
 
 まだ提供されているPackが少ないようなので、Pack無しでLED点滅プログラムの作成方法を説明します。  
 Packが無いものは自分でヘッダをインクルードしたり、SDKからソースをコピーする必要が出てきます。
@@ -73,10 +73,18 @@ Packが無いものは自分でヘッダをインクルードしたり、SDKか�
 
 2. プログラムを変更する  
 
-  ```#include "boards.h"   
-     int main() {
-     LEDS_CONFIGURE(LEDS_MASK);
-     LEDS_OFF(LEDS_MASK);
-     LEDS_INVERT(BSP_LED_0_MASK);
-     }
   ```
+ #include "boards.h"   
+ int main() {
+    LEDS_CONFIGURE(LEDS_MASK);
+    LEDS_OFF(LEDS_MASK);
+    LEDS_INVERT(BSP_LED_0_MASK);
+ }
+  ```
+
+3. ビルドして実機にダウンロードする  
+ 3.1. ビルドボタンをクリックするとビルドされます  
+ ![](sc112.png)
+ 
+ 3.2. LOADボタンを押すとプログラムの書き込みが開始されます（LED_0が点灯します）  
+ ![](sd013.png)
