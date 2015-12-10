@@ -30,17 +30,14 @@
 
  5.1. Options for Targetを選択する  
   ![](sd008.png)  
-
-
- 5.2. JLinkの設定を変更する
+ 5.2. DebugタブのUseを"J-LINK / J-TRACE Cortex"に変更する  
+  ![](sd010.png)
+ 5.3. PortをSWに変更する
+  ![](sd011.png)
+ 5.4. JLinkの設定を変更する
     * "Reset and Run"をチェックし、書き込み時にリセット＆実行を行う
    ![](sd108.png)
  
-4. 必要なPackをインストールする  
- 4.1. Manage Run-Time Environmentを選択する  
-  ![](sd006.png)  
- 4.2. DeviceのStartupを選択し、Bootに必要なプログラムをインストールする  
-  ![](sd109.png)
 
 5. Applicationを作成する  
  5.1. Project内のグループ名(今回はApplication)を右クリックし、"Add New Item to.."を選択する
