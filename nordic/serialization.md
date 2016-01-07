@@ -14,11 +14,6 @@ nRF51に直接実装せずに外部MCUなどからシリアル通信で制御す
 
 ApplicationBoardではSoftdeviceを使用しないが専用ライブラリによりSoftdeviceを使用した時と同じコードでConnectivityBoardを制御することができる。  
 ConnectivityBoardには、Softdeviceと接続用のアプリケーションをインストールする。  
-接続アプリは利用するSoftdevice毎に下記フォルダーに用意されている。
-
-* [SDK]/examples/ble_central_and_peripheral/ble_connectivity [S130]
-* [SDK]/examples/ble_peripheral/ble_connectivity [S110]
-* [SDK]/examples/ble_central/ble_connectivity [S120]
 
 ![](ser-02.png)
 
@@ -34,8 +29,21 @@ ArduinoをApplicationBoardとしてつなぐ場合は専用ライブラリが利
 
 [SDK]/components/toolchain/gcc/Makefile.posix  
 
-のGNU_INSTALL_ROOTにGCCの場所を記載。
+のGNU_INSTALL_ROOTにGCCの場所を記載する。
 
+/** UART transmission parameters */
+//#define SER_PHY_UART_FLOW_CTRL          APP_UART_FLOW_CONTROL_ENABLED
+//#define SER_PHY_UART_PARITY             true
+//#define SER_PHY_UART_BAUDRATE           UART_BAUDRATE_BAUDRATE_Baud1M
+#define SER_PHY_UART_FLOW_CTRL          APP_UART_FLOW_CONTROL_DISABLED
+#define SER_PHY_UART_PARITY             false
+#define SER_PHY_UART_BAUDRATE           UART_BAUDRATE_BAUDRATE_Baud38400
+
+接続アプリは利用するSoftdevice毎に下記フォルダに用意されているので、
+
+* [SDK]/examples/ble_central_and_peripheral/ble_connectivity [S130]
+* [SDK]/examples/ble_peripheral/ble_connectivity [S110]
+* [SDK]/examples/ble_central/ble_connectivity [S120]
 
 
 
