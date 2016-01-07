@@ -21,7 +21,7 @@
    * [SoftDevice](nordic/softdevice.md)
    * [パケットスニファの設定](nordic/sniffer.md)
    * [開発環境(nRF52)](nordic/kai_fa_huan_588328_nrf52.md)
-   * Serialization
+   * [Serialization](nordic/serialization.md)
 * [SiliconLabs](bgscript/top.md)
    * [開発環境](bgscript/dev.md)
    * [環境構築(Bluegiga)](bluegiga/dev_bluegiga.md)
