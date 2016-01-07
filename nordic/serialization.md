@@ -25,12 +25,17 @@ ArduinoをApplicationBoardとしてつなぐ場合は専用ライブラリが利
 ### 接続アプリのコンパイル
 
 接続アプリはコード量が多いのでKeilの無料版でばビルドできないので、今回はGCCを用います。  
-[こちら](https://launchpad.net/gcc-arm-embedded)からArm用のGCCをダウンロードし、任意の場所へ置く。
 
-[SDK]/components/toolchain/gcc/Makefile.posix  
+1. [こちら](https://launchpad.net/gcc-arm-embedded)からArm用のGCCをダウンロードし、任意の場所へ置く。
 
-のGNU_INSTALL_ROOTにGCCの場所を記載する。
+2. 下記のGNU_INSTALL_ROOTにGCCの場所を記載する。
+ * [SDK]/components/toolchain/gcc/Makefile.posix  
 
+3. 下記のヘッダにシリアル通信の設定があるので、Arduinoに合わせた設定にする。
+
+ * [SDK]/components/serialization/common/ser_config.h
+
+ ```
 /** UART transmission parameters */
 //#define SER_PHY_UART_FLOW_CTRL          APP_UART_FLOW_CONTROL_ENABLED
 //#define SER_PHY_UART_PARITY             true
@@ -38,14 +43,155 @@ ArduinoをApplicationBoardとしてつなぐ場合は専用ライブラリが利
 #define SER_PHY_UART_FLOW_CTRL          APP_UART_FLOW_CONTROL_DISABLED
 #define SER_PHY_UART_PARITY             false
 #define SER_PHY_UART_BAUDRATE           UART_BAUDRATE_BAUDRATE_Baud38400
+ ```
 
-接続アプリは利用するSoftdevice毎に下記フォルダに用意されているので、
+4. 接続アプリは利用するSoftdevice毎に下記フォルダに用意されているので、移動してmakeを実行するとhexファイルが生成される。
 
-* [SDK]/examples/ble_central_and_peripheral/ble_connectivity [S130]
-* [SDK]/examples/ble_peripheral/ble_connectivity [S110]
-* [SDK]/examples/ble_central/ble_connectivity [S120]
+ * [SDK]/examples/ble_central_and_peripheral/ble_connectivity [S130]
+ * [SDK]/examples/ble_peripheral/ble_connectivity [S110]
+ * [SDK]/examples/ble_central/ble_connectivity [S120]
+
+5. 開発ボードにSoftdeviceと先ほどのhexファイルを書き込む。
 
 
+### 接続
+
+表の通りにGPIOを接続する。
+
+| 開発ボード | Arduino |
+| -- | -- |
+| GND | GND |
+| P0.12 | P2 |
+| P0.13 | P3 |
+
+### Arduinoプログラム
+
+iBeaconを発信するプログラム。
+
+ ```
+#include <SoftwareSerial.h>
+
+SoftwareSerial serial(2, 3);
+
+int state = 0;
+int count = 0;
+
+void setup() {
+  // BLEとの通信用
+  serial.begin(38400);
+  // ログ出力用
+  Serial.begin(9600);
+  Serial.write("*Start!\n");
+  // BLEを有効化
+  Serial.write("sd_ble_enable()\n");
+  sd_ble_enable();
+}
+
+void loop() {
+  while (serial.available()) {
+    Serial.print(serial.read(), HEX);
+    if (count++ > 6) {
+      Serial.write("\n");
+      count = 0;
+      switch(state++) {
+        case 0:
+          Serial.write("*sd_ble_gap_adv_data_set()\n");
+          sd_ble_gap_adv_data_set();
+        break;
+        case 1:
+          Serial.write("*sd_ble_gap_adv_start()\n");
+          sd_ble_gap_adv_start();
+        break;
+        case 2:
+          Serial.write("*Finish!\n");
+        break;
+      }
+    } else {
+      Serial.write(",");
+    }
+  }
+}
+
+// データ送信
+void send_data(byte *data) {
+  int len = data[0] + 2;
+  for (int i=0; i<len; i++) {
+    serial.write(data[i]);
+  }
+}
+
+// BLEを有効化
+void sd_ble_enable() {
+  byte data[] = {
+    // パケットサイズ
+    0x08, 0x00, 
+    // タイプ（0:コマンド, 1:レスポンス）
+    0x00, 
+    // コマンドタイプ
+    0x60, 
+    // コマンドの内容
+    0x01, 0x00, 0x00, 0x00, 0x00, 0x00
+    };
+  send_data(data);
+}
+
+
+// Advertisingのデータを設定
+void sd_ble_gap_adv_data_set() {
+  byte data[] = {
+    0x24, 0x00, 0x00, 0x72, 0x1e, 0x01, 
+    // Header
+    0x02, 0x01, 0x06, 0x1a, 0xff, 0x4c, 0x00, 0x02, 0x15,
+    // UUID
+    0x01, 0x12, 0x23, 0x34, 0x45, 0x56, 0x67, 0x78, 0x89, 0x9a, 0xab, 0xbc, 0xcd, 0xde, 0xef, 0xf0,
+    // Major
+    0x01, 0x02,
+    // Minor
+    0x03, 0x4,
+    0xc3, 0x00, 0x00};
+  send_data(data);
+}
+
+// Advertising開始
+void sd_ble_gap_adv_start() {
+  byte data[] = {
+    0x0c, 0x00, 0x00, 0x73, 0x01, 
+    // ADV_NONCONN_IND
+    0x03, 
+    0x00, 0x00, 0x00, 
+    // Interval(0.625 ms units)
+    0xa0, 
+    0x00, 0x00, 0x00, 0x00};
+  send_data(data);
+}
+
+ ```
+
+### パケットフォーマット
+
+例）sd_ble_enableのパケットフォーマット  
+他のパケットフォーマットは[こちら](http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.sdk51.v10.0.0%2Flib_serialization.html)
+
+![](ser-03.png)
+
+| サイズ | タイプ | コマンド | コマンド | パラメータ |
+| -- | -- | -- | -- | -- |
+| 2Byte | 1byte | 1byte | 1byte | 5byte |
+| 0x08, 0x00 | 0x00 | 0x60 | 0x01| 0x00... |
+| 以降8Byte | コマンドタイプ | sd_ble_enableを表す | BLEを有効化する | 5byte |
+
+ ```
+  byte data[] = {
+    // パケットサイズ
+    0x08, 0x00, 
+    // タイプ（0:コマンド, 1:レスポンス）
+    0x00, 
+    // コマンドタイプ
+    0x60, 
+    // コマンドの内容
+    0x01, 0x00, 0x00, 0x00, 0x00, 0x00
+    };
+ ```
 
 
 
