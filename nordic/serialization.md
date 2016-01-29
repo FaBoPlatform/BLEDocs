@@ -324,5 +324,35 @@ void sd_ble_gap_scan_start() {
 }
  ```
 
+### 改良
 
+[SimpleFIFO](https://github.com/rambo/SimpleFIFO)を利用してSoftwareSerialのオーバーフローを回避する。
+
+
+ ```
+#include <SimpleFIFO.h>
+
+SimpleFIFO<uint8_t,255> sFIFO;
+
+// ~~略~~
+
+void loop() {
+
+  // シリアルから読み取ったデータはすぐにQueueに入れる
+  while (serial.available()) {
+    sFIFO.enqueue(serial.read());
+  }
+
+  // シリアルからの読み込みが無いタイミングで処理する
+  if (sFIFO.count() > 0) {
+    parse(sFIFO.dequeue());
+    if (state == 1 && buff_pos == 0) {
+        Serial.println("sd_ble_gap_scan_start()"); 
+        sd_ble_gap_scan_start();
+    }
+  }
+
+}
+ 
+ ```
 
