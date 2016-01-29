@@ -356,3 +356,46 @@ void loop() {
  
  ```
 
+### より見やすく
+
+parse関数の内容を変更してBLE_GAP_EVT_ADV_REPORTのイベントをより詳細に表示するように改良。
+
+ ```
+// ~~略~~
+  if (buff_pos > 4) {
+    if (data_com == 0x1b) {
+      // BLE_GAP_EVT_ADV_REPORT
+      if (buff_pos > 16) {
+        Serial.print(data, HEX);
+      } else if (buff_pos == 16) {
+        Serial.write("handle:");
+        Serial.print(buff[5], HEX);
+        Serial.print(buff[6], HEX);
+        Serial.write("\n");
+        Serial.write("type:");
+        Serial.print(buff[7], HEX);
+        Serial.write("\n");
+        Serial.write("address:");
+        Serial.print(buff[8], HEX);
+        Serial.print(buff[9], HEX);
+        Serial.print(buff[10], HEX);
+        Serial.print(buff[11], HEX);
+        Serial.print(buff[12], HEX);
+        Serial.print(buff[13], HEX);
+        Serial.write("\n");
+        Serial.write("rssi:");
+        Serial.print(buff[14], HEX);
+        Serial.write("\n");
+        return;
+      } else {
+        return;
+      }
+    } else {
+      Serial.print(data, HEX);
+    }
+  } else {
+    return;
+  }
+// ~~略~~
+
+ ```
