@@ -193,5 +193,136 @@ void sd_ble_gap_adv_start() {
     };
  ```
 
+## スキャンする
+
+### 準備
+
+Advertisingパケットをスキャンするには[sd_ble_gap_scan_start](http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.sdk51.v10.0.0%2Fble_serialization_s130_functions_gap.html&anchor=nrf51_scan_start_encoding)を利用する。  
+これはS110のソフトデバイスでは対応していないので、S130を書き込む。
+
+
+### Arduinoプログラム
+
+ ```
+#include <SoftwareSerial.h>
+
+SoftwareSerial serial(2, 3);
+
+int state = 0;
+int count = 0;
+uint8_t buff[255];
+int buff_pos = 0;
+int data_len = 0;
+int data_com = 0;
+
+
+void setup() {
+  // BLEとの通信用
+  serial.begin(38400);
+  // ログ出力用
+  Serial.begin(38400);
+  Serial.write("*Start!\n");
+  // BLEを有効化
+  Serial.write("sd_ble_enable()\n");
+  sd_ble_enable();
+}
+
+// パケットの内容をパース
+void parse(uint8_t data) {
+  buff[buff_pos++] = data;
+  if (buff_pos == 2) {
+    data_len = buff[0] + (buff[1] << 8);
+    Serial.write("len:");
+    Serial.print(data_len, DEC);
+    Serial.write("\n");
+  }
+  if (buff_pos == 3) {
+    Serial.write("type:");
+    Serial.print(data, HEX);
+    Serial.write("\n");
+  }
+  if (buff_pos == 4) {
+    data_com = data;
+    Serial.write("command:");
+    Serial.print(data, HEX);
+    Serial.write("\n");
+  }
+  if (buff_pos > 4) {
+    Serial.print(data, HEX);
+  } else {
+    return;
+  }
+  if (data_len == buff_pos -2) {
+    buff_pos = 0;
+    data_len = 0;
+    state++;
+    Serial.write("\n");
+  } else {
+    Serial.write(",");
+  }
+}
+
+
+void loop() {
+  if (serial.overflow()) {
+    // SoftwareSerialはバッファが64byteしかなくオーバーフローしてしまうので、回避策が必要。
+    Serial.println("\nSoftwareSerial overflow!");
+    delay(100);
+    exit(1);
+  }
+  while (serial.available()) {
+    parse(serial.read());
+    if (state == 1 && buff_pos == 0) {
+        Serial.println("sd_ble_gap_scan_start()"); 
+        sd_ble_gap_scan_start();
+    }
+  }
+}
+
+
+// データ送信
+void send_data(byte *data) {
+  int len = data[0] + 2;
+  for (int i=0; i<len; i++) {
+    serial.write(data[i]);
+  }
+}
+
+// BLEを有効化
+void sd_ble_enable() {
+  byte data[] = {
+    // パケットサイズ
+    0x08, 0x00, 
+    // タイプ（0:コマンド, 1:レスポンス）
+    0x00, 
+    // コマンドタイプ
+    0x60, 
+    // コマンドの内容
+    0x01, 0x00, 0x00, 0x00, 0x00, 0x00
+    };
+  send_data(data);
+}
+
+// Scan開始
+void sd_ble_gap_scan_start() {
+  byte data[] = {
+    // パケットサイズ
+    0x0b, 0x00, 
+    // タイプ（0:コマンド, 1:レスポンス）
+    0x00, 
+    // コマンドタイプ
+    0x86, 
+    // コマンドの内容
+    0x01, // present
+    0x00, // Active Scanning
+    0x00, // Whitelist
+    0x40, 0x06, // Interval(0.625 ms units)
+    0x50, 0x00, // Scan window(0.625 ms units)
+    0x00, 0x00 // Timeout(No timeout)
+    };
+  send_data(data);
+}
+ ```
+
 
 
