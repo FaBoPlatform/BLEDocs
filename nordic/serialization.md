@@ -42,7 +42,7 @@ ArduinoをApplicationBoardとしてつなぐ場合は専用ライブラリが利
 //#define SER_PHY_UART_BAUDRATE           UART_BAUDRATE_BAUDRATE_Baud1M
 #define SER_PHY_UART_FLOW_CTRL          APP_UART_FLOW_CONTROL_DISABLED
 #define SER_PHY_UART_PARITY             false
-#define SER_PHY_UART_BAUDRATE           UART_BAUDRATE_BAUDRATE_Baud38400
+#define SER_PHY_UART_BAUDRATE           UART_BAUDRATE_BAUDRATE_Baud115200
  ```
 
 4. 接続アプリは利用するSoftdevice毎に下記フォルダに用意されているので、移動してmakeを実行するとhexファイルが生成される。
@@ -78,7 +78,7 @@ int count = 0;
 
 void setup() {
   // BLEとの通信用
-  serial.begin(38400);
+  serial.begin(115200);
   // ログ出力用
   Serial.begin(9600);
   Serial.write("*Start!\n");
@@ -218,7 +218,7 @@ int data_com = 0;
 
 void setup() {
   // BLEとの通信用
-  serial.begin(38400);
+  serial.begin(115200);
   // ログ出力用
   Serial.begin(38400);
   Serial.write("*Start!\n");
