@@ -2,7 +2,7 @@
 
 ## 事前準備
 
-[Debug Logger](dev/nrf51debug.md)と[Common application error handler](dev/nrf51error.md)を事前に組み込む。
+[Debug Logger](nrf51debug.md)と[Common application error handler](nrf51error.md)を事前に組み込む。
 
 ## SourceCode
 main.c
@@ -170,15 +170,15 @@ Define:
 
 |nRF_SoftDevice |
 | -- | -- |
-| ![](../img/dev/nrf/sd008.png) | 
+| ![](./img/soft_001.png) | 
 
 
 | Board Support | CMSIS | Device|
 | -- | -- |
-| ![](../img/dev/nrf/sd002.png) | ![](../img/dev/nrf/sd003.png) | ![](../img/dev/nrf/sd004.png) |
+| ![](./img/soft_002.png) | ![](./img/soft_003.png) | ![](./img/soft_004.png) |
 
 | BLE Modules | nRF_Devices | nRF_Libraries|
 | -- | -- |
-| ![](../img/dev/nrf/sd005.png) | ![](../img/dev/nrf/sd006.png) | ![](../img/dev/nrf/sd007.png) |
+| ![](./img/soft_005.png) | ![](./img/soft_006.png) | ![](./img/soft_007.png) |
 
 

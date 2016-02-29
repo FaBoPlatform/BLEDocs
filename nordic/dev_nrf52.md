@@ -19,28 +19,28 @@
 2. uVision5のProjectメニューから新たにプロジェクトを作成する
 
 3. Deviceの設定を聞かれるのでSofware PacksのnRF52832_xxAAを選択する
-  ![](sc01.png)
+  ![](./img/dev_nrf52_001.png)
 
 4. Pack選択でDeviceのStartupを選択し、Bootに必要なプログラムをインストールする  
-  ![](sc02.png)
+  ![](./img/dev_nrf52_002.png)
 
 5. 設定を変更する  
 
  5.1. Options for Targetを選択する  
-  ![](sd008.png)  
+  ![](./img/dev_nrf52_003.png)  
  5.2. DebugタブのUseを"J-LINK / J-TRACE Cortex"に変更する  
-  ![](sd010.png)
+  ![](./img/dev_nrf52_004.png)
  5.3. PortをSWに変更する
-  ![](sd011.png)
+  ![](./img/dev_nrf52_005.png)
  5.4. JLinkの設定を変更する
   * "Reset and Run"をチェックし、書き込み時にリセット＆実行を行う。また、Sizeの値も変更する。
-  ![](sc03.png)
+  ![](./img/dev_nrf52_006.png)
 
 5. Applicationを作成する  
  5.1. Project内のグループ名(今回はApplication)を右クリックし、"Add New Item to.."を選択する
-  ![](sd110.png)
+  ![](./img/dev_nrf52_007.png)
  5.2. main.cを作成する
-  ![](sd111.png)
+  ![](./img/dev_nrf52_008.png)
  5.3. 今回は無機能のApplicationなので、空のmain文のみにする
 
   ```int main() {  
@@ -49,10 +49,10 @@
 
 6. ビルドして実機にダウンロードする  
  6.1. ビルドボタンをクリックするとビルドされます  
- ![](sc112.png)
+ ![](./img/dev_nrf52_009.png)
  
  6.2. LOADボタンを押すとプログラムの書き込みが開始されます（プログラムが空なので何も起こりません）  
- ![](sd013.png)
+ ![](./img/dev_nrf52_010.png)
 
 
 ### LED点灯Application作成
@@ -66,12 +66,12 @@ Packが無いものは自分でヘッダをインクルードしたり、SDKか�
 1. 設定を変更する  
 
  1.1. Options for Targetを選択する  
-  ![](sd008.png)  
+  ![](./img/dev_nrf52_011.png)  
  1.2. C/C++を選択し、下記の設定を行う。
   *  DefineにBOARD_PCA10036を設定
   *  C99Modeにチェック
   *  IncludePathsに"\[nRF52_SDK]\examples\bsp"と"\[nRF52_SDK]\components\drivers_nrf\hal"を追加する。（[nRF52_SDK]はSDKへのパス）
-  ![](sc04.png)
+  ![](./img/dev_nrf52_012.png)
 
 2. プログラムを変更する  
 
@@ -86,7 +86,7 @@ Packが無いものは自分でヘッダをインクルードしたり、SDKか�
 
 3. ビルドして実機にダウンロードする  
  3.1. ビルドボタンをクリックするとビルドされます  
- ![](sc112.png)
+ ![](./img/dev_nrf52_013.png)
  
  3.2. LOADボタンを押すとプログラムの書き込みが開始されます（LED_0が点灯します）  
- ![](sd013.png)
+ ![](./img/dev_nrf52_014.png)

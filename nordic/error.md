@@ -3,7 +3,7 @@
 ## SourceCode
 [Common application error](http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.sdk51.v10.0.0%2Fgroup__app__error.html&resultof=%22app_error_handler%22%20)では、APP_ERROR_HANDLER(ERR_CODE)、APP_ERROR_CHECK(ERR_CODE)、APP_ERROR_CHECK_BOOL(BOOLEAN_VALUE)等をプログラム内に記述することで、エラーをハンドリングできる。
 
-app_trace部分は、[Debug Logger](dev/nrf51debug.md)の項目を参照。
+app_trace部分は、[Debug Logger](debug.md)の項目を参照。
 
 main.c
 ```c
@@ -47,8 +47,8 @@ int main(void)
 
 Common application error handlerを有効にするには、C/C++タブのDefineにDEBUGの記述を追記する。
 
-![](../img/dev/nrf/nrf_error001.png)
+![](./img/error_001.png)
 
 ## 出力例
 
-![](../img/dev/nrf/nrf_error002.png)
+![](./img/error_002.png)

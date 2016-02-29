@@ -6,7 +6,7 @@ Bluetooth 4.2向けにはS132 SoftDevice, S212 SoftDevice, S332 SoftDeviceが提
     
 ## SoftDeviceの組み込み
 
-[Debug Logger](dev/nrf51debug.md)と[Common application error handler](dev/nrf51error.md)を事前に組み込む。
+[Debug Logger](debug.md)と[Common application error handler](error.md)を事前に組み込む。
  
 ## Source Code
 
@@ -100,7 +100,7 @@ custom_board.h
 ```
 
 ## Optionの設定
-![](../img/dev/nrf/sd001.png)
+![](./img/sd001.png)
 
 Define:
 
@@ -114,15 +114,15 @@ BLEスタックを使えるようにするには、Defineに、BLE_STACK_SUPPORT
 
 |nRF_SoftDevice |
 | -- | -- |
-| ![](../img/dev/nrf/sd008.png) | 
+| ![](./img/soft_001.png) | 
 
 
 | Board Support | CMSIS | Device|
 | -- | -- |
-| ![](../img/dev/nrf/sd002.png) | ![](../img/dev/nrf/sd003.png) | ![](../img/dev/nrf/sd004.png) |
+| ![](./img/soft_002.png) | ![](./img/soft_003.png) | ![](./img/soft_004.png) |
 
 | BLE Modules | nRF_Devices | nRF_Libraries|
 | -- | -- |
-| ![](../img/dev/nrf/sd005.png) | ![](../img/dev/nrf/sd006.png) | ![](../img/dev/nrf/sd007.png) |
+| ![](./img/soft_005.png) | ![](./img/soft_006.png) | ![](./img/soft_007.png) |
 
 

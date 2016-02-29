@@ -4,7 +4,7 @@
 
 nRF51内部には、Real Time Counterが2つ搭載されている(RTC0とRTC1)。Application TimerではRTC1を使用。RTC0は、SoftDeviceで使用。RTC1のアドレス番地は、0x40011000。(参考: [Table 2. Peripheral protection and usage by SoftDevice](http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.130.sds.v1.0.0%2Fsd_resource_reqs%2Fhw_block_interrupt_vector.html) )
 
-![](../img/dev/app_time01.png)
+![](./img/timer_001.png)
 
 nRF51 Series Reference Manual
 Version 1.1 P7 より抜粋

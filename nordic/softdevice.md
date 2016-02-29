@@ -20,7 +20,7 @@ ARM® Cortex-M4F向け。
 
 ### 対応チップとバージョン  
 
-![](nrf.png)
+![](./img/softdvice_001.png)
 
 
 ### 比較  
@@ -37,17 +37,17 @@ ARM® Cortex-M4F向け。
 SoftDeviceの種類によってApplicationを書き込むアドレスやメモリの領域が異なる  
 ビルド設定時に以下の情報が必要になる  
 
-![](sd_mem.png)
+![](./img/softdvice_002.png)
 
 ## S110
 
-![](sd_mem_110.png)
+![](./img/softdvice_003.png)
 
 ## S120
 
-![](sd_mem_120.png)
+![](./img/softdvice_004.png)
 
 ## S130
 
-![](sd_mem_130.png)
+![](./img/softdvice_005.png)
 

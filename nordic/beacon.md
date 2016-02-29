@@ -16,6 +16,6 @@ https://developer.apple.com/ibeacon/
 
 に開示されている条件に従えば、使用することが可能になった。
 
-![](../img/dev/nrf/beacon001.png)
+![](./img/beacon_001.png)
 
 

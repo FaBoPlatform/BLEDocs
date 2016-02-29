@@ -4,7 +4,7 @@
 
 | Type | フォーマット |
 | -- | -- |
-| ADV_NONCONN_IND |  ![](../img/dev/nrf/param007.png)|
+| ADV_NONCONN_IND |  ![](./img/beaconadvdata_001.png)|
 
 iBeaconは、ADV_NONCONN_INDでアドバータイズされるが、ADV_NONCONN_INDでは、AdvAが6オクテット、AdvDataが0-31オクテットで構成される。
 
@@ -67,12 +67,12 @@ BLUETOOTH SPECIFICATION Version 4.0 [Vol 3] P401-P403から抜粋
 
 iBeaconのAdvertisingのパケットは、下記のような値と構造になっている。
 
-![](../img/dev/nrf/beacon001_2.png)
+![](./img/beaconadvdata_002.png)
 
 
 ## iBeaconのFLAGS
 
-![](../img/dev/nrf/beacon001_2.png)
+![](./img/beaconadvdata_002.png)
 
 [Proximity Beacon
 Specification
@@ -128,7 +128,7 @@ uint8_t flags = BLE_GAP_ADV_FLAGS_LE_ONLY_GENERAL_DISC_MODE;
 
 Bluetooth 4.0 Core Specificationの定義では、
 
-![](../img/dev/nrf/beacon001_2.png)
+![](./img/beaconadvdata_002.png)
 
 iBeaconのManufacture Specificは
 

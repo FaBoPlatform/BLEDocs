@@ -15,36 +15,36 @@ UARTでデータの送受信をするには、基板のRX, TXのピンの位置�
 
 # コンポーネントの取り込み
 
-![](../img/dev/nrf/uart_setup001.png)
+![](./img/uart_001.png)
 
-![](../img/dev/nrf/uart_setup002.png)
+![](./img/uart_002.png)
 
-![](../img/dev/nrf/uart_setup003.png)
+![](./img/uart_003.png)
 
-![](../img/dev/nrf/uart_setup004.png)
+![](./img/uart_004.png)
 
-![](../img/dev/nrf/uart_setup005.png)
+![](./img/uart_005.png)
 
-![](../img/dev/nrf/uart_setup006.png)
+![](./img/uart_006.png)
 
 | Device関連 | nRF Driver | nRF Libraries| nRF SoftDevice|
 | -- | -- |  -- | -- |
-| ![](../img/dev/nrf/uart005.png) | ![](../img/dev/nrf/uart006.png) | ![](../img/dev/nrf/uart007.png) | ![](../img/dev/nrf/uart008.png) |
+| ![](./img/uart_007.png) | ![](./img/uart_008.png) | ![](./img/uart_009.png) | ![](./img/uart_010.png) |
 
 もし、オレンジ色に変わる場合は、ライブラリの足りていないエラーなので、Rsolvボタンを押して不足ライブラリを補充する。
-![](../img/dev/nrf/uart009.png)
+![](./img/uart_011.png)
 
 # URATの設定
 
 OptionのC/C++タブで、Defineの値にボード名をいれることで、URATのPINを設定することができる。
 
-![](../img/dev/nrf/uart001.png)
+![](./img/uart_012.png)
 
 | 基板名 | Defineの値 | 実際の画面 |
 | -- | -- | -- |
-| PCA10028 | BOARD_PCA10028 | ![](../img/dev/nrf/uart002.png)| 
-| PCA10036 | BOARD_PCA10036 | ![](../img/dev/nrf/uart003.png)|
-| FaBo Breakout Board | BOARD_CUSTOM | ![](../img/dev/nrf/uart004.png) |
+| PCA10028 | BOARD_PCA10028 | ![](./img/uart_013.png)| 
+| PCA10036 | BOARD_PCA10036 | ![](./img/uart_014.png)|
+| FaBo Breakout Board | BOARD_CUSTOM | ![](./img/uart_015.png) |
 
 Nordic製の開発ボードは、boards.hを読み込みにいき、boards.hに書くボードようのヘッダーファイルのincludeが記載されている。PCA10028, PCA10036のPINの値は、それぞれpca10028.h, pca10036.hで定義されている。
 
@@ -276,13 +276,13 @@ int main(void)
 
 board_custom.hを作成したフォルダにパスを通す。
 
-![](../img/dev/nrf/uart010.png)
+![](./img/uart_016.png)
 
 ## Configを修正し、UARTを有効にする
 
 nrf_drv_config.hファイルにGPIOTE, UARTの有効にする変数があるので、修正を加える。
 
-![](../img/dev/nrf/uart011.png)
+![](./img/uart_017.png)
 
 GPIOTEを有効にするため
 
@@ -332,6 +332,7 @@ UARTを有効にするため
 
 ## Buildして転送
 
-![](../img/dev/nrf/uart012.png)
 
-![](../img/dev/nrf/uart013.png)
+![](./img/debug_018.png)
+
+![](./img/debug_019.png)

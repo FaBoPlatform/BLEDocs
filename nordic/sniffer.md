@@ -4,8 +4,8 @@
 
 | 型番 | 写真 |
 | -- | -- |
-| PCA10000 | ![](pca10000.png) |
-| PCA10031 | ![](pca10031.png) |
+| PCA10000 | ![](./img/dev_pca10000.png) |
+| PCA10031 | ![](./img/dev_pca10031.png) |
 
 ## 必要なソフト
 
@@ -20,16 +20,15 @@ VirtualBoxでは以下の手順でUSB Dongleを認証させる。
 
 1. USB Dongleをさした状態で、USBの設定を開き、USB フィルタに追加する
 
-![](sniffer004.png)
+![](./img/sniffer_001.png)
 
-![](sniffer005.png)
+![](./img/sniffer_002.png)
 
 2.USBフィルタの編集を選択し、メーカー名、製品名、シリアルNoを削除する
 
-![](sniffer006.png)
+![](./img/sniffer_003.png)
 
 3. USB Dongleをマシンから抜き、Windows10を再起動したのち、USB Dongleをさす。認識されると、SEGGER J-LINK[0100]の前にチェックマークが現れる。
-
 
 
 ## 準備
@@ -47,7 +46,7 @@ VirtualBoxでは以下の手順でUSB Dongleを認証させる。
 11. 接続しているBLE機器はパケット受信時にLEDが点灯するようになります。
 12. Wiresharkをインストールします。
 
- ![](sniffer01.png)
+ ![](./img/sniffer_004.png)
 
 
 ## スニフ
@@ -58,10 +57,10 @@ VirtualBoxでは以下の手順でUSB Dongleを認証させる。
 3. 中段に使用可能なコマンド、下段に検出されたデバイス一覧が表示されます。
 4. 上下キーでカーソルを移動し、Enterキーで対象デバイスを選択します。
 
- ![](sniffer02.png)
+ ![](./img/sniffer_005.png)
 
 5. wキーでWiresharkが起動します。
 6. 選択したデバイスのパケット詳細が表示されます。
 
 
- ![](sniffer03.png)
+ ![](./img/sniffer_003.png)

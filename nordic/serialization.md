@@ -10,12 +10,12 @@ nRF51に直接実装せずに外部MCUなどからシリアル通信で制御す
 実際はApplicationBoard側はnRF51を使用せずにARMを直で使用することが多くなるはず。  
 接続はUART, SPI, HCIが利用できる。
 
-![](ser-01.png)
+![](./img/serial_001.png)
 
 ApplicationBoardではSoftdeviceを使用しないが専用ライブラリによりSoftdeviceを使用した時と同じコードでConnectivityBoardを制御することができる。  
 ConnectivityBoardには、Softdeviceと接続用のアプリケーションをインストールする。  
 
-![](ser-02.png)
+![](./img/serial_002.png)
 
 ## Arduinoとつなぐ
 
@@ -172,7 +172,7 @@ void sd_ble_gap_adv_start() {
 例）sd_ble_enableのパケットフォーマット  
 他のパケットフォーマットは[こちら](http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.sdk51.v10.0.0%2Flib_serialization.html)
 
-![](ser-03.png)
+![](./img/serial_003.png)
 
 | サイズ | タイプ | コマンド | コマンド | パラメータ |
 | -- | -- | -- | -- | -- |

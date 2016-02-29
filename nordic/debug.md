@@ -7,17 +7,17 @@ http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.sdk51.
 
 今回は、main.c以外に、custom_board.hを追加する。
 
-![](../img/dev/nrf/nrf_log001.png)
+![](./img/debug_001.png)
 
-![](../img/dev/nrf/nrf_log002.png)
+![](./img/debug_002.png)
 
 新規作成しただけでは、リストに表示されないので、Sample1付近で右クリックを押し表示されるショートカットメニューの[Add Existing Files to Group 'Sample1'...]を選択し、custom_board.h を選ぶ。
 
-![](../img/dev/nrf/nrf_log003.png)
+![](./img/debug_003.png)
 
-![](../img/dev/nrf/nrf_log004.png)
+![](./img/debug_004.png)
 
-![](../img/dev/nrf/nrf_log005.png)
+![](./img/debug_005.png)
 
 次に、Optionの設定で、C/C++タブで、defineに、BOARD_CUSTOMとENABLE_DEBUG_LOG_SUPPORTを追記する。
 
@@ -29,7 +29,7 @@ http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.sdk51.
 
 また、custom_board.hが存在するフォルダにパスを通しておく。
 
-![](../img/dev/nrf/nrf_log006.png)
+![](./img/debug_006.png)
 
 ## SourceCode
 
@@ -70,29 +70,29 @@ cuntom_board.h
 
 nRF_Librariesからapp_traceを選択する。足りないパッケージがあるためオレンジ色になるので、左したのResolvボタンを押す。
 
-![](../img/dev/nrf/nrf_log007.png)
+![](./img/debug_007.png)
 
 nRF_Driverのnrf_errorがオレンジ色になっているので、No_softdeviceに選択を変える。
 
-![](../img/dev/nrf/nrf_log008.png)
+![](./img/debug_008.png)
 
-![](../img/dev/nrf/nrf_log009.png)
+![](./img/debug_009.png)
 
 app_uartは、Fifoに変えておく。これをやらないと、1文字しか文字が表示されない。
 
-![](../img/dev/nrf/nrf_log010.png)
+![](./img/debug_010.png)
 
 また、Board Supportのbspを追加する。オレンジ色になるので、resolveボタンを選択する。
 
-![](../img/dev/nrf/nrf_log011.png)
+![](./img/debug_011.png)
 
 | Board Support | nRF_Driver | nRF_Libraries | nRF_SoftDevice |
 | -- | -- | -- |
-| ![](../img/dev/nrf/nrf_log104.png) | ![](../img/dev/nrf/nrf_log101.png) | ![](../img/dev/nrf/nrf_log102.png) | ![](../img/dev/nrf/nrf_log103.png) |
+| ![](./img/debug_012.png) | ![](./img/debug_013.png) | ![](./img/debug_014.png) | ![](./img/debug_015.png) |
 
 ## nrf_drv_config.hファイルを修正する
 
-![](../img/dev/nrf/nrf_log012.png)
+![](./img/debug_016.png)
 
 GPIOTEを有効にするため
 
@@ -141,6 +141,6 @@ UARTを有効にするため
 
 ## Buildして転送
 
-![](../img/dev/nrf/nrf_uart028.png)
+![](./img/debug_018.png)
 
-![](../img/dev/nrf/nrf_uart029.png)
+![](./img/debug_019.png)
