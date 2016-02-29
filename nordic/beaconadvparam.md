@@ -2,7 +2,7 @@
 
 Bluetooth Low EnergyのLink Layerのパケットは、Preamble、AccessAddress、PDU、CRCにより構成される。
 
-![](../img/dev/nrf/param001.png)
+![](./img/param_001.png)
 
 BLUETOOTH SPECIFICATION Version 4.0 [Vol 6] P36より
 
@@ -18,7 +18,7 @@ BLUETOOTH SPECIFICATION Version 4.0 [Vol 6] P36に記載
 
 PDUは、HeaderとPayloadにより構成される。Payloadの長さや書式は、Headerで定義されたTypeにより変化する。
 
-![](../img/dev/nrf/param002.png)
+![](./img/param_002.png)
 
 PDU Headerは、16ビットしか割り振りがないので、ビット単位で構成される。最初の4ビットがPDU Typeが定義される。
 
@@ -34,11 +34,11 @@ PDU Headerは、16ビットしか割り振りがないので、ビット単位�
 
 
 
-![](../img/dev/nrf/param004.png)
+![](./img/param_004.png)
 
 HeaderのTypeは下図の値で定義される。
 
-![](../img/dev/nrf/param003.png)
+![](./img/param_003.png)
 
 BLUETOOTH SPECIFICATION Version 4.0 [Vol 6] P39に記載。
 
@@ -55,13 +55,13 @@ iBeaconでは、ADV_NONCONN_INDを使用する。また、PDU Type別のフォ�
 
 | Type | フォーマット |
 | -- | -- |
-| ADV_IND | ![](../img/dev/nrf/param005.png) <br>TxAdd 0:AdvA public<br>TxAdd 1:AdvA random  |
-| ADV_DIRECT_IND | ![](../img/dev/nrf/param006.png)<br>TxAdd 0:AdvA public<br>TxAdd 1:AdvA random<br>RxAdd 0:InitA public<br>RxAdd 1:InitA random |
-| ADV_NONCONN_IND |  ![](../img/dev/nrf/param007.png)<br>TxAdd 0:AdvA public<br>TxAdd 1:AdvA random|
-| SCAN_REQ | ![](../img/dev/nrf/param009.png) <br>TxAdd 0:ScanA public<br>TxAdd 1:ScanA random<br>RxAdd 0:AdvA public<br>RxAdd 1:AdvA random|
-| SCAN_RSP | ![](../img/dev/nrf/param010.png) <br>TxAdd 0:AdvA public<br>TxAdd 1:AdvA random|
-| CONNECT_REQ | ![](../img/dev/nrf/param011.png) <br>TxAdd 0:InitA public<br>TxAdd 1:InitA random<br>RxAdd 0:AdvA public<br>RxAdd 1:AdvA random|
-| ADV_SCAN_IND | ![](../img/dev/nrf/param008.png) <br>TxAdd 0:AdvA public<br>TxAdd 1:AdvA random|
+| ADV_IND | ![](./img/param_005.png) <br>TxAdd 0:AdvA public<br>TxAdd 1:AdvA random  |
+| ADV_DIRECT_IND | ![](./img/param_006.png)<br>TxAdd 0:AdvA public<br>TxAdd 1:AdvA random<br>RxAdd 0:InitA public<br>RxAdd 1:InitA random |
+| ADV_NONCONN_IND |  ![](./img/param_007.png)<br>TxAdd 0:AdvA public<br>TxAdd 1:AdvA random|
+| SCAN_REQ | ![](./img/param_009.png) <br>TxAdd 0:ScanA public<br>TxAdd 1:ScanA random<br>RxAdd 0:AdvA public<br>RxAdd 1:AdvA random|
+| SCAN_RSP | ![](./img/param_010.png) <br>TxAdd 0:AdvA public<br>TxAdd 1:AdvA random|
+| CONNECT_REQ | ![](./img/param_011.png) <br>TxAdd 0:InitA public<br>TxAdd 1:InitA random<br>RxAdd 0:AdvA public<br>RxAdd 1:AdvA random|
+| ADV_SCAN_IND | ![](./img/param_008.png) <br>TxAdd 0:AdvA public<br>TxAdd 1:AdvA random|
 
 
 BLUETOOTH SPECIFICATION Version 4.0 [Vol 6] P39-P41より抜粋
