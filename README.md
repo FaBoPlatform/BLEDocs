@@ -1,6 +1,21 @@
-BLE-Docs
+BLE Docs.
 =======
 
-本ドキュメントは、Bluetooth Low Energyのチップ/モジュール情報と、その応用事例に関してまとめたものである。
+# 本ドキュメントについて
 
-TEST
+BLE開発に関する情報のまとめ。
+
+# 対象レベル
+
+プログラムを過去に書いたことがある
+
+# 使用言語
+
+C++
+
+# 使用ツール
+
+[MDK(keil)](http://www2.keil.com/mdk5/)
+
+
+Powered by [FaBo](http://www.fabo.io)
