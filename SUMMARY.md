@@ -1,6 +1,7 @@
 # Summary
 * [はじめに](README.md)
 * 開発環境の構築
+   * [各チップのBLE開発環境](dev/ide.md)
    * [Keil MDK](keil/uv5.md)
    * [Keil MDKに対応しているデバッカ](keil/debugger.md)
 * [Nordic環境構築](nordic/top.md)
