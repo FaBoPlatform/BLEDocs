@@ -92,6 +92,16 @@ dialog社のDA14580は、XiamoiのMiバンドに採用。ARM Cortex M0を内臓�
 | -- | -- | -- |
 | [MK71050-03](http://www.lapis-semi.com/jp/semicon/telecom/landing/mk71050-03.html) | MK7105 | [Lapis](http://www.lapis-semi.com/) |  |0dBm|-86dBm
 
+<hr>
+## CSR1012系
+<hr>
+### Module
+
+| モジュール名 | BLE Chip |メーカー | Web | 最大送信出力|受信感度|
+| -- | -- | -- |
+| [RN4020](http://ww1.microchip.com/downloads/en/DeviceDoc/50002279B.pdf) | CSR |8.5dBm|-92.5dBm||
+
+
 # 技適
 
 * [技術基準適合証明等の公示（平成26年度分）](http://www.tele.soumu.go.jp/j/ref/material/tech/index.htm)
